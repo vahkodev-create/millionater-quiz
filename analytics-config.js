@@ -1,10 +1,12 @@
 window.MILLIONATER_ANALYTICS_CONFIG = {
-  enabled: false,
+  enabled: true,
   firebase: {
-    apiKey: "PASTE_FIREBASE_API_KEY",
-    authDomain: "PASTE_FIREBASE_AUTH_DOMAIN",
-    projectId: "PASTE_FIREBASE_PROJECT_ID",
-    appId: "PASTE_FIREBASE_APP_ID",
-    measurementId: "PASTE_FIREBASE_MEASUREMENT_ID",
+    apiKey: "AIzaSyDJulNWz1E5TBrEjVxN43FFqfO9MPpSZPc",
+    authDomain: "millionaire-5506e.firebaseapp.com",
+    projectId: "millionaire-5506e",
+    storageBucket: "millionaire-5506e.firebasestorage.app",
+    messagingSenderId: "361617761568",
+    appId: "1:361617761568:web:adb5d9ff7c6bd9fe022345",
+    measurementId: "G-WJS5J54XZC",
   },
 };
