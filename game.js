@@ -321,11 +321,22 @@ function vibrate(pattern = 18) {
   }
 }
 
-function playTone(type) {
-  const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
-  if (!state.settings.sound || !AudioContextConstructor) return;
+let sharedAudioContext = null;
 
-  const context = new AudioContextConstructor();
+function playTone(type) {
+  if (!state.settings.sound) return;
+  const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextConstructor) return;
+
+  if (!sharedAudioContext) {
+    sharedAudioContext = new AudioContextConstructor();
+  }
+  
+  if (sharedAudioContext.state === "suspended") {
+    sharedAudioContext.resume();
+  }
+
+  const context = sharedAudioContext;
   const oscillator = context.createOscillator();
   const gain = context.createGain();
   const frequency = type === "correct" ? 760 : type === "wrong" ? 170 : 430;
