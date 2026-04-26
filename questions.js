@@ -1,6 +1,6 @@
 window.MILLIONAIRE_QUESTIONS = [
   {
-    "level": 1,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Հայաստանի մայրաքաղաքը",
     "answers": [
@@ -13,7 +13,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Երևանը Հայաստանի մայրաքաղաքն է և երկրի ամենամեծ քաղաքը։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Շաբաթվա մեջ քանի՞ օր կա",
     "answers": [
@@ -26,7 +26,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Շաբաթը բաղկացած է յոթ օրից։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Ո՞ր ուտեստն է սովորաբար պատրաստվում խաղողի տերևով",
     "answers": [
@@ -39,7 +39,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տոլման հաճախ պատրաստվում է խաղողի տերևով և լցոնով։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ո՞ր գույնն է ստացվում կարմիրն ու սպիտակը խառնելիս",
     "answers": [
@@ -52,7 +52,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կարմիրի և սպիտակի խառնուրդը տալիս է վարդագույն երանգ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր մոլորակն է ամենամոտը Արեգակին",
     "answers": [
@@ -65,7 +65,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մերկուրին Արեգակին ամենամոտ մոլորակն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր լիճն է գտնվում Հայաստանի արևելյան մասում",
     "answers": [
@@ -78,7 +78,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սևանա լիճը գտնվում է Հայաստանի Գեղարքունիքի մարզում։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհ",
     "prompt": "Ո՞րն է Ֆրանսիայի մայրաքաղաքը",
     "answers": [
@@ -91,7 +91,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Փարիզը Ֆրանսիայի մայրաքաղաքն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ֆուտբոլի մեկ թիմում դաշտում քանի՞ խաղացող կա",
     "answers": [
@@ -104,7 +104,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ֆուտբոլում յուրաքանչյուր թիմ խաղադաշտում ունի 11 խաղացող։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Հայոց պատմություն",
     "prompt": "Ո՞ր թվականին է հռչակվել Հայաստանի առաջին հանրապետությունը",
     "answers": [
@@ -117,7 +117,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի առաջին հանրապետությունը հռչակվել է 1918 թվականի մայիսի 28-ին։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Քանի՞ կողմ ունի կանոնավոր ութանկյունը",
     "answers": [
@@ -130,7 +130,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ութանկյունը ունի ութ կողմ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "Ո՞ր գրողն է գրել «Վերք Հայաստանի» վեպը",
     "answers": [
@@ -143,7 +143,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«Վերք Հայաստանի»-ի հեղինակը Խաչատուր Աբովյանն է։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Ո՞րն է ոսկու քիմիական նշանը",
     "answers": [
@@ -156,7 +156,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ոսկու քիմիական նշանը Au է։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Համակարգչում ինչի՞ կրճատումն է CPU-ն",
     "answers": [
@@ -169,7 +169,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "CPU-ն կենտրոնական մշակման սարքն է, որը կատարում է հիմնական հաշվարկները։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրում է գտնվում Կրակով քաղաքը",
     "answers": [
@@ -182,7 +182,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կրակովը Լեհաստանի պատմական և մշակութային կարևոր քաղաքներից է։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Մաթեմատիկա",
     "prompt": "Ո՞րն է ամենափոքր պարզ թիվը",
     "answers": [
@@ -195,7 +195,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "2-ը ամենափոքր պարզ թիվն է և միակ զույգ պարզ թիվը։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Երաժշտություն",
     "prompt": "Ո՞ր հայկական երաժշտական գործիքն է հայտնի երկակի եղեգնյա ձայնով",
     "answers": [
@@ -208,7 +208,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Դուդուկը հայկական փողային գործիք է՝ մեղմ և խոր ձայնով։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Տաթևի վանքը",
     "answers": [
@@ -221,7 +221,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տաթևի վանքը գտնվում է Սյունիքի մարզում։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աշխարհ",
     "prompt": "Բրազիլիայում հիմնականում ո՞ր լեզվով են խոսում",
     "answers": [
@@ -234,7 +234,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բրազիլիայի պաշտոնական լեզուն պորտուգալերենն է։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Մաթեմատիկա",
     "prompt": "Որքա՞ն է π թիվը՝ կլորացված երկու նիշով",
     "answers": [
@@ -247,7 +247,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "π թիվը երկու տասնորդականով մոտավորապես 3.14 է։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ո՞ր թվականին է Հայաստանը անդամակցել ՄԱԿ-ին",
     "answers": [
@@ -260,7 +260,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանը ՄԱԿ-ին անդամակցել է 1992 թվականին։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Գիտություն",
     "prompt": "Ո՞ր գիտնականն է ձևակերպել շարժման երեք օրենքները",
     "answers": [
@@ -273,7 +273,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Շարժման երեք դասական օրենքները կապված են Իսահակ Նյուտոնի անվան հետ։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Գրականություն",
     "prompt": "Ո՞վ է «Անուշ» պոեմի հեղինակը",
     "answers": [
@@ -286,7 +286,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«Անուշ» պոեմը գրել է Հովհաննես Թումանյանը։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Գիտություն",
     "prompt": "Ո՞ր տարրն ունի 1 ատոմային համար",
     "answers": [
@@ -299,7 +299,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ջրածինը պարբերական աղյուսակի առաջին տարրն է։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Աֆրիկայի ամենաերկար գետը ըստ տարածված դասակարգման",
     "answers": [
@@ -312,7 +312,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Նեղոսը սովորաբար համարվում է Աֆրիկայի ամենաերկար գետը։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Ո՞ր արձանագրությունն է սովորաբար օգտագործվում կայքերը անվտանգ դիտելու համար",
     "answers": [
@@ -325,7 +325,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "HTTPS-ը ապահովում է կայքի հետ գաղտնագրված կապ։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Երաժշտություն",
     "prompt": "Մեկ օկտավայում քանի՞ կիսատոն կա արևմտյան երաժշտական համակարգում",
     "answers": [
@@ -338,7 +338,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Արևմտյան հավասարաչափ տեմպերացված համակարգում օկտավան ունի 12 կիսատոն։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Մաթեմատիկա",
     "prompt": "Ո՞ր մաթեմատիկոսի անվան հետ է կապվում a² + b² = c² թեորեմը",
     "answers": [
@@ -351,7 +351,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Այս թեորեմը հայտնի է որպես Պյութագորասի թեորեմ։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Գիտություն",
     "prompt": "Մթնոլորտի ո՞ր շերտում է ձևավորվում եղանակային երևույթների մեծ մասը",
     "answers": [
@@ -364,7 +364,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Եղանակային երևույթների մեծ մասը տեղի է ունենում տրոպոսֆերայում։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Աշխարհ",
     "prompt": "Ո՞ր տիեզերանավով մարդիկ առաջին անգամ վայրէջք կատարեցին Լուսնի վրա",
     "answers": [
@@ -377,7 +377,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Apollo 11 առաքելության ժամանակ մարդիկ առաջին անգամ վայրէջք կատարեցին Լուսնի վրա։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Ինչպե՞ս է կոչվում թվային համակարգը, որն օգտագործում է միայն 0 և 1",
     "answers": [
@@ -390,7 +390,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Երկուական համակարգը օգտագործում է միայն երկու թվանշան՝ 0 և 1։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ֆրանսիայի մայրաքաղաքը։",
     "answers": [
@@ -403,7 +403,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Փարիզ-ը Ֆրանսիայի մայրաքաղաքը է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Գերմանիայի մայրաքաղաքը։",
     "answers": [
@@ -416,7 +416,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բեռլին-ը Գերմանիայի մայրաքաղաքը է։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Իտալիայի մայրաքաղաքը։",
     "answers": [
@@ -429,7 +429,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հռոմ-ը Իտալիայի մայրաքաղաքը է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Իսպանիայի մայրաքաղաքը։",
     "answers": [
@@ -442,7 +442,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մադրիդ-ը Իսպանիայի մայրաքաղաքը է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Պորտուգալիայի մայրաքաղաքը։",
     "answers": [
@@ -455,7 +455,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Լիսաբոն-ը Պորտուգալիայի մայրաքաղաքը է։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Հունաստանի մայրաքաղաքը։",
     "answers": [
@@ -468,7 +468,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Աթենք-ը Հունաստանի մայրաքաղաքը է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Լեհաստանի մայրաքաղաքը։",
     "answers": [
@@ -481,7 +481,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վարշավա-ը Լեհաստանի մայրաքաղաքը է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Չեխիայի մայրաքաղաքը։",
     "answers": [
@@ -494,7 +494,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Պրահա-ը Չեխիայի մայրաքաղաքը է։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ավստրիայի մայրաքաղաքը։",
     "answers": [
@@ -507,7 +507,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վիեննա-ը Ավստրիայի մայրաքաղաքը է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Հունգարիայի մայրաքաղաքը։",
     "answers": [
@@ -520,7 +520,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բուդապեշտ-ը Հունգարիայի մայրաքաղաքը է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Վրաստանի մայրաքաղաքը։",
     "answers": [
@@ -533,7 +533,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Թբիլիսի-ը Վրաստանի մայրաքաղաքը է։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Թուրքիայի մայրաքաղաքը։",
     "answers": [
@@ -546,7 +546,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Անկարա-ը Թուրքիայի մայրաքաղաքը է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ռուսաստանի մայրաքաղաքը։",
     "answers": [
@@ -559,7 +559,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մոսկվա-ը Ռուսաստանի մայրաքաղաքը է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ուկրաինայի մայրաքաղաքը։",
     "answers": [
@@ -572,7 +572,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կիև-ը Ուկրաինայի մայրաքաղաքը է։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Եգիպտոսի մայրաքաղաքը։",
     "answers": [
@@ -585,7 +585,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կահիրե-ը Եգիպտոսի մայրաքաղաքը է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ճապոնիայի մայրաքաղաքը։",
     "answers": [
@@ -598,7 +598,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տոկիո-ը Ճապոնիայի մայրաքաղաքը է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Չինաստանի մայրաքաղաքը։",
     "answers": [
@@ -611,7 +611,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Պեկին-ը Չինաստանի մայրաքաղաքը է։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Հնդկաստանի մայրաքաղաքը։",
     "answers": [
@@ -624,7 +624,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Նյու Դելի-ը Հնդկաստանի մայրաքաղաքը է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Կանադայի մայրաքաղաքը։",
     "answers": [
@@ -637,7 +637,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Օտտավա-ը Կանադայի մայրաքաղաքը է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է ԱՄՆ-ի մայրաքաղաքը։",
     "answers": [
@@ -650,7 +650,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վաշինգտոն-ը ԱՄՆ-ի մայրաքաղաքը է։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Բրազիլիայի մայրաքաղաքը։",
     "answers": [
@@ -663,7 +663,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բրազիլիա-ը Բրազիլիայի մայրաքաղաքը է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Արգենտինայի մայրաքաղաքը։",
     "answers": [
@@ -676,7 +676,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բուենոս Այրես-ը Արգենտինայի մայրաքաղաքը է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ավստրալիայի մայրաքաղաքը։",
     "answers": [
@@ -689,7 +689,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կանբերա-ը Ավստրալիայի մայրաքաղաքը է։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Նորվեգիայի մայրաքաղաքը։",
     "answers": [
@@ -702,7 +702,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Օսլո-ը Նորվեգիայի մայրաքաղաքը է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Շվեդիայի մայրաքաղաքը։",
     "answers": [
@@ -715,7 +715,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ստոկհոլմ-ը Շվեդիայի մայրաքաղաքը է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ֆինլանդիայի մայրաքաղաքը։",
     "answers": [
@@ -728,7 +728,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հելսինկի-ը Ֆինլանդիայի մայրաքաղաքը է։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Դանիայի մայրաքաղաքը։",
     "answers": [
@@ -741,7 +741,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կոպենհագեն-ը Դանիայի մայրաքաղաքը է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Շվեյցարիայի մայրաքաղաքը։",
     "answers": [
@@ -754,7 +754,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բեռն-ը Շվեյցարիայի մայրաքաղաքը է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Նիդերլանդների մայրաքաղաքը։",
     "answers": [
@@ -767,7 +767,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ամստերդամ-ը Նիդերլանդների մայրաքաղաքը է։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Բելգիայի մայրաքաղաքը։",
     "answers": [
@@ -780,7 +780,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բրյուսել-ը Բելգիայի մայրաքաղաքը է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Մեքսիկայի մայրաքաղաքը։",
     "answers": [
@@ -793,7 +793,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մեխիկո-ը Մեքսիկայի մայրաքաղաքը է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Իրանի մայրաքաղաքը։",
     "answers": [
@@ -806,7 +806,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Թեհրան-ը Իրանի մայրաքաղաքը է։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Իրաքի մայրաքաղաքը։",
     "answers": [
@@ -819,7 +819,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բաղդադ-ը Իրաքի մայրաքաղաքը է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Սիրիայի մայրաքաղաքը։",
     "answers": [
@@ -832,7 +832,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Դամասկոս-ը Սիրիայի մայրաքաղաքը է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Լիբանանի մայրաքաղաքը։",
     "answers": [
@@ -845,7 +845,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բեյրութ-ը Լիբանանի մայրաքաղաքը է։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Իսրայելի մայրաքաղաքը։",
     "answers": [
@@ -858,7 +858,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Երուսաղեմ-ը Իսրայելի մայրաքաղաքը է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Հորդանանի մայրաքաղաքը։",
     "answers": [
@@ -871,7 +871,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Աման-ը Հորդանանի մայրաքաղաքը է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Սաուդյան Արաբիայի մայրաքաղաքը։",
     "answers": [
@@ -884,7 +884,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ռիադ-ը Սաուդյան Արաբիայի մայրաքաղաքը է։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է ԱՄԷ-ի մայրաքաղաքը։",
     "answers": [
@@ -897,7 +897,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Աբու Դաբի-ը ԱՄԷ-ի մայրաքաղաքը է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Քաթարի մայրաքաղաքը։",
     "answers": [
@@ -910,7 +910,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Դոհա-ը Քաթարի մայրաքաղաքը է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Կորեայի Հանրապետության մայրաքաղաքը։",
     "answers": [
@@ -923,7 +923,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սեուլ-ը Կորեայի Հանրապետության մայրաքաղաքը է։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Թաիլանդի մայրաքաղաքը։",
     "answers": [
@@ -936,7 +936,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բանգկոկ-ը Թաիլանդի մայրաքաղաքը է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Վիետնամի մայրաքաղաքը։",
     "answers": [
@@ -949,7 +949,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հանոյ-ը Վիետնամի մայրաքաղաքը է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ինդոնեզիայի մայրաքաղաքը։",
     "answers": [
@@ -962,7 +962,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ջակարտա-ը Ինդոնեզիայի մայրաքաղաքը է։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Մալայզիայի մայրաքաղաքը։",
     "answers": [
@@ -975,7 +975,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կուալա Լումպուր-ը Մալայզիայի մայրաքաղաքը է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Սինգապուրի մայրաքաղաքը։",
     "answers": [
@@ -988,7 +988,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սինգապուր-ը Սինգապուրի մայրաքաղաքը է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Մարոկկոյի մայրաքաղաքը։",
     "answers": [
@@ -1001,7 +1001,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ռաբաթ-ը Մարոկկոյի մայրաքաղաքը է։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է ՀԱՀ-ի մայրաքաղաքներից մեկը։",
     "answers": [
@@ -1014,7 +1014,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Պրետորիա-ը ՀԱՀ-ի մայրաքաղաքներից մեկը է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Քենիայի մայրաքաղաքը։",
     "answers": [
@@ -1027,7 +1027,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Նայրոբի-ը Քենիայի մայրաքաղաքը է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Նիգերիայի մայրաքաղաքը։",
     "answers": [
@@ -1040,7 +1040,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Աբուջա-ը Նիգերիայի մայրաքաղաքը է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Փարիզ-ը։",
     "answers": [
@@ -1053,7 +1053,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Փարիզ-ը Ֆրանսիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Բեռլին-ը։",
     "answers": [
@@ -1066,7 +1066,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բեռլին-ը Գերմանիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Հռոմ-ը։",
     "answers": [
@@ -1079,7 +1079,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հռոմ-ը Իտալիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Մադրիդ-ը։",
     "answers": [
@@ -1092,7 +1092,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մադրիդ-ը Իսպանիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Լիսաբոն-ը։",
     "answers": [
@@ -1105,7 +1105,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Լիսաբոն-ը Պորտուգալիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Աթենք-ը։",
     "answers": [
@@ -1118,7 +1118,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Աթենք-ը Հունաստանի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Վարշավա-ը։",
     "answers": [
@@ -1131,7 +1131,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վարշավա-ը Լեհաստանի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Պրահա-ը։",
     "answers": [
@@ -1144,7 +1144,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Պրահա-ը Չեխիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Վիեննա-ը։",
     "answers": [
@@ -1157,7 +1157,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վիեննա-ը Ավստրիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Բուդապեշտ-ը։",
     "answers": [
@@ -1170,7 +1170,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բուդապեշտ-ը Հունգարիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Թբիլիսի-ը։",
     "answers": [
@@ -1183,7 +1183,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Թբիլիսի-ը Վրաստանի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Անկարա-ը։",
     "answers": [
@@ -1196,7 +1196,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Անկարա-ը Թուրքիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Մոսկվա-ը։",
     "answers": [
@@ -1209,7 +1209,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մոսկվա-ը Ռուսաստանի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Կիև-ը։",
     "answers": [
@@ -1222,7 +1222,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կիև-ը Ուկրաինայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Կահիրե-ը։",
     "answers": [
@@ -1235,7 +1235,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կահիրե-ը Եգիպտոսի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Տոկիո-ը։",
     "answers": [
@@ -1248,7 +1248,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տոկիո-ը Ճապոնիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Պեկին-ը։",
     "answers": [
@@ -1261,7 +1261,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Պեկին-ը Չինաստանի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Նյու Դելի-ը։",
     "answers": [
@@ -1274,7 +1274,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Նյու Դելի-ը Հնդկաստանի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Օտտավա-ը։",
     "answers": [
@@ -1287,7 +1287,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Օտտավա-ը Կանադայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Վաշինգտոն-ը։",
     "answers": [
@@ -1300,7 +1300,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վաշինգտոն-ը ԱՄՆ-ի մայրաքաղաքն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Բրազիլիա-ը։",
     "answers": [
@@ -1313,7 +1313,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բրազիլիա-ը Բրազիլիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Բուենոս Այրես-ը։",
     "answers": [
@@ -1326,7 +1326,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բուենոս Այրես-ը Արգենտինայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Կանբերա-ը։",
     "answers": [
@@ -1339,7 +1339,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կանբերա-ը Ավստրալիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Օսլո-ը։",
     "answers": [
@@ -1352,7 +1352,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Օսլո-ը Նորվեգիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Ստոկհոլմ-ը։",
     "answers": [
@@ -1365,7 +1365,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ստոկհոլմ-ը Շվեդիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Հելսինկի-ը։",
     "answers": [
@@ -1378,7 +1378,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հելսինկի-ը Ֆինլանդիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Կոպենհագեն-ը։",
     "answers": [
@@ -1391,7 +1391,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կոպենհագեն-ը Դանիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Բեռն-ը։",
     "answers": [
@@ -1404,7 +1404,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բեռն-ը Շվեյցարիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Ամստերդամ-ը։",
     "answers": [
@@ -1417,7 +1417,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ամստերդամ-ը Նիդերլանդների-ի մայրաքաղաքն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրի մայրաքաղաքն է Բրյուսել-ը։",
     "answers": [
@@ -1430,7 +1430,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բրյուսել-ը Բելգիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է աշխարհի ամենամեծ օվկիանոսը",
     "answers": [
@@ -1443,7 +1443,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Խաղաղ օվկիանոս։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է աշխարհի ամենաերկար գետերից մեկը",
     "answers": [
@@ -1456,7 +1456,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Նեղոս։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր մայրցամաքում է գտնվում Եգիպտոսը",
     "answers": [
@@ -1469,7 +1469,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Աֆրիկա։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր մայրցամաքում է գտնվում Բրազիլիան",
     "answers": [
@@ -1482,7 +1482,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հարավային Ամերիկա։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Երկրի ամենամեծ մայրցամաքը",
     "answers": [
@@ -1495,7 +1495,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ասիա։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր ծովն է գտնվում Հայաստանի արևմուտքում՝ Թուրքիայի տարածքում",
     "answers": [
@@ -1508,7 +1508,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սև ծով։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է աշխարհի ամենաբարձր լեռը",
     "answers": [
@@ -1521,7 +1521,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Էվերեստ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկիրն ունի ամենամեծ տարածքը աշխարհում",
     "answers": [
@@ -1534,7 +1534,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ռուսաստան։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Եվրոպայի ամենաերկար գետը",
     "answers": [
@@ -1547,7 +1547,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վոլգա։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրում է գտնվում Մաչու Պիկչուն",
     "answers": [
@@ -1560,7 +1560,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պերու։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրում է գտնվում Թաջ Մահալը",
     "answers": [
@@ -1573,7 +1573,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հնդկաստան։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրում է գտնվում Կոլիզեումը",
     "answers": [
@@ -1586,7 +1586,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Իտալիա։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր քաղաքում է Էյֆելյան աշտարակը",
     "answers": [
@@ -1599,7 +1599,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Փարիզ։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է ամենափոքր մայրցամաքը",
     "answers": [
@@ -1612,7 +1612,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ավստրալիա։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր օվկիանոսն է Եվրոպայի և Ամերիկայի միջև",
     "answers": [
@@ -1625,7 +1625,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ատլանտյան օվկիանոս։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկիրն է հայտնի որպես Ծագող արևի երկիր",
     "answers": [
@@ -1638,7 +1638,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ճապոնիա։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր քաղաքի միջով է անցնում Թեմզա գետը",
     "answers": [
@@ -1651,7 +1651,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լոնդոն։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր քաղաքում է գտնվում Կրեմլը",
     "answers": [
@@ -1664,7 +1664,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մոսկվա։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր մայրցամաքում է Սահարա անապատը",
     "answers": [
@@ -1677,7 +1677,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Աֆրիկա։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկիրն է ունի օղակաձև Կոլոսեումը՝ որպես հայտնի հուշարձան",
     "answers": [
@@ -1690,7 +1690,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Իտալիա։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Հայաստանի մայրաքաղաքը։",
     "answers": [
@@ -1703,7 +1703,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Շիրակի մարզկենտրոնը։",
     "answers": [
@@ -1716,7 +1716,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Լոռու մարզկենտրոնը։",
     "answers": [
@@ -1729,7 +1729,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Սյունիքի մարզկենտրոնը։",
     "answers": [
@@ -1742,7 +1742,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Տավուշի մարզկենտրոնը։",
     "answers": [
@@ -1755,7 +1755,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Արմավիրի մարզկենտրոնը։",
     "answers": [
@@ -1768,7 +1768,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Արարատի մարզկենտրոնը։",
     "answers": [
@@ -1781,7 +1781,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Արագածոտնի մարզկենտրոնը։",
     "answers": [
@@ -1794,7 +1794,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Կոտայքի մարզկենտրոնը։",
     "answers": [
@@ -1807,7 +1807,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Գեղարքունիքի մարզկենտրոնը։",
     "answers": [
@@ -1820,7 +1820,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Վայոց ձորի մարզկենտրոնը։",
     "answers": [
@@ -1833,7 +1833,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր լիճն է Հայաստանի ամենամեծ լիճը",
     "answers": [
@@ -1846,7 +1846,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սևանա լիճ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր լեռն է Հայաստանի ամենաբարձր գագաթը ներկայիս սահմաններում",
     "answers": [
@@ -1859,7 +1859,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արագած։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր գետն է հոսում Երևանի միջով",
     "answers": [
@@ -1872,7 +1872,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հրազդան։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր գետն է Հայաստանի և Թուրքիայի սահմանի մի մասում",
     "answers": [
@@ -1885,7 +1885,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ախուրյան։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է հայտնի որպես Հայաստանի երկրորդ քաղաք",
     "answers": [
@@ -1898,7 +1898,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Գյումրի։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է Հայաստանի մայրաքաղաքը",
     "answers": [
@@ -1911,7 +1911,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երևան։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր վանքն է գտնվում Գեղարդում և ընդգրկված է ՅՈՒՆԵՍԿՕ-ի ցանկում",
     "answers": [
@@ -1924,7 +1924,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Գեղարդավանք։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր վանքն է կապված «Տաթևեր» ճոպանուղու հետ",
     "answers": [
@@ -1937,7 +1937,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տաթևի վանք։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր վանքից է բացվում Արարատի հայտնի տեսարանը",
     "answers": [
@@ -1950,7 +1950,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Խոր Վիրապ։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքում է գտնվում Մայր Աթոռ Սուրբ Էջմիածինը",
     "answers": [
@@ -1963,7 +1963,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վաղարշապատ։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր տոնն է նշվում ապրիլի 24-ին Հայաստանում",
     "answers": [
@@ -1976,7 +1976,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայոց ցեղասպանության զոհերի հիշատակի օր։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր օրն է Հայաստանի Անկախության օրը",
     "answers": [
@@ -1989,7 +1989,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սեպտեմբերի 21։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր օրն է Հայաստանի Հանրապետության օրը",
     "answers": [
@@ -2002,7 +2002,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մայիսի 28։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Հայաստանի դրամական միավորը",
     "answers": [
@@ -2015,7 +2015,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայկական դրամ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Հայաստանի պետական լեզուն",
     "answers": [
@@ -2028,7 +2028,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայերեն։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքում է գտնվում Հանրապետության հրապարակը",
     "answers": [
@@ -2041,7 +2041,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երևան։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թանգարանն է Երևանի կենտրոնում նվիրված հին ձեռագրերին",
     "answers": [
@@ -2054,7 +2054,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մատենադարան։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր հնավայրն է համարվում Երևանի պատմական սկզբնավորման խորհրդանիշը",
     "answers": [
@@ -2067,7 +2067,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Էրեբունի։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր տաճարն է Հայաստանի հեթանոսական շրջանի հայտնի հուշարձան",
     "answers": [
@@ -2080,7 +2080,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Գառնի։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Դիլիջանը",
     "answers": [
@@ -2093,7 +2093,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տավուշ։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Ջերմուկը",
     "answers": [
@@ -2106,7 +2106,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վայոց ձոր։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Ծաղկաձորը",
     "answers": [
@@ -2119,7 +2119,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կոտայք։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է հայտնի իր հանքային ջրերով և առողջարաններով",
     "answers": [
@@ -2132,7 +2132,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ջերմուկ։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր լիճն է գտնվում Դիլիջանի մոտակայքում",
     "answers": [
@@ -2145,7 +2145,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պարզ լիճ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է հայկական այբուբենի առաջին տառը",
     "answers": [
@@ -2158,7 +2158,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ա։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է հայկական այբուբենի վերջին տառը դասական այբուբենում",
     "answers": [
@@ -2171,7 +2171,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ք։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞վ է ստեղծել հայոց այբուբենը",
     "answers": [
@@ -2184,7 +2184,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մեսրոպ Մաշտոց։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր երաժշտական գործիքն է հայկական ավանդական փայտափող գործիք",
     "answers": [
@@ -2197,7 +2197,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Դուդուկ։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է հայկական լավաշի հիմնական բաղադրիչներից մեկը",
     "answers": [
@@ -2210,7 +2210,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ալյուր։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր ուտեստն է հաճախ պատրաստվում խաղողի տերևով",
     "answers": [
@@ -2223,7 +2223,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տոլմա։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր ուտեստն է կապված դդմի և բրնձի հետ",
     "answers": [
@@ -2236,7 +2236,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ղափամա։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր հայկական ապուրն է պատրաստվում մածունով կամ թանով",
     "answers": [
@@ -2249,7 +2249,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սպաս։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Սևանա լիճը հիմնականում",
     "answers": [
@@ -2262,7 +2262,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Գեղարքունիք։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է մոտ Սևանա լճին և կոչվում է Սևան",
     "answers": [
@@ -2275,7 +2275,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սևան։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքում է գտնվում հայտնի Սև բերդը",
     "answers": [
@@ -2288,7 +2288,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Գյումրի։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր վայրն է հայտնի «Քարահունջ» անունով",
     "answers": [
@@ -2301,7 +2301,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սյունիքի հնավայր։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր վանքը գտնվում է Լոռու մարզում և ՅՈՒՆԵՍԿՕ-ի ցանկում է",
     "answers": [
@@ -2314,7 +2314,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հաղպատավանք։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր վանքը նույնպես Լոռիում է և ՅՈՒՆԵՍԿՕ-ի ցանկում է",
     "answers": [
@@ -2327,7 +2327,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սանահին։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Գորիսը",
     "answers": [
@@ -2340,7 +2340,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սյունիք։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է Հայաստանի հարավում՝ Իրանի սահմանին մոտ",
     "answers": [
@@ -2353,7 +2353,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մեղրի։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Հայաստանի անկախության հանրաքվեն։",
     "answers": [
@@ -2366,7 +2366,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի անկախության հանրաքվեն կապվում է 1991 թվականի հետ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Երևանի հիմնադրումը ըստ Էրեբունու արձանագրության։",
     "answers": [
@@ -2379,7 +2379,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Երևանի հիմնադրումը ըստ Էրեբունու արձանագրության կապվում է մ.թ.ա. 782 թվականի հետ։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Հայոց այբուբենի ստեղծումը մոտավորապես։",
     "answers": [
@@ -2392,7 +2392,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայոց այբուբենի ստեղծումը մոտավորապես կապվում է 405 թվականի հետ։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Սարդարապատի ճակատամարտը։",
     "answers": [
@@ -2405,7 +2405,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սարդարապատի ճակատամարտը կապվում է 1918 թվականի հետ։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Սպիտակի երկրաշարժը։",
     "answers": [
@@ -2418,7 +2418,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սպիտակի երկրաշարժը կապվում է 1988 թվականի հետ։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Հայաստանի Սահմանադրության ընդունումը։",
     "answers": [
@@ -2431,7 +2431,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի Սահմանադրության ընդունումը կապվում է 1995 թվականի հետ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Հայաստանի դրամի շրջանառության սկիզբը։",
     "answers": [
@@ -2444,7 +2444,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի դրամի շրջանառության սկիզբը կապվում է 1993 թվականի հետ։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Երևանի մետրոպոլիտենի բացումը։",
     "answers": [
@@ -2457,7 +2457,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Երևանի մետրոպոլիտենի բացումը կապվում է 1981 թվականի հետ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Հայաստանի անդամակցությունը ՄԱԿ-ին։",
     "answers": [
@@ -2470,7 +2470,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի անդամակցությունը ՄԱԿ-ին կապվում է 1992 թվականի հետ։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել կամ ընդունվել հետևյալը՝ Հայաստանի Առաջին Հանրապետության հռչակումը։",
     "answers": [
@@ -2483,7 +2483,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի Առաջին Հանրապետության հռչակումը կապվում է 1918 թվականի հետ։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Տիգրան Մեծը։",
     "answers": [
@@ -2496,7 +2496,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տիգրան Մեծը պատմականորեն կապված է «Արտաշեսյան դինաստիա» պատասխանին։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Հայաստանի քրիստոնեության ընդունումը որպես պետական կրոն։",
     "answers": [
@@ -2509,7 +2509,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի քրիստոնեության ընդունումը որպես պետական կրոն պատմականորեն կապված է «301» պատասխանին։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Ավարայրի ճակատամարտը։",
     "answers": [
@@ -2522,7 +2522,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ավարայրի ճակատամարտը պատմականորեն կապված է «451» պատասխանին։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Վարդան Մամիկոնյանը։",
     "answers": [
@@ -2535,7 +2535,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վարդան Մամիկոնյանը պատմականորեն կապված է «Ավարայրի ճակատամարտ» պատասխանին։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Մեսրոպ Մաշտոցը։",
     "answers": [
@@ -2548,7 +2548,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մեսրոպ Մաշտոցը պատմականորեն կապված է «Հայոց այբուբենի ստեղծում» պատասխանին։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Մովսես Խորենացին։",
     "answers": [
@@ -2561,7 +2561,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Մովսես Խորենացին պատմականորեն կապված է «Պատմահայր» պատասխանին։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Հայաստանի Առաջին Հանրապետությունը հռչակվեց։",
     "answers": [
@@ -2574,7 +2574,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի Առաջին Հանրապետությունը հռչակվեց պատմականորեն կապված է «1918» պատասխանին։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Սարդարապատի ճակատամարտը տեղի ունեցավ։",
     "answers": [
@@ -2587,7 +2587,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Սարդարապատի ճակատամարտը տեղի ունեցավ պատմականորեն կապված է «1918» պատասխանին։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Բագրատունիների թագավորության մայրաքաղաքներից էր։",
     "answers": [
@@ -2600,7 +2600,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բագրատունիների թագավորության մայրաքաղաքներից էր պատմականորեն կապված է «Անի» պատասխանին։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Կիլիկյան Հայաստանի հայտնի թագավորներից էր։",
     "answers": [
@@ -2613,7 +2613,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կիլիկյան Հայաստանի հայտնի թագավորներից էր պատմականորեն կապված է «Լևոն Բ» պատասխանին։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Էրեբունի ամրոցը հիմնադրել է։",
     "answers": [
@@ -2626,7 +2626,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Էրեբունի ամրոցը հիմնադրել է պատմականորեն կապված է «Արգիշտի Ա» պատասխանին։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Վանի թագավորությունը հայտնի է նաև որպես։",
     "answers": [
@@ -2639,7 +2639,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վանի թագավորությունը հայտնի է նաև որպես պատմականորեն կապված է «Ուրարտու» պատասխանին։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Արտաշեսյան դինաստիայի հիմնադիրն էր։",
     "answers": [
@@ -2652,7 +2652,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Արտաշեսյան դինաստիայի հիմնադիրն էր պատմականորեն կապված է «Արտաշես Ա» պատասխանին։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Տիգրան Մեծի մայրաքաղաքներից էր։",
     "answers": [
@@ -2665,7 +2665,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տիգրան Մեծի մայրաքաղաքներից էր պատմականորեն կապված է «Տիգրանակերտ» պատասխանին։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Հայաստանի խորհրդայնացումը տեղի ունեցավ։",
     "answers": [
@@ -2678,7 +2678,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի խորհրդայնացումը տեղի ունեցավ պատմականորեն կապված է «1920» պատասխանին։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Հայաստանի անկախության հանրաքվեն տեղի ունեցավ։",
     "answers": [
@@ -2691,7 +2691,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Հայաստանի անկախության հանրաքվեն տեղի ունեցավ պատմականորեն կապված է «1991» պատասխանին։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Խորհրդային Հայաստանի մայրաքաղաքը։",
     "answers": [
@@ -2704,7 +2704,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Խորհրդային Հայաստանի մայրաքաղաքը պատմականորեն կապված է «Երևան» պատասխանին։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Գրիգոր Լուսավորիչը կապված է։",
     "answers": [
@@ -2717,7 +2717,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Գրիգոր Լուսավորիչը կապված է պատմականորեն կապված է «Հայաստանի քրիստոնեացման հետ» պատասխանին։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Տրդատ Գ թագավորը կապված է։",
     "answers": [
@@ -2730,7 +2730,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տրդատ Գ թագավորը կապված է պատմականորեն կապված է «Քրիստոնեության ընդունման հետ» պատասխանին։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Ինչի՞ հետ է կապված հետևյալը՝ Վռամշապուհ արքան աջակցել է։",
     "answers": [
@@ -2743,7 +2743,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վռամշապուհ արքան աջակցել է պատմականորեն կապված է «Հայոց այբուբենի ստեղծմանը» պատասխանին։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Տիգրան Մեծը։",
     "answers": [
@@ -2756,7 +2756,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արտաշեսյան դինաստիա։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Հայաստանի քրիստոնեության ընդունումը որպես պետական կրոն։",
     "answers": [
@@ -2769,7 +2769,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 301։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Ավարայրի ճակատամարտը։",
     "answers": [
@@ -2782,7 +2782,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 451։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Վարդան Մամիկոնյանը։",
     "answers": [
@@ -2795,7 +2795,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ավարայրի ճակատամարտ։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Մեսրոպ Մաշտոցը։",
     "answers": [
@@ -2808,7 +2808,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայոց այբուբենի ստեղծում։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Մովսես Խորենացին։",
     "answers": [
@@ -2821,7 +2821,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պատմահայր։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Հայաստանի Առաջին Հանրապետությունը հռչակվեց։",
     "answers": [
@@ -2834,7 +2834,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1918։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Սարդարապատի ճակատամարտը տեղի ունեցավ։",
     "answers": [
@@ -2847,7 +2847,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1918։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Բագրատունիների թագավորության մայրաքաղաքներից էր։",
     "answers": [
@@ -2860,7 +2860,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Անի։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Կիլիկյան Հայաստանի հայտնի թագավորներից էր։",
     "answers": [
@@ -2873,7 +2873,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լևոն Բ։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Էրեբունի ամրոցը հիմնադրել է։",
     "answers": [
@@ -2886,7 +2886,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արգիշտի Ա։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Վանի թագավորությունը հայտնի է նաև որպես։",
     "answers": [
@@ -2899,7 +2899,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ուրարտու։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Արտաշեսյան դինաստիայի հիմնադիրն էր։",
     "answers": [
@@ -2912,7 +2912,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արտաշես Ա։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Տիգրան Մեծի մայրաքաղաքներից էր։",
     "answers": [
@@ -2925,7 +2925,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տիգրանակերտ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Հայաստանի խորհրդայնացումը տեղի ունեցավ։",
     "answers": [
@@ -2938,7 +2938,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1920։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Հայաստանի անկախության հանրաքվեն տեղի ունեցավ։",
     "answers": [
@@ -2951,7 +2951,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1991։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Խորհրդային Հայաստանի մայրաքաղաքը։",
     "answers": [
@@ -2964,7 +2964,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երևան։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Գրիգոր Լուսավորիչը կապված է։",
     "answers": [
@@ -2977,7 +2977,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայաստանի քրիստոնեացման հետ։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "Տրդատ Գ թագավորը կապված է։",
     "answers": [
@@ -2990,7 +2990,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Քրիստոնեության ընդունման հետ։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "Վռամշապուհ արքան աջակցել է։",
     "answers": [
@@ -3003,7 +3003,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայոց այբուբենի ստեղծմանը։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Տիգրան Մեծը» թեմայի համար։",
     "answers": [
@@ -3016,7 +3016,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արտաշեսյան դինաստիա։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Հայաստանի քրիստոնեության ընդունումը որպես պետական կրոն» թեմայի համար։",
     "answers": [
@@ -3029,7 +3029,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 301։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Ավարայրի ճակատամարտը» թեմայի համար։",
     "answers": [
@@ -3042,7 +3042,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 451։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Վարդան Մամիկոնյանը» թեմայի համար։",
     "answers": [
@@ -3055,7 +3055,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ավարայրի ճակատամարտ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Մեսրոպ Մաշտոցը» թեմայի համար։",
     "answers": [
@@ -3068,7 +3068,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայոց այբուբենի ստեղծում։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Մովսես Խորենացին» թեմայի համար։",
     "answers": [
@@ -3081,7 +3081,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պատմահայր։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Հայաստանի Առաջին Հանրապետությունը հռչակվեց» թեմայի համար։",
     "answers": [
@@ -3094,7 +3094,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1918։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Սարդարապատի ճակատամարտը տեղի ունեցավ» թեմայի համար։",
     "answers": [
@@ -3107,7 +3107,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1918։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Բագրատունիների թագավորության մայրաքաղաքներից էր» թեմայի համար։",
     "answers": [
@@ -3120,7 +3120,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Անի։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Կիլիկյան Հայաստանի հայտնի թագավորներից էր» թեմայի համար։",
     "answers": [
@@ -3133,7 +3133,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լևոն Բ։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Էրեբունի ամրոցը հիմնադրել է» թեմայի համար։",
     "answers": [
@@ -3146,7 +3146,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արգիշտի Ա։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Վանի թագավորությունը հայտնի է նաև որպես» թեմայի համար։",
     "answers": [
@@ -3159,7 +3159,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ուրարտու։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Արտաշեսյան դինաստիայի հիմնադիրն էր» թեմայի համար։",
     "answers": [
@@ -3172,7 +3172,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արտաշես Ա։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Տիգրան Մեծի մայրաքաղաքներից էր» թեմայի համար։",
     "answers": [
@@ -3185,7 +3185,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տիգրանակերտ։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Հայաստանի խորհրդայնացումը տեղի ունեցավ» թեմայի համար։",
     "answers": [
@@ -3198,7 +3198,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1920։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Հայաստանի անկախության հանրաքվեն տեղի ունեցավ» թեմայի համար։",
     "answers": [
@@ -3211,7 +3211,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 1991։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Խորհրդային Հայաստանի մայրաքաղաքը» թեմայի համար։",
     "answers": [
@@ -3224,7 +3224,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երևան։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Գրիգոր Լուսավորիչը կապված է» թեմայի համար։",
     "answers": [
@@ -3237,7 +3237,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայաստանի քրիստոնեացման հետ։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Տրդատ Գ թագավորը կապված է» թեմայի համար։",
     "answers": [
@@ -3250,7 +3250,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Քրիստոնեության ընդունման հետ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Հայոց պատմություն",
     "prompt": "ո՞ր տարբերակն է ճիշտ «Վռամշապուհ արքան աջակցել է» թեմայի համար։",
     "answers": [
@@ -3263,7 +3263,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայոց այբուբենի ստեղծմանը։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ջրի քիմիական բանաձևը։",
     "answers": [
@@ -3276,7 +3276,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ H₂O։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ածխաթթու գազի բանաձևը։",
     "answers": [
@@ -3289,7 +3289,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ CO₂։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Մարդու մարմնում արյունը մղում է։",
     "answers": [
@@ -3302,7 +3302,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սիրտը։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Շնչառության հիմնական օրգաններն են։",
     "answers": [
@@ -3315,7 +3315,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Թոքերը։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Արևը հիմնականում կազմված է։",
     "answers": [
@@ -3328,7 +3328,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ջրածնից և հելիումից։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Երկրի բնական արբանյակը։",
     "answers": [
@@ -3341,7 +3341,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լուսինն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Լույսի արագությունը վակուումում մոտավորապես։",
     "answers": [
@@ -3354,7 +3354,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 300,000 կմ/վ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Էլեկտրական լարման միավորը։",
     "answers": [
@@ -3367,7 +3367,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վոլտ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Էլեկտրական հոսանքի միավորը։",
     "answers": [
@@ -3380,7 +3380,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ամպեր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ուժի միավորը։",
     "answers": [
@@ -3393,7 +3393,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Նյուտոն։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ջերմաստիճանի SI միավորը։",
     "answers": [
@@ -3406,7 +3406,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կելվին։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Բջջի էներգետիկ կայանը կոչվում է։",
     "answers": [
@@ -3419,7 +3419,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Միտոքոնդրիա։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "ԴՆԹ-ն հիմնականում պահում է։",
     "answers": [
@@ -3432,7 +3432,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ժառանգական տեղեկություն։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Մարդու կմախքում մոտավորապես կա։",
     "answers": [
@@ -3445,7 +3445,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 206 ոսկոր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ֆոտոսինթեզի համար բույսերին պետք է։",
     "answers": [
@@ -3458,7 +3458,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լույս։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Երկրի մթնոլորտում ամենաշատը կա։",
     "answers": [
@@ -3471,7 +3471,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ազոտ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Արյան կարմիր բջիջները տեղափոխում են։",
     "answers": [
@@ -3484,7 +3484,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Թթվածին։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Մագնիսը ձգում է հիմնականում։",
     "answers": [
@@ -3497,7 +3497,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երկաթ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ձայնը չի տարածվում։",
     "answers": [
@@ -3510,7 +3510,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վակուումում։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Օզոնի շերտը պաշտպանում է։",
     "answers": [
@@ -3523,7 +3523,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ուլտրամանուշակագույն ճառագայթումից։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Գրականություն",
     "prompt": "«Վերք Հայաստանի» վեպի հեղինակը։",
     "answers": [
@@ -3536,7 +3536,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Խաչատուր Աբովյան։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Գրականություն",
     "prompt": "«Անուշ» պոեմի հեղինակը։",
     "answers": [
@@ -3549,7 +3549,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հովհաննես Թումանյան։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Սամվել» վեպի հեղինակը։",
     "answers": [
@@ -3562,7 +3562,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Րաֆֆի։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Քաոս» վեպի հեղինակը։",
     "answers": [
@@ -3575,7 +3575,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Շիրվանզադե։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Ես իմ անուշ Հայաստանի» բանաստեղծության հեղինակը։",
     "answers": [
@@ -3588,7 +3588,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Եղիշե Չարենց։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Անլռելի զանգակատուն» պոեմի հեղինակը։",
     "answers": [
@@ -3601,7 +3601,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պարույր Սևակ։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Գիքոր» պատմվածքի հեղինակը։",
     "answers": [
@@ -3614,7 +3614,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հովհաննես Թումանյան։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Գրականություն",
     "prompt": "«Մեծապատիվ մուրացկաններ» ստեղծագործության հեղինակը։",
     "answers": [
@@ -3627,7 +3627,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հակոբ Պարոնյան։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Գրականություն",
     "prompt": "«Պեպո» պիեսի հեղինակը։",
     "answers": [
@@ -3640,7 +3640,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Գաբրիել Սունդուկյան։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Նամուս» վեպի հեղինակը։",
     "answers": [
@@ -3653,7 +3653,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ալեքսանդր Շիրվանզադե։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Երկիր Նաիրի» վեպի հեղինակը։",
     "answers": [
@@ -3666,7 +3666,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Եղիշե Չարենց։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Սասնա ծռեր»-ը։",
     "answers": [
@@ -3679,7 +3679,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հայկական էպոս է։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "Դոն Կիխոտի հեղինակը։",
     "answers": [
@@ -3692,7 +3692,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Միգել դե Սերվանտես։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Պատերազմ և խաղաղություն» վեպի հեղինակը։",
     "answers": [
@@ -3705,7 +3705,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լև Տոլստոյ։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Գրականություն",
     "prompt": "«Հանցանք և պատիժ» վեպի հեղինակը։",
     "answers": [
@@ -3718,7 +3718,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ֆյոդոր Դոստոևսկի։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Գրականություն",
     "prompt": "«Փոքրիկ իշխանը» գրքի հեղինակը։",
     "answers": [
@@ -3731,7 +3731,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Անտուան դը Սենտ-Էքզյուպերի։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Հարի Փոթեր» շարքի հեղինակը։",
     "answers": [
@@ -3744,7 +3744,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ջ․ Ք․ Ռոուլինգ։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«1984» վեպի հեղինակը։",
     "answers": [
@@ -3757,7 +3757,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ջորջ Օրուել։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Ալքիմիկոսը» վեպի հեղինակը։",
     "answers": [
@@ -3770,7 +3770,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պաուլո Կոելյո։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Կոմս Մոնտե-Քրիստո» վեպի հեղինակը։",
     "answers": [
@@ -3783,7 +3783,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ալեքսանդր Դյումա։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Կտոր մը երկինք» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -3796,7 +3796,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հենրիկ Մալյան։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Նռան գույնը» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -3809,7 +3809,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սերգեյ Փարաջանով։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Կոմիտասը հայտնի է որպես։",
     "answers": [
@@ -3822,7 +3822,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երգահան և երաժշտագետ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Արամ Խաչատրյանը հայտնի է որպես։",
     "answers": [
@@ -3835,7 +3835,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կոմպոզիտոր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Սուսերով պար»-ի հեղինակը։",
     "answers": [
@@ -3848,7 +3848,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արամ Խաչատրյան։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Դուդուկը։",
     "answers": [
@@ -3861,7 +3861,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Փայտափող երաժշտական գործիք է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Աստղային պատերազմներ» ֆիլմաշարի ստեղծողը։",
     "answers": [
@@ -3874,7 +3874,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ջորջ Լուկաս։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Տիտանիկ» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -3887,7 +3887,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ջեյմս Քեմերոն։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Սկիզբ» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -3900,7 +3900,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Քրիստոֆեր Նոլան։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Մատանիների տիրակալը» ֆիլմաշարը հիմնված է։",
     "answers": [
@@ -3913,7 +3913,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Թոլքինի գրքերի վրա։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Մոնա Լիզա»-ի հեղինակը։",
     "answers": [
@@ -3926,7 +3926,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լեոնարդո դա Վինչի։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Աստղալից գիշեր»-ի հեղինակը։",
     "answers": [
@@ -3939,7 +3939,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վինսենթ վան Գոգ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Պիկասոն կապված է։",
     "answers": [
@@ -3952,7 +3952,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կուբիզմի հետ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Բալետը հիմնականում կապված է։",
     "answers": [
@@ -3965,7 +3965,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պարի և բեմարվեստի հետ։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Օպերան միավորում է։",
     "answers": [
@@ -3978,7 +3978,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երաժշտություն և թատրոն։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Օսկար»-ը մրցանակ է հիմնականում։",
     "answers": [
@@ -3991,7 +3991,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կինոյի ոլորտում։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "«Գրեմմի»-ն մրցանակ է հիմնականում։",
     "answers": [
@@ -4004,7 +4004,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երաժշտության ոլորտում։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Մատենադարանը հայտնի է իր։",
     "answers": [
@@ -4017,7 +4017,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ձեռագրերի հավաքածուով։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Հայկական քոչարին։",
     "answers": [
@@ -4030,7 +4030,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ավանդական պար է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Կինո և մշակույթ",
     "prompt": "Լավաշը հայկական մշակույթում։",
     "answers": [
@@ -4043,7 +4043,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ավանդական հաց է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ֆուտբոլում մեկ թիմը դաշտում սովորաբար ունի։",
     "answers": [
@@ -4056,7 +4056,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 11 խաղացող։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Բասկետբոլում մեկ թիմը դաշտում ունի։",
     "answers": [
@@ -4069,7 +4069,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 5 խաղացող։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Թենիսում գնդակը հարվածում են։",
     "answers": [
@@ -4082,7 +4082,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ռակետով։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Շախմատում արքան անգլերեն կոչվում է։",
     "answers": [
@@ -4095,7 +4095,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ King։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Շախմատում թագուհին անգլերեն կոչվում է։",
     "answers": [
@@ -4108,7 +4108,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Queen։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Օլիմպիական խաղերը սովորաբար անցկացվում են։",
     "answers": [
@@ -4121,7 +4121,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 4 տարին մեկ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ֆուտբոլի աշխարհի առաջնությունը սովորաբար անցկացվում է։",
     "answers": [
@@ -4134,7 +4134,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 4 տարին մեկ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Հայաստանից հայտնի շախմատիստ է։",
     "answers": [
@@ -4147,7 +4147,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լևոն Արոնյան։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Հենրիխ Մխիթարյանը հայտնի է որպես։",
     "answers": [
@@ -4160,7 +4160,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ֆուտբոլիստ։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Արթուր Ալեքսանյանը հայտնի է։",
     "answers": [
@@ -4173,7 +4173,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հունահռոմեական ըմբշամարտով։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ռոնալդուն հայտնի է որպես։",
     "answers": [
@@ -4186,7 +4186,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ֆուտբոլիստ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Մեսսին հայտնի է որպես։",
     "answers": [
@@ -4199,7 +4199,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ֆուտբոլիստ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Մայքլ Ջորդանը հայտնի է։",
     "answers": [
@@ -4212,7 +4212,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Բասկետբոլով։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ռոջեր Ֆեդերերը հայտնի է։",
     "answers": [
@@ -4225,7 +4225,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Թենիսով։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ուսեյն Բոլթը հայտնի է։",
     "answers": [
@@ -4238,7 +4238,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վազքով։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ֆորմուլա 1-ը կապված է։",
     "answers": [
@@ -4251,7 +4251,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ավտոմրցարշավի հետ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Ձյուդոյում մարզիկները մրցում են։",
     "answers": [
@@ -4264,7 +4264,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Գոտեմարտում։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Վոլեյբոլում գնդակը պետք է անցնի։",
     "answers": [
@@ -4277,7 +4277,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ցանցի վրայով։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Հոկեյում հիմնական գործիքը։",
     "answers": [
@@ -4290,7 +4290,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մականն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Սպորտ",
     "prompt": "Բեյսբոլում օգտագործվում է։",
     "answers": [
@@ -4303,7 +4303,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Բաթ։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "CPU-ն համակարգչում հիմնականում կատարում է։",
     "answers": [
@@ -4316,7 +4316,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հաշվարկներ և հրահանգներ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "RAM-ը օգտագործվում է։",
     "answers": [
@@ -4329,7 +4329,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ժամանակավոր հիշողության համար։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "SSD-ն հիմնականում։",
     "answers": [
@@ -4342,7 +4342,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տվյալների պահեստ է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "HTTP-ը օգտագործվում է։",
     "answers": [
@@ -4355,7 +4355,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վեբ հաղորդակցության համար։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "HTTPS-ը ավելացնում է։",
     "answers": [
@@ -4368,7 +4368,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կոդավորված կապ։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "IP հասցեն օգնում է։",
     "answers": [
@@ -4381,7 +4381,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ցանցում սարքը նույնականացնել։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "DNS-ը հիմնականում թարգմանում է։",
     "answers": [
@@ -4394,7 +4394,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Դոմենը IP հասցեի։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Java-ն։",
     "answers": [
@@ -4407,7 +4407,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ծրագրավորման լեզու է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Python-ը։",
     "answers": [
@@ -4420,7 +4420,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ծրագրավորման լեզու է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "SQL-ը օգտագործվում է։",
     "answers": [
@@ -4433,7 +4433,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տվյալների բազայի հարցումների համար։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Git-ը գործիք է։",
     "answers": [
@@ -4446,7 +4446,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տարբերակների վերահսկման համար։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "API-ն նշանակում է։",
     "answers": [
@@ -4459,7 +4459,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ծրագրերի փոխգործակցության միջերես։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "JSON-ը։",
     "answers": [
@@ -4472,7 +4472,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Տվյալների փոխանակման ձևաչափ է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "XML-ը։",
     "answers": [
@@ -4485,7 +4485,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Նշագրման լեզու է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Cloud computing-ը նշանակում է։",
     "answers": [
@@ -4498,7 +4498,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հաշվողական ռեսուրսներ ինտերնետի միջոցով։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Բրաուզերը օգտագործվում է։",
     "answers": [
@@ -4511,7 +4511,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վեբ էջեր բացելու համար։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Մոբայլ հավելվածը Android-ում հաճախ գրվում է։",
     "answers": [
@@ -4524,7 +4524,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Kotlin-ով կամ Java-ով։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Երկգործոն նույնականացումը ավելացնում է։",
     "answers": [
@@ -4537,7 +4537,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Լրացուցիչ անվտանգության շերտ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Բեքափը նշանակում է։",
     "answers": [
@@ -4550,7 +4550,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Պահուստային պատճեն։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Firewall-ը օգնում է։",
     "answers": [
@@ -4563,7 +4563,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վերահսկել ցանցային մուտքը։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Լավաշի հիմնական բաղադրիչներից է։",
     "answers": [
@@ -4576,7 +4576,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ալյուր։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Տոլման հաճախ պատրաստվում է։",
     "answers": [
@@ -4589,7 +4589,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Խաղողի տերևով։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Խաշը ավանդաբար ուտում են հաճախ։",
     "answers": [
@@ -4602,7 +4602,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սխտորով և լավաշով։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Ղափաման պատրաստվում է հիմնականում։",
     "answers": [
@@ -4615,7 +4615,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Դդումով։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Սպասը հայկական ապուր է, որը հաճախ պատրաստվում է։",
     "answers": [
@@ -4628,7 +4628,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մածունով։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Խորովածի հիմնական բաղադրիչը սովորաբար։",
     "answers": [
@@ -4641,7 +4641,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Միսն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Ժինգյալով հացը հայտնի է հատկապես։",
     "answers": [
@@ -4654,7 +4654,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արցախյան խոհանոցում։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Պիցցան ծագումով կապված է։",
     "answers": [
@@ -4667,7 +4667,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Իտալիայի հետ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Սուշին կապված է։",
     "answers": [
@@ -4680,7 +4680,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ճապոնիայի հետ։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Տակոն կապված է։",
     "answers": [
@@ -4693,7 +4693,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մեքսիկայի հետ։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Բորշը հայտնի է հատկապես։",
     "answers": [
@@ -4706,7 +4706,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արևելյան Եվրոպայում։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Կրուասանը կապված է։",
     "answers": [
@@ -4719,7 +4719,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ֆրանսիական խոհանոցի հետ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Պաստան կապված է։",
     "answers": [
@@ -4732,7 +4732,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Իտալական խոհանոցի հետ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Հումուսը հիմնականում պատրաստվում է։",
     "answers": [
@@ -4745,7 +4745,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սիսեռից։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Ֆալաֆելը հիմնականում պատրաստվում է։",
     "answers": [
@@ -4758,7 +4758,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Սիսեռից կամ լոբազգիներից։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Սալաթում սովորաբար օգտագործվող բանջարեղեն է։",
     "answers": [
@@ -4771,7 +4771,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Վարունգ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Կարտոֆիլ ֆրին պատրաստվում է։",
     "answers": [
@@ -4784,7 +4784,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կարտոֆիլից։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Ձվածեղի հիմնական բաղադրիչը։",
     "answers": [
@@ -4797,7 +4797,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ձուն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Խմորեղենի մեջ հաճախ օգտագործվում է։",
     "answers": [
@@ -4810,7 +4810,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ալյուր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Խոհանոց",
     "prompt": "Թանը պատրաստվում է հիմնականում։",
     "answers": [
@@ -4823,7 +4823,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մածունից։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Շաբաթվա առաջին աշխատանքային օրը սովորաբար։",
     "answers": [
@@ -4836,7 +4836,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Երկուշաբթի։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Տարվա առաջին ամիսը։",
     "answers": [
@@ -4849,7 +4849,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Հունվար։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Տարվա վերջին ամիսը։",
     "answers": [
@@ -4862,7 +4862,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Դեկտեմբեր։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Օրը ունի։",
     "answers": [
@@ -4875,7 +4875,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 24 ժամ։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Ժամը ունի։",
     "answers": [
@@ -4888,7 +4888,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 60 րոպե։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Րոպեն ունի։",
     "answers": [
@@ -4901,7 +4901,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 60 վայրկյան։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Եռանկյունը ունի։",
     "answers": [
@@ -4914,7 +4914,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 3 կողմ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Քառակուսին ունի։",
     "answers": [
@@ -4927,7 +4927,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 4 հավասար կողմ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Մեկ տասնյակը հավասար է։",
     "answers": [
@@ -4940,7 +4940,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 10։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Մեկ դարը հավասար է։",
     "answers": [
@@ -4953,7 +4953,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 100 տարի։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Կարմիր և կապույտ գույների խառնուրդից ստացվում է։",
     "answers": [
@@ -4966,7 +4966,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մանուշակագույն։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Դեղին և կապույտ գույների խառնուրդից ստացվում է։",
     "answers": [
@@ -4979,7 +4979,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Կանաչ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Արևը ծագում է մոտավորապես։",
     "answers": [
@@ -4992,7 +4992,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արևելքից։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Արևը մայր է մտնում մոտավորապես։",
     "answers": [
@@ -5005,7 +5005,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Արևմուտքում։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Գիրքը կարդալու համար հիմնականում օգտագործում ենք։",
     "answers": [
@@ -5018,7 +5018,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Աչքերը։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Ձայն լսելու համար օգտագործում ենք։",
     "answers": [
@@ -5031,7 +5031,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Ականջները։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Ջուրը սառչում է մոտավորապես։",
     "answers": [
@@ -5044,7 +5044,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 0°C-ում։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Ջուրը եռում է մոտավորապես։",
     "answers": [
@@ -5057,7 +5057,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 100°C-ում։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Սև և սպիտակ գույները միասին տալիս են։",
     "answers": [
@@ -5070,7 +5070,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ Մոխրագույն։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Ծիածանը սովորաբար ունի։",
     "answers": [
@@ -5083,7 +5083,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Ճիշտ պատասխանը՝ 7 գույն։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"apple\"",
     "answers": [
@@ -5096,7 +5096,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"apple\" նշանակում է խնձոր։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"water\"",
     "answers": [
@@ -5109,7 +5109,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"water\" նշանակում է ջուր։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"book\"",
     "answers": [
@@ -5122,7 +5122,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"book\" նշանակում է գիրք։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"sun\"",
     "answers": [
@@ -5135,7 +5135,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"sun\" նշանակում է արև։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"moon\"",
     "answers": [
@@ -5148,7 +5148,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"moon\" նշանակում է լուսին։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"family\"",
     "answers": [
@@ -5161,7 +5161,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"family\" նշանակում է ընտանիք։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"friend\"",
     "answers": [
@@ -5174,7 +5174,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"friend\" նշանակում է ընկեր։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"city\"",
     "answers": [
@@ -5187,7 +5187,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"city\" նշանակում է քաղաք։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"school\"",
     "answers": [
@@ -5200,7 +5200,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"school\" նշանակում է դպրոց։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"teacher\"",
     "answers": [
@@ -5213,7 +5213,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"teacher\" նշանակում է ուսուցիչ։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"music\"",
     "answers": [
@@ -5226,7 +5226,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"music\" նշանակում է երաժշտություն։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"language\"",
     "answers": [
@@ -5239,7 +5239,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"language\" նշանակում է լեզու։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"morning\"",
     "answers": [
@@ -5252,7 +5252,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"morning\" նշանակում է առավոտ։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"night\"",
     "answers": [
@@ -5265,7 +5265,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"night\" նշանակում է գիշեր։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"happy\"",
     "answers": [
@@ -5278,7 +5278,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"happy\" նշանակում է ուրախ։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"sad\"",
     "answers": [
@@ -5291,7 +5291,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"sad\" նշանակում է տխուր։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"fast\"",
     "answers": [
@@ -5304,7 +5304,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"fast\" նշանակում է արագ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"slow\"",
     "answers": [
@@ -5317,7 +5317,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"slow\" նշանակում է դանդաղ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"small\"",
     "answers": [
@@ -5330,7 +5330,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"small\" նշանակում է փոքր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"big\"",
     "answers": [
@@ -5343,7 +5343,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"big\" նշանակում է մեծ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"bread\"",
     "answers": [
@@ -5356,7 +5356,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"bread\" նշանակում է հաց։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"milk\"",
     "answers": [
@@ -5369,7 +5369,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"milk\" նշանակում է կաթ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"cheese\"",
     "answers": [
@@ -5382,7 +5382,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"cheese\" նշանակում է պանիր։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"salt\"",
     "answers": [
@@ -5395,7 +5395,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"salt\" նշանակում է աղ։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"sugar\"",
     "answers": [
@@ -5408,7 +5408,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"sugar\" նշանակում է շաքար։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"house\"",
     "answers": [
@@ -5421,7 +5421,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"house\" նշանակում է տուն։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"door\"",
     "answers": [
@@ -5434,7 +5434,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"door\" նշանակում է դուռ։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"window\"",
     "answers": [
@@ -5447,7 +5447,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"window\" նշանակում է պատուհան։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"computer\"",
     "answers": [
@@ -5460,7 +5460,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"computer\" նշանակում է համակարգիչ։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"phone\"",
     "answers": [
@@ -5473,7 +5473,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"phone\" նշանակում է հեռախոս։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Спасибо\"",
     "answers": [
@@ -5486,7 +5486,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Спасибо\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Здравствуйте\"",
     "answers": [
@@ -5499,7 +5499,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Здравствуйте\" նշանակում է բարև (պաշտոնական)։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"До свидания\"",
     "answers": [
@@ -5512,7 +5512,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"До свидания\" նշանակում է ցտեսություն։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Пожалуйста\"",
     "answers": [
@@ -5525,7 +5525,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Пожалуйста\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Извините\"",
     "answers": [
@@ -5538,7 +5538,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Извините\" նշանակում է ներողություն։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Друг\"",
     "answers": [
@@ -5551,7 +5551,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Друг\" նշանակում է ընկեր։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Семья\"",
     "answers": [
@@ -5564,7 +5564,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Семья\" նշանակում է ընտանիք։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Книга\"",
     "answers": [
@@ -5577,7 +5577,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Книга\" նշանակում է գիրք։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Школа\"",
     "answers": [
@@ -5590,7 +5590,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Школа\" նշանակում է դպրոց։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Город\"",
     "answers": [
@@ -5603,7 +5603,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Город\" նշանակում է քաղաք։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Вода\"",
     "answers": [
@@ -5616,7 +5616,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Вода\" նշանակում է ջուր։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Солнце\"",
     "answers": [
@@ -5629,7 +5629,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Солнце\" նշանակում է արև։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Луна\"",
     "answers": [
@@ -5642,7 +5642,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Луна\" նշանակում է լուսին։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Хлеб\"",
     "answers": [
@@ -5655,7 +5655,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Хлеб\" նշանակում է հաց։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Молоко\"",
     "answers": [
@@ -5668,7 +5668,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Молоко\" նշանակում է կաթ։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Дом\"",
     "answers": [
@@ -5681,7 +5681,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Дом\" նշանակում է տուն։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Дверь\"",
     "answers": [
@@ -5694,7 +5694,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Дверь\" նշանակում է դուռ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Окно\"",
     "answers": [
@@ -5707,7 +5707,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Окно\" նշանակում է պատուհան։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Работа\"",
     "answers": [
@@ -5720,7 +5720,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Работа\" նշանակում է աշխատանք։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"bonjour\"",
     "answers": [
@@ -5733,7 +5733,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"bonjour\" նշանակում է բարև։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"merci\"",
     "answers": [
@@ -5746,7 +5746,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"merci\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"au revoir\"",
     "answers": [
@@ -5759,7 +5759,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"au revoir\" նշանակում է ցտեսություն։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"s'il vous plaît\"",
     "answers": [
@@ -5772,7 +5772,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"s'il vous plaît\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"pomme\"",
     "answers": [
@@ -5785,7 +5785,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"pomme\" նշանակում է խնձոր։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"eau\"",
     "answers": [
@@ -5798,7 +5798,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"eau\" նշանակում է ջուր։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"livre\"",
     "answers": [
@@ -5811,7 +5811,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"livre\" նշանակում է գիրք։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"soleil\"",
     "answers": [
@@ -5824,7 +5824,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"soleil\" նշանակում է արև։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"lune\"",
     "answers": [
@@ -5837,7 +5837,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"lune\" նշանակում է լուսին։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"ami\"",
     "answers": [
@@ -5850,7 +5850,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"ami\" նշանակում է ընկեր։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"famille\"",
     "answers": [
@@ -5863,7 +5863,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"famille\" նշանակում է ընտանիք։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"école\"",
     "answers": [
@@ -5876,7 +5876,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"école\" նշանակում է դպրոց։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"ville\"",
     "answers": [
@@ -5889,7 +5889,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"ville\" նշանակում է քաղաք։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"maison\"",
     "answers": [
@@ -5902,7 +5902,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"maison\" նշանակում է տուն։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"porte\"",
     "answers": [
@@ -5915,7 +5915,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"porte\" նշանակում է դուռ։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Hallo\"",
     "answers": [
@@ -5928,7 +5928,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Hallo\" նշանակում է բարև։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Danke\"",
     "answers": [
@@ -5941,7 +5941,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Danke\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Bitte\"",
     "answers": [
@@ -5954,7 +5954,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Bitte\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Buch\"",
     "answers": [
@@ -5967,7 +5967,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Buch\" նշանակում է գիրք։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Wasser\"",
     "answers": [
@@ -5980,7 +5980,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Wasser\" նշանակում է ջուր։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Sonne\"",
     "answers": [
@@ -5993,7 +5993,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Sonne\" նշանակում է արև։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Mond\"",
     "answers": [
@@ -6006,7 +6006,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Mond\" նշանակում է լուսին։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Haus\"",
     "answers": [
@@ -6019,7 +6019,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Haus\" նշանակում է տուն։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Tür\"",
     "answers": [
@@ -6032,7 +6032,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Tür\" նշանակում է դուռ։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Fenster\"",
     "answers": [
@@ -6045,7 +6045,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"Fenster\" նշանակում է պատուհան։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"hola\"",
     "answers": [
@@ -6058,7 +6058,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"hola\" նշանակում է բարև։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"gracias\"",
     "answers": [
@@ -6071,7 +6071,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"gracias\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"adiós\"",
     "answers": [
@@ -6084,7 +6084,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"adiós\" նշանակում է ցտեսություն։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"por favor\"",
     "answers": [
@@ -6097,7 +6097,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"por favor\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"agua\"",
     "answers": [
@@ -6110,7 +6110,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"agua\" նշանակում է ջուր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"libro\"",
     "answers": [
@@ -6123,7 +6123,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"libro\" նշանակում է գիրք։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"sol\"",
     "answers": [
@@ -6136,7 +6136,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"sol\" նշանակում է արև։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"luna\"",
     "answers": [
@@ -6149,7 +6149,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"luna\" նշանակում է լուսին։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"casa\"",
     "answers": [
@@ -6162,7 +6162,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"casa\" նշանակում է տուն։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"escuela\"",
     "answers": [
@@ -6175,7 +6175,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"escuela\" նշանակում է դպրոց։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"ciao\"",
     "answers": [
@@ -6188,7 +6188,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"ciao\" նշանակում է բարև (ընկերական)։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"grazie\"",
     "answers": [
@@ -6201,7 +6201,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"grazie\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"per favore\"",
     "answers": [
@@ -6214,7 +6214,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"per favore\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"acqua\"",
     "answers": [
@@ -6227,7 +6227,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"acqua\" նշանակում է ջուր։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"sole\"",
     "answers": [
@@ -6240,7 +6240,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"sole\" նշանակում է արև։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"merhaba\"",
     "answers": [
@@ -6253,7 +6253,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"merhaba\" նշանակում է բարև։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"teşekkürler\"",
     "answers": [
@@ -6266,7 +6266,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"teşekkürler\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"lütfen\"",
     "answers": [
@@ -6279,7 +6279,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"lütfen\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"su\"",
     "answers": [
@@ -6292,7 +6292,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"su\" նշանակում է ջուր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"سلام\" (salam)",
     "answers": [
@@ -6305,7 +6305,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"سلام\" նշանակում է բարև։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"متشکرم\" (moteshakeram)",
     "answers": [
@@ -6318,7 +6318,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"متشکرم\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"آب\" (âb)",
     "answers": [
@@ -6331,7 +6331,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"آب\" նշանակում է ջուր։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"کتاب\" (ketâb)",
     "answers": [
@@ -6344,7 +6344,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"کتاب\" նշանակում է գիրք։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"خانه\" (khâne)",
     "answers": [
@@ -6357,7 +6357,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"خانه\" նշանակում է տուն։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ճապոներենից հայերեն՝ \"ありがとう\" (arigatou)",
     "answers": [
@@ -6370,7 +6370,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"ありがとう\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ճապոներենից հայերեն՝ \"こんにちは\" (konnichiwa)",
     "answers": [
@@ -6383,7 +6383,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "\"こんにちは\" նշանակում է բարև։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «salve» բառը ինչպե՞ս է թարգմանվում հայերեն",
     "answers": [
@@ -6396,7 +6396,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«salve» նշանակում է «բարև» (մի հոգու)։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «vale» բառը ինչպե՞ս է թարգմանվում հայերեն",
     "answers": [
@@ -6409,7 +6409,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«vale» նշանակում է «ցտեսություն / եղիր առողջ»։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «aqua» բառը նշանակում է",
     "answers": [
@@ -6422,7 +6422,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«aqua» նշանակում է ջուր։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «terra» բառը նշանակում է",
     "answers": [
@@ -6435,7 +6435,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«terra» նշանակում է հող/երկիր։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «bonus» բառը նշանակում է",
     "answers": [
@@ -6448,7 +6448,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«bonus» նշանակում է լավ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «malus» բառը նշանակում է",
     "answers": [
@@ -6461,7 +6461,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«malus» նշանակում է վատ։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «magnus» բառը նշանակում է",
     "answers": [
@@ -6474,7 +6474,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«magnus» նշանակում է մեծ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «parvus» բառը նշանակում է",
     "answers": [
@@ -6487,7 +6487,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«parvus» նշանակում է փոքր։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «lux» բառը նշանակում է",
     "answers": [
@@ -6500,7 +6500,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«lux» նշանակում է լույս։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «nox» բառը նշանակում է",
     "answers": [
@@ -6513,7 +6513,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«nox» նշանակում է գիշեր։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Ո՞ր արտահայտությունն է նշանակում «Կյանքը կարճ է, արվեստը՝ երկար»",
     "answers": [
@@ -6526,7 +6526,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«Ars longa, vita brevis» նշանակում է «Կյանքը կարճ է, արվեստը՝ երկար»։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Ո՞ր արտահայտությունն է նշանակում «Օրը ապրիր»",
     "answers": [
@@ -6539,7 +6539,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«Carpe diem» նշանակում է «Օրը ապրիր»։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Ո՞ր արտահայտությունն է նշանակում «Եկա, տեսա, հաղթեցի»",
     "answers": [
@@ -6552,7 +6552,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«Veni, vidi, vici» նշանակում է «Եկա, տեսա, հաղթեցի»։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «in vino veritas» արտահայտությունը նշանակում է",
     "answers": [
@@ -6565,7 +6565,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "«in vino veritas» նշանակում է «Գինու մեջ կա ճշմարտություն»։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Ո՞ր արտահայտությունն է նշանակում «Զառը նետված է»",
     "answers": [
@@ -6577,1084 +6577,1758 @@ window.MILLIONAIRE_QUESTIONS = [
     "correctIndex": 0,
     "explanation": "«Alea iacta est» նշանակում է «Զառը նետված է»։"
   },
-
   {
-    "level": 1,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Կենդանի օրգանիզմի հիմնական կառուցվածքային միավորը ո՞րն է",
-    "answers": ["բջիջ", "մոլեկուլ", "օրգան", "հյուսվածք"],
+    "answers": [
+      "բջիջ",
+      "մոլեկուլ",
+      "օրգան",
+      "հյուսվածք"
+    ],
     "correctIndex": 0,
     "explanation": "Բջիջը կենդանի օրգանիզմների հիմնական կառուցվածքային և գործառութային միավորն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր օրգանն է մարդու օրգանիզմում պոմպում արյունը",
-    "answers": ["լյարդը", "սիրտը", "թոքերը", "երիկամները"],
+    "answers": [
+      "լյարդը",
+      "սիրտը",
+      "թոքերը",
+      "երիկամները"
+    ],
     "correctIndex": 1,
     "explanation": "Սիրտը պոմպում է արյունը ամբողջ մարմնով։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր գազն է մարդկանց համար անհրաժեշտ շնչառության ժամանակ",
-    "answers": ["ազոտ", "թթվածին", "ածխածնաթթու գազ", "ջրածին"],
+    "answers": [
+      "ազոտ",
+      "թթվածին",
+      "ածխածնաթթու գազ",
+      "ջրածին"
+    ],
     "correctIndex": 1,
     "explanation": "Շնչառության համար անհրաժեշտ է թթվածին։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Մարդու արյան մեջ թթվածինը հիմնականում տեղափոխվում է",
-    "answers": ["պլազմայով", "հեմոգլոբինով", "թրոմբոցիտներով", "լեյկոցիտներով"],
+    "answers": [
+      "պլազմայով",
+      "հեմոգլոբինով",
+      "թրոմբոցիտներով",
+      "լեյկոցիտներով"
+    ],
     "correctIndex": 1,
     "explanation": "Թթվածինը հիմնականում կապվում է հեմոգլոբինին և տեղափոխվում է էրիթրոցիտներով։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Բույսերի որ օրգանում է հիմնականում կատարվում ֆոտոսինթեզը",
-    "answers": ["արմատում", "ցողունում", "տերևում", "սերմում"],
+    "answers": [
+      "արմատում",
+      "ցողունում",
+      "տերևում",
+      "սերմում"
+    ],
     "correctIndex": 2,
     "explanation": "Ֆոտոսինթեզը հիմնականում կատարվում է տերևներում՝ քլորոպլաստների օգնությամբ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է ԴՆԹ-ի հիմնական դերերից մեկը",
-    "answers": ["էներգիա արտադրել", "ժառանգական ինֆորմացիա պահել", "արյունը մակարդել", "մարմինը սառեցնել"],
+    "answers": [
+      "էներգիա արտադրել",
+      "ժառանգական ինֆորմացիա պահել",
+      "արյունը մակարդել",
+      "մարմինը սառեցնել"
+    ],
     "correctIndex": 1,
     "explanation": "ԴՆԹ-ն պահպանում և փոխանցում է ժառանգական ինֆորմացիան։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Մարդու օրգանիզմում ո՞րն է ամենամեծ օրգանը",
-    "answers": ["սիրտը", "լյարդը", "մաշկը", "թոքերը"],
+    "answers": [
+      "սիրտը",
+      "լյարդը",
+      "մաշկը",
+      "թոքերը"
+    ],
     "correctIndex": 2,
     "explanation": "Մաշկը մարդու ամենամեծ օրգանն է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Արյան որ բջիջներն են հիմնականում պատասխանատու վարակների դեմ պայքարի համար",
-    "answers": ["էրիթրոցիտներ", "լեյկոցիտներ", "թրոմբոցիտներ", "նեյրոններ"],
+    "answers": [
+      "էրիթրոցիտներ",
+      "լեյկոցիտներ",
+      "թրոմբոցիտներ",
+      "նեյրոններ"
+    ],
     "correctIndex": 1,
     "explanation": "Լեյկոցիտները (սպիտակ արյան բջիջները) մասնակցում են իմունային պաշտպանությանը։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր նյութն է հանդիսանում բջիջների հիմնական էներգիայի «արժույթը»",
-    "answers": ["ԴՆԹ", "ԱՏՓ", "ՌՆԹ", "գլյուկոզա"],
+    "answers": [
+      "ԴՆԹ",
+      "ԱՏՓ",
+      "ՌՆԹ",
+      "գլյուկոզա"
+    ],
     "correctIndex": 1,
     "explanation": "ԱՏՓ-ը (ATP) բջիջներում էներգիայի հիմնական կրող մոլեկուլն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Մարդու որ համակարգն է պատասխանատու հորմոնների արտադրության համար",
-    "answers": ["մարսողական", "շնչառական", "էնդոկրին", "մկանային"],
+    "answers": [
+      "մարսողական",
+      "շնչառական",
+      "էնդոկրին",
+      "մկանային"
+    ],
     "correctIndex": 2,
     "explanation": "Էնդոկրին համակարգը արտադրում է հորմոններ և կարգավորում բազմաթիվ գործընթացներ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր օրգանիզմներն են ստանում էներգիա օրգանական նյութերը քայքայելով (ոչ ֆոտոսինթեզով)",
-    "answers": ["արտադրողներ (պրոդյուսերներ)", "սպառողներ (կոնսյումերներ)", "քլորոպլաստներ", "միներալներ"],
+    "answers": [
+      "արտադրողներ (պրոդյուսերներ)",
+      "սպառողներ (կոնսյումերներ)",
+      "քլորոպլաստներ",
+      "միներալներ"
+    ],
     "correctIndex": 1,
     "explanation": "Սպառողները սնվում են պատրաստ օրգանական նյութերով՝ ստանալով էներգիա։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է մարսողական համակարգի հիմնական գործառույթը",
-    "answers": ["օրգանիզմը սառեցնել", "սնունդը քայքայել և ներծծել", "արյունը մաքրել", "թթվածին արտադրել"],
+    "answers": [
+      "օրգանիզմը սառեցնել",
+      "սնունդը քայքայել և ներծծել",
+      "արյունը մաքրել",
+      "թթվածին արտադրել"
+    ],
     "correctIndex": 1,
     "explanation": "Մարսողական համակարգը քայքայում է սնունդը և ապահովում սննդանյութերի ներծծումը։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Միտոքոնդրիան բջջում հիմնականում կապվում է",
-    "answers": ["սպիտակուցների սինթեզի", "էներգիայի արտադրության", "ժառանգական ինֆորմացիայի պահման", "բջջի բաժանման արգելման"],
+    "answers": [
+      "սպիտակուցների սինթեզի",
+      "էներգիայի արտադրության",
+      "ժառանգական ինֆորմացիայի պահման",
+      "բջջի բաժանման արգելման"
+    ],
     "correctIndex": 1,
     "explanation": "Միտոքոնդրիան բջջային շնչառության կարևոր կենտրոն է՝ ԱՏՓ արտադրության համար։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է ֆոտոսինթեզի հիմնական արտադրված նյութերից մեկը",
-    "answers": ["թթվածին", "ազոտ", "ամոնիակ", "կաթնաթթու"],
+    "answers": [
+      "թթվածին",
+      "ազոտ",
+      "ամոնիակ",
+      "կաթնաթթու"
+    ],
     "correctIndex": 0,
     "explanation": "Ֆոտոսինթեզի ընթացքում առաջանում է թթվածին (և օրգանական նյութեր)։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Մարդու երիկամների հիմնական գործառույթը",
-    "answers": ["արյունը ֆիլտրել և մեզ առաջացնել", "արյունը պոմպել", "շնչառությունը կատարել", "մարսել սնունդը"],
+    "answers": [
+      "արյունը ֆիլտրել և մեզ առաջացնել",
+      "արյունը պոմպել",
+      "շնչառությունը կատարել",
+      "մարսել սնունդը"
+    ],
     "correctIndex": 0,
     "explanation": "Երիկամները ֆիլտրում են արյունը և առաջացնում մեզ՝ հեռացնելով ավելորդ նյութերը։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր բջջային օրգանելն է պատասխանատու սպիտակուցների սինթեզի համար",
-    "answers": ["ռիբոսոմ", "լիզոսոմ", "քլորոպլաստ", "ցենտրիոլ"],
+    "answers": [
+      "ռիբոսոմ",
+      "լիզոսոմ",
+      "քլորոպլաստ",
+      "ցենտրիոլ"
+    ],
     "correctIndex": 0,
     "explanation": "Ռիբոսոմներում է իրականացվում սպիտակուցների սինթեզը։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում օրգանիզմի ներքին միջավայրի կայուն պահպանումը",
-    "answers": ["մուտացիա", "հոմեոստազ", "էվոլյուցիա", "մետամորֆոզ"],
+    "answers": [
+      "մուտացիա",
+      "հոմեոստազ",
+      "էվոլյուցիա",
+      "մետամորֆոզ"
+    ],
     "correctIndex": 1,
     "explanation": "Հոմեոստազը ներքին միջավայրի հարաբերական կայունության պահպանումն է։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է մարդու 46 քրոմոսոմից յուրաքանչյուր զույգի կազմման հիմքը",
-    "answers": ["երկուսն էլ նույնական են բոլոր գեներով", "մեկը գալիս է մորից, մեկը՝ հորից", "երկուսն էլ գալիս են միայն մորից", "երկուսն էլ գալիս են միայն հորից"],
+    "answers": [
+      "երկուսն էլ նույնական են բոլոր գեներով",
+      "մեկը գալիս է մորից, մեկը՝ հորից",
+      "երկուսն էլ գալիս են միայն մորից",
+      "երկուսն էլ գալիս են միայն հորից"
+    ],
     "correctIndex": 1,
     "explanation": "Քրոմոսոմների զույգերից մեկը ժառանգվում է մորից, մյուսը՝ հորից։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է օրգանիզմների դասակարգման հիմնական աստիճաններից մեկը",
-    "answers": ["սենյակ", "թագավորություն", "գիրք", "նոտա"],
+    "answers": [
+      "սենյակ",
+      "թագավորություն",
+      "գիրք",
+      "նոտա"
+    ],
     "correctIndex": 1,
     "explanation": "Կենսաբանական դասակարգման աստիճաններից է «թագավորություն»-ը (kingdom)։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է բակտերիաների կարևոր առանձնահատկություններից մեկը",
-    "answers": ["ունեն միջուկ", "պրոկարիոտ են (չունեն իրական միջուկ)", "միշտ բազմաբջիջ են", "միշտ ֆոտոսինթեզ են անում"],
+    "answers": [
+      "ունեն միջուկ",
+      "պրոկարիոտ են (չունեն իրական միջուկ)",
+      "միշտ բազմաբջիջ են",
+      "միշտ ֆոտոսինթեզ են անում"
+    ],
     "correctIndex": 1,
     "explanation": "Բակտերիաները պրոկարիոտներ են՝ առանց իրական միջուկի։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Մենդելի ուսումնասիրությունները հիմնականում վերաբերում էին",
-    "answers": ["թռչունների միգրացիային", "հասունացմանը", "ժառանգականությանը", "վիրուսներին"],
+    "answers": [
+      "թռչունների միգրացիային",
+      "հասունացմանը",
+      "ժառանգականությանը",
+      "վիրուսներին"
+    ],
     "correctIndex": 2,
     "explanation": "Գրեգոր Մենդելը հիմք դրեց ժառանգականության (գենետիկայի) օրինաչափություններին։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում տեսակների փոփոխությունն ու հարմարվողականության ձևավորումը ժամանակի ընթացքում",
-    "answers": ["էվոլյուցիա", "ֆոտոսինթեզ", "մարսողություն", "դիֆուզիա"],
+    "answers": [
+      "էվոլյուցիա",
+      "ֆոտոսինթեզ",
+      "մարսողություն",
+      "դիֆուզիա"
+    ],
     "correctIndex": 0,
     "explanation": "Էվոլյուցիան տեսակների փոփոխությունն է ժամանակի ընթացքում։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր օրգանն է հիմնականում արտադրում լեղի (մաղձ)",
-    "answers": ["լյարդը", "ստամոքսը", "սիրտը", "թոքերը"],
+    "answers": [
+      "լյարդը",
+      "ստամոքսը",
+      "սիրտը",
+      "թոքերը"
+    ],
     "correctIndex": 0,
     "explanation": "Լեղին հիմնականում արտադրվում է լյարդում (պահվում է լեղապարկում)։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Սպիտակուցների կազմության հիմնական «շինանյութերը» ո՞րն են",
-    "answers": ["ամինաթթուներ", "մոնոսախարիդներ", "նուկլեոտիդներ", "ճարպաթթուներ"],
+    "answers": [
+      "ամինաթթուներ",
+      "մոնոսախարիդներ",
+      "նուկլեոտիդներ",
+      "ճարպաթթուներ"
+    ],
     "correctIndex": 0,
     "explanation": "Սպիտակուցները կազմված են ամինաթթուներից։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր վիտամինն է հիմնականում կապվում արևի լույսի ազդեցությամբ օրգանիզմում առաջացման հետ",
-    "answers": ["Վիտամին D", "Վիտամին C", "Վիտամին B12", "Վիտամին K"],
+    "answers": [
+      "Վիտամին D",
+      "Վիտամին C",
+      "Վիտամին B12",
+      "Վիտամին K"
+    ],
     "correctIndex": 0,
     "explanation": "Արևի լույսի ազդեցությամբ մաշկում սինթեզվում է վիտամին D։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում սրտի և անոթների համակարգը",
-    "answers": ["շնչառական", "մարսողական", "արյան շրջանառության (սրտանոթային)", "արտազատական"],
+    "answers": [
+      "շնչառական",
+      "մարսողական",
+      "արյան շրջանառության (սրտանոթային)",
+      "արտազատական"
+    ],
     "correctIndex": 2,
     "explanation": "Սիրտն ու արյունատար անոթները կազմում են սրտանոթային (արյան շրջանառության) համակարգը։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում օրգանիզմում հիվանդությունների դեմ պաշտպանական համակարգը",
-    "answers": ["մկանային համակարգ", "իմունային համակարգ", "ոսկրի համակարգ", "հորմոնային համակարգ"],
+    "answers": [
+      "մկանային համակարգ",
+      "իմունային համակարգ",
+      "ոսկրի համակարգ",
+      "հորմոնային համակարգ"
+    ],
     "correctIndex": 1,
     "explanation": "Իմունային համակարգը պաշտպանում է օրգանիզմը վարակներից և օտար նյութերից։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է վիրուսների ընդհանուր առանձնահատկություններից մեկը",
-    "answers": ["կարողանում են ինքնուրույն բազմանալ առանց հյուրընկալողի", "բջիջ ունեն և միջուկ", "բազմացման համար պետք է հյուրընկալող բջիջ", "միշտ բազմաբջիջ են"],
+    "answers": [
+      "կարողանում են ինքնուրույն բազմանալ առանց հյուրընկալողի",
+      "բջիջ ունեն և միջուկ",
+      "բազմացման համար պետք է հյուրընկալող բջիջ",
+      "միշտ բազմաբջիջ են"
+    ],
     "correctIndex": 2,
     "explanation": "Վիրուսները բազմացման համար օգտագործում են հյուրընկալող բջջի մեխանիզմները։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում գենի ձևերի տարբերակները",
-    "answers": ["ալելներ", "օրգանոիդներ", "ֆերմենտներ", "հորմոններ"],
+    "answers": [
+      "ալելներ",
+      "օրգանոիդներ",
+      "ֆերմենտներ",
+      "հորմոններ"
+    ],
     "correctIndex": 0,
     "explanation": "Գենի տարբեր ձևերը կոչվում են ալելներ։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր գործընթացի արդյունքում է բջիջը բաժանվում երկու նույնական դուստր բջիջների",
-    "answers": ["մեյոզ", "միտոզ", "ֆոտոսինթեզ", "խմորում"],
+    "answers": [
+      "մեյոզ",
+      "միտոզ",
+      "ֆոտոսինթեզ",
+      "խմորում"
+    ],
     "correctIndex": 1,
     "explanation": "Միտոզի արդյունքում առաջանում են երկու գենետիկորեն նույնական դուստր բջիջներ։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլում խաղացողները հիմնականում ինչո՞վ են հարվածում գնդակին",
-    "answers": ["ոտքով", "ռակետով", "մականով", "ձեռնոցով"],
+    "answers": [
+      "ոտքով",
+      "ռակետով",
+      "մականով",
+      "ձեռնոցով"
+    ],
     "correctIndex": 0,
     "explanation": "Ֆուտբոլում գնդակը հիմնականում խաղում են ոտքով։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլում միավորը սովորաբար կոչվում է",
-    "answers": ["գոլ", "շախ", "սեթ", "ռաունդ"],
+    "answers": [
+      "գոլ",
+      "շախ",
+      "սեթ",
+      "ռաունդ"
+    ],
     "correctIndex": 0,
     "explanation": "Ֆուտբոլում հաշիվը փոխվում է խփված գոլերով։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր դիրքի խաղացողն է պաշտպանում դարպասը",
-    "answers": ["դարպասապահ", "հարձակվող", "կիսապաշտպան", "մրցավար"],
+    "answers": [
+      "դարպասապահ",
+      "հարձակվող",
+      "կիսապաշտպան",
+      "մրցավար"
+    ],
     "correctIndex": 0,
     "explanation": "Դարպասապահի հիմնական գործը սեփական դարպասը պաշտպանելն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլային հանդիպումը սկսվում է",
-    "answers": ["անկյունայինից", "կենտրոնից", "տուգանայինից", "դարպասից"],
+    "answers": [
+      "անկյունայինից",
+      "կենտրոնից",
+      "տուգանայինից",
+      "դարպասից"
+    ],
     "correctIndex": 1,
     "explanation": "Հանդիպումը և գոլից հետո խաղը վերսկսվում են կենտրոնից։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Կարմիր քարտ ստացած ֆուտբոլիստը",
-    "answers": ["հեռացվում է խաղից", "փոխում է թիմը", "ստանում է գոլ", "դառնում է դարպասապահ"],
+    "answers": [
+      "հեռացվում է խաղից",
+      "փոխում է թիմը",
+      "ստանում է գոլ",
+      "դառնում է դարպասապահ"
+    ],
     "correctIndex": 0,
     "explanation": "Կարմիր քարտը նշանակում է, որ խաղացողը հեռացվում է խաղադաշտից։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Անկյունային հարվածը նշանակվում է, երբ գնդակը դարպասային գծից դուրս է գալիս",
-    "answers": ["պաշտպանվող թիմի խաղացողից", "մրցավարից", "հանդիսատեսից", "միայն դարպասապահից"],
+    "answers": [
+      "պաշտպանվող թիմի խաղացողից",
+      "մրցավարից",
+      "հանդիսատեսից",
+      "միայն դարպասապահից"
+    ],
     "correctIndex": 0,
     "explanation": "Եթե պաշտպանվող թիմն է վերջինը դիպչում գնդակին, նշանակվում է անկյունային։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլի աշխարհի առաջնությունը սովորաբար անցկացվում է",
-    "answers": ["ամեն տարի", "երկու տարին մեկ", "չորս տարին մեկ", "տասը տարին մեկ"],
+    "answers": [
+      "ամեն տարի",
+      "երկու տարին մեկ",
+      "չորս տարին մեկ",
+      "տասը տարին մեկ"
+    ],
     "correctIndex": 2,
     "explanation": "ՖԻՖԱ-ի աշխարհի առաջնությունը սովորաբար անցկացվում է չորս տարին մեկ։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր կազմակերպությունն է անցկացնում ՈՒԵՖԱ Չեմպիոնների լիգան",
-    "answers": ["ՈՒԵՖԱ", "ՖԻԲԱ", "ՖԻԴԵ", "ՄՕԿ"],
+    "answers": [
+      "ՈՒԵՖԱ",
+      "ՖԻԲԱ",
+      "ՖԻԴԵ",
+      "ՄՕԿ"
+    ],
     "correctIndex": 0,
     "explanation": "Չեմպիոնների լիգան կազմակերպում է ՈՒԵՖԱ-ն՝ եվրոպական ֆուտբոլի կառույցը։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Տուգանային հրապարակում կանոնների խախտման համար հաճախ նշանակվում է",
-    "answers": ["պենալտի", "աուտ", "սեթ", "թայ-բրեյք"],
+    "answers": [
+      "պենալտի",
+      "աուտ",
+      "սեթ",
+      "թայ-բրեյք"
+    ],
     "correctIndex": 0,
     "explanation": "Տուգանային հրապարակում պաշտպանվող թիմի խախտումը կարող է բերել պենալտիի։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Ֆուտբոլ",
     "prompt": "Պենալտիի նշագիծը դարպասից մոտավորապես քանի՞ մետր է",
-    "answers": ["7 մետր", "9 մետր", "11 մետր", "15 մետր"],
+    "answers": [
+      "7 մետր",
+      "9 մետր",
+      "11 մետր",
+      "15 մետր"
+    ],
     "correctIndex": 2,
     "explanation": "Պենալտին իրացվում է դարպասից 11 մետր հեռավորության նշագծից։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Լիբերտադորեսի գավաթը հիմնականում որ մայրցամաքի ակումբային մրցաշարն է",
-    "answers": ["Հարավային Ամերիկա", "Աֆրիկա", "Ասիա", "Եվրոպա"],
+    "answers": [
+      "Հարավային Ամերիկա",
+      "Աֆրիկա",
+      "Ասիա",
+      "Եվրոպա"
+    ],
     "correctIndex": 0,
     "explanation": "Կոպա Լիբերտադորեսը Հարավային Ամերիկայի գլխավոր ակումբային մրցաշարն է։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր երկիրն է հաղթել 2010 թվականի ֆուտբոլի աշխարհի առաջնությունում",
-    "answers": ["Իսպանիա", "Նիդերլանդներ", "Գերմանիա", "Արգենտինա"],
+    "answers": [
+      "Իսպանիա",
+      "Նիդերլանդներ",
+      "Գերմանիա",
+      "Արգենտինա"
+    ],
     "correctIndex": 0,
     "explanation": "2010 թվականին աշխարհի չեմպիոն դարձավ Իսպանիան։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "1998 թվականի ֆուտբոլի աշխարհի առաջնության հաղթողը",
-    "answers": ["Ֆրանսիա", "Բրազիլիա", "Իտալիա", "Խորվաթիա"],
+    "answers": [
+      "Ֆրանսիա",
+      "Բրազիլիա",
+      "Իտալիա",
+      "Խորվաթիա"
+    ],
     "correctIndex": 0,
     "explanation": "1998 թվականի աշխարհի առաջնությունը հաղթեց Ֆրանսիան։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Եվրո-2004-ում անակնկալ չեմպիոն դարձավ",
-    "answers": ["Հունաստան", "Պորտուգալիա", "Իսպանիա", "Չեխիա"],
+    "answers": [
+      "Հունաստան",
+      "Պորտուգալիա",
+      "Իսպանիա",
+      "Չեխիա"
+    ],
     "correctIndex": 0,
     "explanation": "2004 թվականի Եվրոպայի առաջնությունում հաղթեց Հունաստանը։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "«Աստծո ձեռքը» հայտնի դրվագը կապվում է որ ֆուտբոլիստի հետ",
-    "answers": ["Դիեգո Մարադոնա", "Պելե", "Զինեդին Զիդան", "Յոհան Կրոյֆ"],
+    "answers": [
+      "Դիեգո Մարադոնա",
+      "Պելե",
+      "Զինեդին Զիդան",
+      "Յոհան Կրոյֆ"
+    ],
     "correctIndex": 0,
     "explanation": "1986 թվականի աշխարհի առաջնությունում այդ դրվագը կապված էր Դիեգո Մարադոնայի հետ։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլի 2002 թվականի աշխարհի առաջնությունը հյուրընկալել էին",
-    "answers": ["Ճապոնիան և Հարավային Կորեան", "Գերմանիան և Ֆրանսիան", "ԱՄՆ-ն և Կանադան", "Իսպանիան և Պորտուգալիան"],
+    "answers": [
+      "Ճապոնիան և Հարավային Կորեան",
+      "Գերմանիան և Ֆրանսիան",
+      "ԱՄՆ-ն և Կանադան",
+      "Իսպանիան և Պորտուգալիան"
+    ],
     "correctIndex": 0,
     "explanation": "2002 թվականի աշխարհի առաջնությունը անցկացվեց Ճապոնիայում և Հարավային Կորեայում։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Առաջին ֆուտբոլի աշխարհի առաջնությունը անցկացվել է",
-    "answers": ["1930 թվականին", "1946 թվականին", "1958 թվականին", "1966 թվականին"],
+    "answers": [
+      "1930 թվականին",
+      "1946 թվականին",
+      "1958 թվականին",
+      "1966 թվականին"
+    ],
     "correctIndex": 0,
     "explanation": "Ֆուտբոլի աշխարհի առաջին առաջնությունը անցկացվել է 1930 թվականին։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլի աշխարհի առաջին առաջնության հաղթողը",
-    "answers": ["Ուրուգվայ", "Բրազիլիա", "Արգենտինա", "Իտալիա"],
+    "answers": [
+      "Ուրուգվայ",
+      "Բրազիլիա",
+      "Արգենտինա",
+      "Իտալիա"
+    ],
     "correctIndex": 0,
     "explanation": "1930 թվականի աշխարհի առաջնությունը հաղթեց Ուրուգվայը։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր երկիրն է հաղթել 1966 թվականի ֆուտբոլի աշխարհի առաջնությունում",
-    "answers": ["Անգլիա", "Գերմանիա", "Իտալիա", "Բրազիլիա"],
+    "answers": [
+      "Անգլիա",
+      "Գերմանիա",
+      "Իտալիա",
+      "Բրազիլիա"
+    ],
     "correctIndex": 0,
     "explanation": "1966 թվականին աշխարհի չեմպիոն դարձավ Անգլիան։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր ակումբն է հայտնի «Օլդ Թրաֆորդ» մարզադաշտով",
-    "answers": ["Մանչեսթեր Յունայթեդ", "Լիվերպուլ", "Արսենալ", "Չելսի"],
+    "answers": [
+      "Մանչեսթեր Յունայթեդ",
+      "Լիվերպուլ",
+      "Արսենալ",
+      "Չելսի"
+    ],
     "correctIndex": 0,
     "explanation": "«Օլդ Թրաֆորդը» Մանչեսթեր Յունայթեդի տնային մարզադաշտն է։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր ֆուտբոլիստն է խփել «դարի գոլը» 1986 թվականի աշխարհի առաջնությունում",
-    "answers": ["Դիեգո Մարադոնա", "Գարի Լինեկեր", "Միշել Պլատինի", "Ռոմարիո"],
+    "answers": [
+      "Դիեգո Մարադոնա",
+      "Գարի Լինեկեր",
+      "Միշել Պլատինի",
+      "Ռոմարիո"
+    ],
     "correctIndex": 0,
     "explanation": "«Դարի գոլը» Անգլիայի դեմ խփել է Դիեգո Մարադոնան։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Եվրոպայի 1992 թվականի առաջնությունում չեմպիոն դարձավ",
-    "answers": ["Դանիա", "Գերմանիա", "Շվեդիա", "Նիդերլանդներ"],
+    "answers": [
+      "Դանիա",
+      "Գերմանիա",
+      "Շվեդիա",
+      "Նիդերլանդներ"
+    ],
     "correctIndex": 0,
     "explanation": "Եվրո-1992-ում անակնկալ չեմպիոն դարձավ Դանիան։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞վ է եղել «Ոսկե գնդակի» առաջին դափնեկիրը 1956 թվականին",
-    "answers": ["Սթենլի Մեթյուզ", "Ալֆրեդո Դի Ստեֆանո", "Ռայմոն Կոպա", "Լև Յաշին"],
+    "answers": [
+      "Սթենլի Մեթյուզ",
+      "Ալֆրեդո Դի Ստեֆանո",
+      "Ռայմոն Կոպա",
+      "Լև Յաշին"
+    ],
     "correctIndex": 0,
     "explanation": "Առաջին «Ոսկե գնդակը» 1956 թվականին ստացել է Սթենլի Մեթյուզը։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Լև Յաշինը պատմության մեջ հայտնի է որպես",
-    "answers": ["դարպասապահ", "հարձակվող", "մրցավար", "մարզիչ"],
+    "answers": [
+      "դարպասապահ",
+      "հարձակվող",
+      "մրցավար",
+      "մարզիչ"
+    ],
     "correctIndex": 0,
     "explanation": "Լև Յաշինը լեգենդար դարպասապահ էր և «Ոսկե գնդակի» դափնեկիր։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր երկիրն է հաղթել 1954 թվականի ֆուտբոլի աշխարհի առաջնությունում",
-    "answers": ["Արևմտյան Գերմանիա", "Հունգարիա", "Ուրուգվայ", "Բրազիլիա"],
+    "answers": [
+      "Արևմտյան Գերմանիա",
+      "Հունգարիա",
+      "Ուրուգվայ",
+      "Բրազիլիա"
+    ],
     "correctIndex": 0,
     "explanation": "1954 թվականին աշխարհի չեմպիոն դարձավ Արևմտյան Գերմանիան։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր հավաքականն էր հայտնի «Total Football» խաղաոճով 1970-ականներին",
-    "answers": ["Նիդերլանդներ", "Իտալիա", "Արգենտինա", "ԽՍՀՄ"],
+    "answers": [
+      "Նիդերլանդներ",
+      "Իտալիա",
+      "Արգենտինա",
+      "ԽՍՀՄ"
+    ],
     "correctIndex": 0,
     "explanation": "1970-ականներին «Total Football»-ը հատկապես կապվում էր Նիդերլանդների հավաքականի հետ։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր ակումբն է հաղթել Եվրոպական գավաթի առաջին եզրափակչում 1956 թվականին",
-    "answers": ["Ռեալ Մադրիդ", "Միլան", "Բենֆիկա", "Ռեյմս"],
+    "answers": [
+      "Ռեալ Մադրիդ",
+      "Միլան",
+      "Բենֆիկա",
+      "Ռեյմս"
+    ],
     "correctIndex": 0,
     "explanation": "1956 թվականի Եվրոպական գավաթի առաջին եզրափակչում հաղթեց Ռեալ Մադրիդը։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "ՖԻՖԱ-ի կենտրոնակայանը գտնվում է",
-    "answers": ["Ցյուրիխում", "Լոնդոնում", "Փարիզում", "Մադրիդում"],
+    "answers": [
+      "Ցյուրիխում",
+      "Լոնդոնում",
+      "Փարիզում",
+      "Մադրիդում"
+    ],
     "correctIndex": 0,
     "explanation": "ՖԻՖԱ-ի կենտրոնակայանը գտնվում է Շվեյցարիայի Ցյուրիխ քաղաքում։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր խաղացողն է հայտնի «Պանենկա» պենալտիի անվան հետ",
-    "answers": ["Անտոնին Պանենկա", "Ֆրանց Բեկենբաուեր", "Էուսեբիո", "Գերդ Մյուլեր"],
+    "answers": [
+      "Անտոնին Պանենկա",
+      "Ֆրանց Բեկենբաուեր",
+      "Էուսեբիո",
+      "Գերդ Մյուլեր"
+    ],
     "correctIndex": 0,
     "explanation": "«Պանենկա» պենալտին անվանվել է չեխոսլովակ ֆուտբոլիստ Անտոնին Պանենկայի պատվին։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլի կանոններում IFAB հապավումը վերաբերում է",
-    "answers": ["International Football Association Board", "International Fans and Ball Board", "Italian Football Arbitration Bureau", "Independent Football Awards Board"],
+    "answers": [
+      "International Football Association Board",
+      "International Fans and Ball Board",
+      "Italian Football Arbitration Bureau",
+      "Independent Football Awards Board"
+    ],
     "correctIndex": 0,
     "explanation": "IFAB-ը International Football Association Board-ն է՝ ֆուտբոլի խաղի կանոնների պահպանման մարմինը։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր մարզաձևում է խաղում «Ռեալ Մադրիդ» ակումբը",
-    "answers": ["ֆուտբոլ", "բասկետբոլ", "թենիս", "վոլեյբոլ"],
+    "answers": [
+      "ֆուտբոլ",
+      "բասկետբոլ",
+      "թենիս",
+      "վոլեյբոլ"
+    ],
     "correctIndex": 0,
     "explanation": "Ռեալ Մադրիդը աշխարհահռչակ ֆուտբոլային ակումբ է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր երկրի հավաքականն է կրում «Սելեսաո» մականունը",
-    "answers": ["Բրազիլիա", "Իտալիա", "Գերմանիա", "Իսպանիա"],
+    "answers": [
+      "Բրազիլիա",
+      "Իտալիա",
+      "Գերմանիա",
+      "Իսպանիա"
+    ],
     "correctIndex": 0,
     "explanation": "«Սելեսաո» մականունը կապված է Բրազիլիայի ֆուտբոլի հավաքականի հետ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր քաղաքում է գտնվում «Ուեմբլի» մարզադաշտը",
-    "answers": ["Լոնդոն", "Մադրիդ", "Միլան", "Մյունխեն"],
+    "answers": [
+      "Լոնդոն",
+      "Մադրիդ",
+      "Միլան",
+      "Մյունխեն"
+    ],
     "correctIndex": 0,
     "explanation": "Ուեմբլի մարզադաշտը գտնվում է Լոնդոնում։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր ակումբն է հայտնի «Կամպ Նոու» մարզադաշտով",
-    "answers": ["Բարսելոնա", "Յուվենտուս", "Բավարիա", "Պարի Սեն-Ժերմեն"],
+    "answers": [
+      "Բարսելոնա",
+      "Յուվենտուս",
+      "Բավարիա",
+      "Պարի Սեն-Ժերմեն"
+    ],
     "correctIndex": 0,
     "explanation": "Կամպ Նոուն Բարսելոնայի հայտնի տնային մարզադաշտն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր երկրի հավաքականն է հաղթել 2014 թվականի աշխարհի առաջնությունում",
-    "answers": ["Գերմանիա", "Արգենտինա", "Բրազիլիա", "Նիդերլանդներ"],
+    "answers": [
+      "Գերմանիա",
+      "Արգենտինա",
+      "Բրազիլիա",
+      "Նիդերլանդներ"
+    ],
     "correctIndex": 0,
     "explanation": "2014 թվականին աշխարհի չեմպիոն դարձավ Գերմանիան։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր երկրի հավաքականն է հաղթել 2018 թվականի աշխարհի առաջնությունում",
-    "answers": ["Ֆրանսիա", "Խորվաթիա", "Բելգիա", "Անգլիա"],
+    "answers": [
+      "Ֆրանսիա",
+      "Խորվաթիա",
+      "Բելգիա",
+      "Անգլիա"
+    ],
     "correctIndex": 0,
     "explanation": "2018 թվականի աշխարհի առաջնությունում հաղթեց Ֆրանսիան։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր երկրի հավաքականն է հաղթել 2022 թվականի աշխարհի առաջնությունում",
-    "answers": ["Արգենտինա", "Ֆրանսիա", "Մարոկկո", "Խորվաթիա"],
+    "answers": [
+      "Արգենտինա",
+      "Ֆրանսիա",
+      "Մարոկկո",
+      "Խորվաթիա"
+    ],
     "correctIndex": 0,
     "explanation": "2022 թվականի աշխարհի առաջնությունում չեմպիոն դարձավ Արգենտինան։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր ֆուտբոլիստն է հայտնի «CR7» մականունով",
-    "answers": ["Կրիշտիանու Ռոնալդու", "Լիոնել Մեսսի", "Կիլիան Մբապե", "Նեյմար"],
+    "answers": [
+      "Կրիշտիանու Ռոնալդու",
+      "Լիոնել Մեսսի",
+      "Կիլիան Մբապե",
+      "Նեյմար"
+    ],
     "correctIndex": 0,
     "explanation": "CR7-ը Կրիշտիանու Ռոնալդուի հայտնի մականունն է։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր ակումբի հետ է ամենից հաճախ կապվում «The Reds» մականունը Անգլիայում",
-    "answers": ["Լիվերպուլ", "Չելսի", "Տոտենհեմ", "Էվերթոն"],
+    "answers": [
+      "Լիվերպուլ",
+      "Չելսի",
+      "Տոտենհեմ",
+      "Էվերթոն"
+    ],
     "correctIndex": 0,
     "explanation": "Անգլիական ֆուտբոլում «The Reds» մականունը հատկապես կապվում է Լիվերպուլի հետ։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր հավաքականն է հաղթել Եվրո-2016-ում",
-    "answers": ["Պորտուգալիա", "Ֆրանսիա", "Գերմանիա", "Ուելս"],
+    "answers": [
+      "Պորտուգալիա",
+      "Ֆրանսիա",
+      "Գերմանիա",
+      "Ուելս"
+    ],
     "correctIndex": 0,
     "explanation": "Եվրո-2016-ում չեմպիոն դարձավ Պորտուգալիան։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր հավաքականն է հաղթել Եվրո-2020-ում",
-    "answers": ["Իտալիա", "Անգլիա", "Իսպանիա", "Դանիա"],
+    "answers": [
+      "Իտալիա",
+      "Անգլիա",
+      "Իսպանիա",
+      "Դանիա"
+    ],
     "correctIndex": 0,
     "explanation": "Եվրո-2020-ի եզրափակիչում Իտալիան հաղթեց Անգլիային։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր ակումբն է հայտնի «Սան Սիրո» մարզադաշտով",
-    "answers": ["Միլան", "Ռոմա", "Նապոլի", "Լացիո"],
+    "answers": [
+      "Միլան",
+      "Ռոմա",
+      "Նապոլի",
+      "Լացիո"
+    ],
     "correctIndex": 0,
     "explanation": "Սան Սիրոն Միլանի քաղաքի հայտնի մարզադաշտն է, որտեղ խաղում են Միլանը և Ինտերը։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր երկիրն է հյուրընկալել 1994 թվականի ֆուտբոլի աշխարհի առաջնությունը",
-    "answers": ["ԱՄՆ", "Ֆրանսիա", "Իտալիա", "Մեքսիկա"],
+    "answers": [
+      "ԱՄՆ",
+      "Ֆրանսիա",
+      "Իտալիա",
+      "Մեքսիկա"
+    ],
     "correctIndex": 0,
     "explanation": "1994 թվականի ֆուտբոլի աշխարհի առաջնությունը անցկացվել է ԱՄՆ-ում։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր ֆուտբոլիստն է ստացել «Ոսկե գնդակը» 1994 թվականին",
-    "answers": ["Հրիստո Ստոիչկով", "Ռոմարիո", "Ռոբերտո Բաջո", "Պաոլո Մալդինի"],
+    "answers": [
+      "Հրիստո Ստոիչկով",
+      "Ռոմարիո",
+      "Ռոբերտո Բաջո",
+      "Պաոլո Մալդինի"
+    ],
     "correctIndex": 0,
     "explanation": "1994 թվականի «Ոսկե գնդակը» ստացել է բուլղարացի Հրիստո Ստոիչկովը։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր թիմը հաղթեց 1999 թվականի Չեմպիոնների լիգայի եզրափակիչում ուշ երկու գոլերով",
-    "answers": ["Մանչեսթեր Յունայթեդ", "Բավարիա", "Յուվենտուս", "Բարսելոնա"],
+    "answers": [
+      "Մանչեսթեր Յունայթեդ",
+      "Բավարիա",
+      "Յուվենտուս",
+      "Բարսելոնա"
+    ],
     "correctIndex": 0,
     "explanation": "1999 թվականի եզրափակիչում Մանչեսթեր Յունայթեդը վերջնամասում երկու գոլ խփեց և հաղթեց Բավարիային։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմաշարում է գլխավոր հերոսը Հարրի Փոթերը",
-    "answers": ["Հարրի Փոթեր", "Աստղային պատերազմներ", "Տիտանիկ", "Ավատար"],
+    "answers": [
+      "Հարրի Փոթեր",
+      "Աստղային պատերազմներ",
+      "Տիտանիկ",
+      "Ավատար"
+    ],
     "correctIndex": 0,
     "explanation": "Հարրի Փոթերը նույնանուն ֆանտաստիկ ֆիլմաշարի գլխավոր հերոսն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմում է հայտնի Ջեք և Ռոուզ սիրային պատմությունը",
-    "answers": ["Տիտանիկ", "Մատրիցա", "Գլադիատոր", "Ջոկեր"],
+    "answers": [
+      "Տիտանիկ",
+      "Մատրիցա",
+      "Գլադիատոր",
+      "Ջոկեր"
+    ],
     "correctIndex": 0,
     "explanation": "Ջեքի և Ռոուզի պատմությունը «Տիտանիկ» ֆիլմից է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմաշարում են հայտնվում ջեդայները",
-    "answers": ["Աստղային պատերազմներ", "Կարիբյան ծովի ծովահենները", "Ռոքի", "Ֆորսաժ"],
+    "answers": [
+      "Աստղային պատերազմներ",
+      "Կարիբյան ծովի ծովահենները",
+      "Ռոքի",
+      "Ֆորսաժ"
+    ],
     "correctIndex": 0,
     "explanation": "Ջեդայները «Աստղային պատերազմներ» տիեզերքի կերպարներ են։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Կինո",
     "prompt": "Ո՞վ է ռեժիսորել «Տիտանիկ» ֆիլմը",
-    "answers": ["Ջեյմս Քեմերոն", "Սթիվեն Սփիլբերգ", "Քրիստոֆեր Նոլան", "Մարտին Սկորսեզե"],
+    "answers": [
+      "Ջեյմս Քեմերոն",
+      "Սթիվեն Սփիլբերգ",
+      "Քրիստոֆեր Նոլան",
+      "Մարտին Սկորսեզե"
+    ],
     "correctIndex": 0,
     "explanation": "«Տիտանիկը» ռեժիսորել է Ջեյմս Քեմերոնը։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Կինո",
     "prompt": "Ո՞ր դերասանն է մարմնավորել Ջեք Սփարոուին",
-    "answers": ["Ջոնի Դեփ", "Թոմ Քրուզ", "Բրեդ Փիթ", "Ուիլ Սմիթ"],
+    "answers": [
+      "Ջոնի Դեփ",
+      "Թոմ Քրուզ",
+      "Բրեդ Փիթ",
+      "Ուիլ Սմիթ"
+    ],
     "correctIndex": 0,
     "explanation": "Ջեք Սփարոուի դերը «Կարիբյան ծովի ծովահենները» ֆիլմաշարում խաղացել է Ջոնի Դեփը։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմում է հնչում «I'll be back» հայտնի արտահայտությունը",
-    "answers": ["Տերմինատոր", "Մատրիցա", "Ռեմբո", "Կնքահայրը"],
+    "answers": [
+      "Տերմինատոր",
+      "Մատրիցա",
+      "Ռեմբո",
+      "Կնքահայրը"
+    ],
     "correctIndex": 0,
     "explanation": "«I'll be back» արտահայտությունը հայտնի է «Տերմինատոր» ֆիլմից։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞ր անիմացիոն ստուդիան է ստեղծել «Toy Story»-ն",
-    "answers": ["Pixar", "DreamWorks", "Studio Ghibli", "Illumination"],
+    "answers": [
+      "Pixar",
+      "DreamWorks",
+      "Studio Ghibli",
+      "Illumination"
+    ],
     "correctIndex": 0,
     "explanation": "«Toy Story»-ն Pixar ստուդիայի առաջին լիամետրաժ անիմացիոն ֆիլմն էր։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմը 1994 թվականին ստացել է «Օսկար» լավագույն ֆիլմի համար",
-    "answers": ["Ֆորեսթ Գամփ", "Փալփ Ֆիքշն", "Փախուստ Շոուշենկից", "Առյուծ արքան"],
+    "answers": [
+      "Ֆորեսթ Գամփ",
+      "Փալփ Ֆիքշն",
+      "Փախուստ Շոուշենկից",
+      "Առյուծ արքան"
+    ],
     "correctIndex": 0,
     "explanation": "Լավագույն ֆիլմի «Օսկարը» 1994 թվականի ֆիլմերից ստացել է «Ֆորեսթ Գամփը»։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմում է Կիանու Ռիվզի հերոսը Նեոն",
-    "answers": ["Մատրիցա", "Ջոն Ուիք", "Սփիդ", "Կոնստանտին"],
+    "answers": [
+      "Մատրիցա",
+      "Ջոն Ուիք",
+      "Սփիդ",
+      "Կոնստանտին"
+    ],
     "correctIndex": 0,
     "explanation": "Նեոն «Մատրիցա» ֆիլմաշարի գլխավոր հերոսն է։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞ր ռեժիսորն է նկարահանել «Շինդլերի ցուցակը»",
-    "answers": ["Սթիվեն Սփիլբերգ", "Ռիդլի Սքոթ", "Քվենտին Տարանտինո", "Ջորջ Լուկաս"],
+    "answers": [
+      "Սթիվեն Սփիլբերգ",
+      "Ռիդլի Սքոթ",
+      "Քվենտին Տարանտինո",
+      "Ջորջ Լուկաս"
+    ],
     "correctIndex": 0,
     "explanation": "«Շինդլերի ցուցակը» ռեժիսորել է Սթիվեն Սփիլբերգը։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմն է առաջինը հաղթել «Օսկարի» հինգ գլխավոր անվանակարգերում",
-    "answers": ["Պատահեց մի գիշեր", "Կնքահայրը", "Ամադեուս", "Քաջասիրտը"],
+    "answers": [
+      "Պատահեց մի գիշեր",
+      "Կնքահայրը",
+      "Ամադեուս",
+      "Քաջասիրտը"
+    ],
     "correctIndex": 0,
     "explanation": "«Պատահեց մի գիշեր» ֆիլմը առաջինն էր, որ շահեց հինգ գլխավոր «Օսկարները»։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Կինո",
     "prompt": "Ո՞ր ճապոնացի ռեժիսորն է նկարահանել «Յոթ սամուրայները»",
-    "answers": ["Ակիրա Կուրոսավա", "Հայաո Միաձակի", "Յասուջիրո Օձու", "Տակեշի Կիտանո"],
+    "answers": [
+      "Ակիրա Կուրոսավա",
+      "Հայաո Միաձակի",
+      "Յասուջիրո Օձու",
+      "Տակեշի Կիտանո"
+    ],
     "correctIndex": 0,
     "explanation": "«Յոթ սամուրայները» Ակիրա Կուրոսավայի դասական ֆիլմերից է։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմն է համարվում առաջին լիամետրաժ ձայնային ֆիլմերից մեկը",
-    "answers": ["Ջազի երգիչը", "Քաղաքի լույսերը", "Մետրոպոլիս", "Նոսֆերատու"],
+    "answers": [
+      "Ջազի երգիչը",
+      "Քաղաքի լույսերը",
+      "Մետրոպոլիս",
+      "Նոսֆերատու"
+    ],
     "correctIndex": 0,
     "explanation": "1927 թվականի «Ջազի երգիչը» հաճախ նշվում է որպես առաջին մեծ հաջողություն ունեցած լիամետրաժ ձայնային ֆիլմ։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմն է առաջինը շահել «Օսկար» լավագույն անիմացիոն լիամետրաժ ֆիլմի համար",
-    "answers": ["Շրեկ", "Toy Story", "Մուլան", "Հրեշների կորպորացիա"],
+    "answers": [
+      "Շրեկ",
+      "Toy Story",
+      "Մուլան",
+      "Հրեշների կորպորացիա"
+    ],
     "correctIndex": 0,
     "explanation": "Լավագույն անիմացիոն լիամետրաժ ֆիլմի առաջին «Օսկարը» 2002 թվականին ստացավ «Շրեկը»։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմն է 2020 թվականին դարձել առաջին ոչ անգլերեն լավագույն ֆիլմի «Օսկար» հաղթողը",
-    "answers": ["Պարազիտ", "Ռոմա", "Ամուր", "Կռացած վագր, թաքնված վիշապ"],
+    "answers": [
+      "Պարազիտ",
+      "Ռոմա",
+      "Ամուր",
+      "Կռացած վագր, թաքնված վիշապ"
+    ],
     "correctIndex": 0,
     "explanation": "«Պարազիտը» 2020 թվականին դարձավ առաջին ոչ անգլերեն ֆիլմը, որը շահեց լավագույն ֆիլմի «Օսկարը»։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքում է գլխավոր հերոսը Փոքրիկ իշխանը",
-    "answers": ["Փոքրիկ իշխանը", "Ռոբինզոն Կրուզո", "Մոբի Դիք", "Հոբիթը"],
+    "answers": [
+      "Փոքրիկ իշխանը",
+      "Ռոբինզոն Կրուզո",
+      "Մոբի Դիք",
+      "Հոբիթը"
+    ],
     "correctIndex": 0,
     "explanation": "Փոքրիկ իշխանը Անտուան դը Սենտ-Էքզյուպերիի նույնանուն ստեղծագործության հերոսն է։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Հարրի Փոթեր» գրքերի շարքը",
-    "answers": ["Ջ. Ք. Ռոուլինգ", "Ջոն Թոլքին", "Լյուիս Քերոլ", "Ռոալդ Դալ"],
+    "answers": [
+      "Ջ. Ք. Ռոուլինգ",
+      "Ջոն Թոլքին",
+      "Լյուիս Քերոլ",
+      "Ռոալդ Դալ"
+    ],
     "correctIndex": 0,
     "explanation": "«Հարրի Փոթեր» գրքերի շարքի հեղինակը Ջ. Ք. Ռոուլինգն է։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքում է Ալիսը ընկնում հրաշքների աշխարհ",
-    "answers": ["Ալիսը հրաշքների աշխարհում", "Փիթեր Փեն", "Հոբիթը", "Գանձերի կղզին"],
+    "answers": [
+      "Ալիսը հրաշքների աշխարհում",
+      "Փիթեր Փեն",
+      "Հոբիթը",
+      "Գանձերի կղզին"
+    ],
     "correctIndex": 0,
     "explanation": "Ալիսը հրաշքների աշխարհ է ընկնում Լյուիս Քերոլի հայտնի գրքում։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Հոբիթը»",
-    "answers": ["Ջ. Ռ. Ռ. Թոլքին", "Ջորջ Օրուել", "Մարկ Տվեն", "Չարլզ Դիքենս"],
+    "answers": [
+      "Ջ. Ռ. Ռ. Թոլքին",
+      "Ջորջ Օրուել",
+      "Մարկ Տվեն",
+      "Չարլզ Դիքենս"
+    ],
     "correctIndex": 0,
     "explanation": "«Հոբիթը» գրել է Ջ. Ռ. Ռ. Թոլքինը։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքում է հանդիպում Շերլոկ Հոլմսը",
-    "answers": ["Արթուր Քոնան Դոյլի պատմվածքներում", "Դոն Կիխոտում", "Անասնաֆերմայում", "Մարտին Իդենում"],
+    "answers": [
+      "Արթուր Քոնան Դոյլի պատմվածքներում",
+      "Դոն Կիխոտում",
+      "Անասնաֆերմայում",
+      "Մարտին Իդենում"
+    ],
     "correctIndex": 0,
     "explanation": "Շերլոկ Հոլմսը Արթուր Քոնան Դոյլի ստեղծած դետեկտիվ հերոսն է։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «1984» վեպը",
-    "answers": ["Ջորջ Օրուել", "Օլդոս Հաքսլի", "Ռեյ Բրեդբերի", "Իսահակ Ազիմով"],
+    "answers": [
+      "Ջորջ Օրուել",
+      "Օլդոս Հաքսլի",
+      "Ռեյ Բրեդբերի",
+      "Իսահակ Ազիմով"
+    ],
     "correctIndex": 0,
     "explanation": "«1984» հակաուտոպիական վեպը գրել է Ջորջ Օրուելը։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Դոն Կիխոտը»",
-    "answers": ["Միգել դե Սերվանտես", "Դանթե Ալիգիերի", "Վիկտոր Հյուգո", "Գյուստավ Ֆլոբեր"],
+    "answers": [
+      "Միգել դե Սերվանտես",
+      "Դանթե Ալիգիերի",
+      "Վիկտոր Հյուգո",
+      "Գյուստավ Ֆլոբեր"
+    ],
     "correctIndex": 0,
     "explanation": "«Դոն Կիխոտը» իսպանացի գրող Միգել դե Սերվանտեսի ստեղծագործությունն է։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞ր ստեղծագործության հեղինակը Հոմերոսն է",
-    "answers": ["Ոդիսական", "Համլետ", "Ֆաուստ", "Պատերազմ և խաղաղություն"],
+    "answers": [
+      "Ոդիսական",
+      "Համլետ",
+      "Ֆաուստ",
+      "Պատերազմ և խաղաղություն"
+    ],
     "correctIndex": 0,
     "explanation": "«Ոդիսականը» վերագրվում է հին հունական էպոսների հեղինակ Հոմերոսին։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Համլետ» ողբերգությունը",
-    "answers": ["Ուիլյամ Շեքսպիր", "Լև Տոլստոյ", "Ֆրանց Կաֆկա", "Էռնեստ Հեմինգուեյ"],
+    "answers": [
+      "Ուիլյամ Շեքսպիր",
+      "Լև Տոլստոյ",
+      "Ֆրանց Կաֆկա",
+      "Էռնեստ Հեմինգուեյ"
+    ],
     "correctIndex": 0,
     "explanation": "«Համլետը» Ուիլյամ Շեքսպիրի ամենահայտնի ողբերգություններից է։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Պատերազմ և խաղաղություն» վեպը",
-    "answers": ["Լև Տոլստոյ", "Ֆյոդոր Դոստոևսկի", "Ալեքսանդր Պուշկին", "Նիկոլայ Գոգոլ"],
+    "answers": [
+      "Լև Տոլստոյ",
+      "Ֆյոդոր Դոստոևսկի",
+      "Ալեքսանդր Պուշկին",
+      "Նիկոլայ Գոգոլ"
+    ],
     "correctIndex": 0,
     "explanation": "«Պատերազմ և խաղաղություն» վեպը գրել է Լև Տոլստոյը։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքում է Գրեգոր Զամզան արթնանում փոխակերպված",
-    "answers": ["Կերպարանափոխություն", "Դատավարություն", "Օտարը", "Ժանտախտը"],
+    "answers": [
+      "Կերպարանափոխություն",
+      "Դատավարություն",
+      "Օտարը",
+      "Ժանտախտը"
+    ],
     "correctIndex": 0,
     "explanation": "Գրեգոր Զամզան Ֆրանց Կաֆկայի «Կերպարանափոխություն» ստեղծագործության հերոսն է։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Գրքեր",
     "prompt": "Ո՞ր վեպի հեղինակն է Գաբրիել Գարսիա Մարկեսը",
-    "answers": ["Հարյուր տարվա մենություն", "Մեծն Գեթսբի", "Օտարը", "Աննա Կարենինա"],
+    "answers": [
+      "Հարյուր տարվա մենություն",
+      "Մեծն Գեթսբի",
+      "Օտարը",
+      "Աննա Կարենինա"
+    ],
     "correctIndex": 0,
     "explanation": "«Հարյուր տարվա մենություն» վեպը Գաբրիել Գարսիա Մարկեսի ամենահայտնի ստեղծագործություններից է։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Գրքեր",
     "prompt": "Ո՞ր ստեղծագործության հերոսուհին է Աննա Կարենինան",
-    "answers": ["Աննա Կարենինա", "Մադամ Բովարի", "Ջեյն Էյր", "Հպարտություն և նախապաշարմունք"],
+    "answers": [
+      "Աննա Կարենինա",
+      "Մադամ Բովարի",
+      "Ջեյն Էյր",
+      "Հպարտություն և նախապաշարմունք"
+    ],
     "correctIndex": 0,
     "explanation": "Աննա Կարենինան Լև Տոլստոյի նույնանուն վեպի գլխավոր հերոսուհին է։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Հպարտություն և նախապաշարմունք» վեպը",
-    "answers": ["Ջեյն Օսթին", "Շառլոտ Բրոնտե", "Էմիլի Բրոնտե", "Մերի Շելլի"],
+    "answers": [
+      "Ջեյն Օսթին",
+      "Շառլոտ Բրոնտե",
+      "Էմիլի Բրոնտե",
+      "Մերի Շելլի"
+    ],
     "correctIndex": 0,
     "explanation": "«Հպարտություն և նախապաշարմունք» վեպը գրել է Ջեյն Օսթինը։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքի հեղինակը Մերի Շելլին է",
-    "answers": ["Ֆրանկենշտայն", "Դրակուլա", "Ջեյն Էյր", "Մեծ ակնկալիքներ"],
+    "answers": [
+      "Ֆրանկենշտայն",
+      "Դրակուլա",
+      "Ջեյն Էյր",
+      "Մեծ ակնկալիքներ"
+    ],
     "correctIndex": 0,
     "explanation": "«Ֆրանկենշտայնը» Մերի Շելլիի հայտնի գոթական վեպն է։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Գիտելիքն ...»",
-    "answers": ["ուժ է", "լռություն է", "քամի է", "խաղ է"],
+    "answers": [
+      "ուժ է",
+      "լռություն է",
+      "քամի է",
+      "խաղ է"
+    ],
     "correctIndex": 0,
     "explanation": "Ճիշտ շարունակությունն է՝ «Գիտելիքն ուժ է»։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Ես գիտեմ, որ ...»",
-    "answers": ["ոչինչ չգիտեմ", "ամեն ինչ հեշտ է", "ժամանակը կանգնել է", "լռությունը խոսում է"],
+    "answers": [
+      "ոչինչ չգիտեմ",
+      "ամեն ինչ հեշտ է",
+      "ժամանակը կանգնել է",
+      "լռությունը խոսում է"
+    ],
     "correctIndex": 0,
     "explanation": "Հայտնի ձևակերպումն է՝ «Ես գիտեմ, որ ոչինչ չգիտեմ»։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր արտահայտությունը․ «Լինել թե ...»",
-    "answers": ["չլինել", "հաղթել", "սիրել", "սպասել"],
+    "answers": [
+      "չլինել",
+      "հաղթել",
+      "սիրել",
+      "սպասել"
+    ],
     "correctIndex": 0,
     "explanation": "Շեքսպիրի հայտնի արտահայտությունն է՝ «Լինել թե չլինել»։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Մտածում եմ, ուրեմն ...»",
-    "answers": ["գոյություն ունեմ", "քնում եմ", "լռում եմ", "հեռանում եմ"],
+    "answers": [
+      "գոյություն ունեմ",
+      "քնում եմ",
+      "լռում եմ",
+      "հեռանում եմ"
+    ],
     "correctIndex": 0,
     "explanation": "Դեկարտի հայտնի միտքն է՝ «Մտածում եմ, ուրեմն գոյություն ունեմ»։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր արտահայտությունը․ «Ժամանակը ...»",
-    "answers": ["փող է", "քար է", "ձյուն է", "գետն է"],
+    "answers": [
+      "փող է",
+      "քար է",
+      "ձյուն է",
+      "գետն է"
+    ],
     "correctIndex": 0,
     "explanation": "Հայտնի արտահայտությունն է՝ «Ժամանակը փող է»։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Մարդը քաղաքական ...»",
-    "answers": ["կենդանի է", "գիրք է", "քամի է", "ծառ է"],
+    "answers": [
+      "կենդանի է",
+      "գիրք է",
+      "քամի է",
+      "ծառ է"
+    ],
     "correctIndex": 0,
     "explanation": "Արիստոտելի հետ կապվող հայտնի ձևակերպումն է՝ «Մարդը քաղաքական կենդանի է»։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Կարճությունը տաղանդի ...»",
-    "answers": ["քույրն է", "թշնամին է", "գաղտնիքն է", "ստվերն է"],
+    "answers": [
+      "քույրն է",
+      "թշնամին է",
+      "գաղտնիքն է",
+      "ստվերն է"
+    ],
     "correctIndex": 0,
     "explanation": "Հայտնի արտահայտությունն է՝ «Կարճությունը տաղանդի քույրն է»։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր խոսքը․ «Եկա, տեսա, ...»",
-    "answers": ["հաղթեցի", "մոռացա", "լռեցի", "կարդացի"],
+    "answers": [
+      "հաղթեցի",
+      "մոռացա",
+      "լռեցի",
+      "կարդացի"
+    ],
     "correctIndex": 0,
     "explanation": "Հուլիոս Կեսարին վերագրվող խոսքն է՝ «Եկա, տեսա, հաղթեցի»։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Մարդը ծնվում է ազատ, բայց ...»",
-    "answers": ["ամենուր շղթաների մեջ է", "միշտ ծիծաղում է", "ոչինչ չի հիշում", "ապրում է անտառում"],
+    "answers": [
+      "ամենուր շղթաների մեջ է",
+      "միշտ ծիծաղում է",
+      "ոչինչ չի հիշում",
+      "ապրում է անտառում"
+    ],
     "correctIndex": 0,
     "explanation": "Ռուսոյի հայտնի միտքն է՝ «Մարդը ծնվում է ազատ, բայց ամենուր շղթաների մեջ է»։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Այն, ինչ չի սպանում ինձ, ...»",
-    "answers": ["ինձ ավելի ուժեղ է դարձնում", "ինձ քուն է բերում", "ինձ տուն է տանում", "ինձ անտեսանելի է դարձնում"],
+    "answers": [
+      "ինձ ավելի ուժեղ է դարձնում",
+      "ինձ քուն է բերում",
+      "ինձ տուն է տանում",
+      "ինձ անտեսանելի է դարձնում"
+    ],
     "correctIndex": 0,
     "explanation": "Նիցշեի հետ կապվող հայտնի միտքն է՝ «Այն, ինչ չի սպանում ինձ, ինձ ավելի ուժեղ է դարձնում»։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր ասույթը․ «Ճանաչիր ...»",
-    "answers": ["ինքդ քեզ", "մեծ քաղաքը", "բոլոր գետերը", "ծովի ձայնը"],
+    "answers": [
+      "ինքդ քեզ",
+      "մեծ քաղաքը",
+      "բոլոր գետերը",
+      "ծովի ձայնը"
+    ],
     "correctIndex": 0,
     "explanation": "Հին հունական հայտնի ասույթն է՝ «Ճանաչիր ինքդ քեզ»։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր արտահայտությունը․ «Ոճը հենց ...»",
-    "answers": ["մարդն է", "լռությունն է", "սկիզբն է", "քաղաքն է"],
+    "answers": [
+      "մարդն է",
+      "լռությունն է",
+      "սկիզբն է",
+      "քաղաքն է"
+    ],
     "correctIndex": 0,
     "explanation": "Հայտնի արտահայտությունն է՝ «Ոճը հենց մարդն է»։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր ասույթը․ «Կյանքը կարճ է, արվեստը՝ ...»",
-    "answers": ["երկար", "լուռ", "ծանր", "պատահական"],
+    "answers": [
+      "երկար",
+      "լուռ",
+      "ծանր",
+      "պատահական"
+    ],
     "correctIndex": 0,
     "explanation": "Հին ասույթն է՝ «Կյանքը կարճ է, արվեստը՝ երկար»։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր ձևակերպումը․ «Գոյությունը նախորդում է ...»",
-    "answers": ["էությանը", "լռությանը", "հիշողությանը", "արագությանը"],
+    "answers": [
+      "էությանը",
+      "լռությանը",
+      "հիշողությանը",
+      "արագությանը"
+    ],
     "correctIndex": 0,
     "explanation": "Էքզիստենցիալիզմի հայտնի ձևակերպումն է՝ «Գոյությունը նախորդում է էությանը»։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր արտահայտությունը․ «Աստված ...»",
-    "answers": ["մեռած է", "լռում է", "քաղաքում է", "հեռու է"],
+    "answers": [
+      "մեռած է",
+      "լռում է",
+      "քաղաքում է",
+      "հեռու է"
+    ],
     "correctIndex": 0,
     "explanation": "Նիցշեի փիլիսոփայությունից հայտնի արտահայտությունն է՝ «Աստված մեռած է»։"
   },
   {
-    "level": 1,
+    "level": "easy",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ հետ է հաճախ կապվում «Գիտելիքն ուժ է» արտահայտությունը",
-    "answers": ["Ֆրենսիս Բեկոն", "Նյուտոն", "Դարվին", "Շեքսպիր"],
+    "answers": [
+      "Ֆրենսիս Բեկոն",
+      "Նյուտոն",
+      "Դարվին",
+      "Շեքսպիր"
+    ],
     "correctIndex": 0,
     "explanation": "«Գիտելիքն ուժ է» հայտնի միտքը հաճախ կապվում է Ֆրենսիս Բեկոնի հետ։"
   },
   {
-    "level": 2,
+    "level": "easy",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ր փիլիսոփայի հետ է կապվում «Ես գիտեմ, որ ոչինչ չգիտեմ» միտքը",
-    "answers": ["Սոկրատես", "Պլատոն", "Արիստոտել", "Էպիկուր"],
+    "answers": [
+      "Սոկրատես",
+      "Պլատոն",
+      "Արիստոտել",
+      "Էպիկուր"
+    ],
     "correctIndex": 0,
     "explanation": "Այս հայտնի միտքը ավանդաբար կապվում է Սոկրատեսի հետ։"
   },
   {
-    "level": 3,
+    "level": "easy",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "«Լինել թե չլինել» հայտնի արտահայտությունը որ ստեղծագործությունից է",
-    "answers": ["Համլետ", "Մակբեթ", "Օթելլո", "Ռոմեո և Ջուլիետ"],
+    "answers": [
+      "Համլետ",
+      "Մակբեթ",
+      "Օթելլո",
+      "Ռոմեո և Ջուլիետ"
+    ],
     "correctIndex": 0,
     "explanation": "«Լինել թե չլինել» արտահայտությունը Շեքսպիրի «Համլետ» ողբերգությունից է։"
   },
   {
-    "level": 4,
+    "level": "easy",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ է պատկանում «Մտածում եմ, ուրեմն գոյություն ունեմ» միտքը",
-    "answers": ["Ռենե Դեկարտ", "Իմանուել Կանտ", "Ֆրիդրիխ Նիցշե", "Բենեդիկտ Սպինոզա"],
+    "answers": [
+      "Ռենե Դեկարտ",
+      "Իմանուել Կանտ",
+      "Ֆրիդրիխ Նիցշե",
+      "Բենեդիկտ Սպինոզա"
+    ],
     "correctIndex": 0,
     "explanation": "«Մտածում եմ, ուրեմն գոյություն ունեմ» միտքը Ռենե Դեկարտի փիլիսոփայության հայտնի ձևակերպումն է։"
   },
   {
-    "level": 5,
+    "level": "easy",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ հետ է հաճախ կապվում «Ժամանակը փող է» արտահայտությունը",
-    "answers": ["Բենջամին Ֆրանկլին", "Աբրահամ Լինքոլն", "Ջորջ Վաշինգտոն", "Թոմաս Էդիսոն"],
+    "answers": [
+      "Բենջամին Ֆրանկլին",
+      "Աբրահամ Լինքոլն",
+      "Ջորջ Վաշինգտոն",
+      "Թոմաս Էդիսոն"
+    ],
     "correctIndex": 0,
     "explanation": "«Ժամանակը փող է» հայտնի արտահայտությունը հաճախ կապվում է Բենջամին Ֆրանկլինի հետ։"
   },
   {
-    "level": 6,
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ր մտածողն է մարդուն բնորոշել որպես «քաղաքական կենդանի»",
-    "answers": ["Արիստոտել", "Սոկրատես", "Դեմոկրիտ", "Սենեկա"],
+    "answers": [
+      "Արիստոտել",
+      "Սոկրատես",
+      "Դեմոկրիտ",
+      "Սենեկա"
+    ],
     "correctIndex": 0,
     "explanation": "Մարդու՝ «քաղաքական կենդանի» լինելու գաղափարը կապվում է Արիստոտելի հետ։"
   },
   {
-    "level": 7,
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ է վերագրվում «Կարճությունը տաղանդի քույրն է» արտահայտությունը",
-    "answers": ["Անտոն Չեխով", "Լև Տոլստոյ", "Ֆյոդոր Դոստոևսկի", "Նիկոլայ Գոգոլ"],
+    "answers": [
+      "Անտոն Չեխով",
+      "Լև Տոլստոյ",
+      "Ֆյոդոր Դոստոևսկի",
+      "Նիկոլայ Գոգոլ"
+    ],
     "correctIndex": 0,
     "explanation": "Այս հայտնի միտքը վերագրվում է ռուս գրող Անտոն Չեխովին։"
   },
   {
-    "level": 8,
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞վ է ասել «Եկա, տեսա, հաղթեցի» հայտնի խոսքը",
-    "answers": ["Հուլիոս Կեսար", "Ալեքսանդր Մակեդոնացի", "Նապոլեոն", "Հաննիբալ"],
+    "answers": [
+      "Հուլիոս Կեսար",
+      "Ալեքսանդր Մակեդոնացի",
+      "Նապոլեոն",
+      "Հաննիբալ"
+    ],
     "correctIndex": 0,
     "explanation": "«Եկա, տեսա, հաղթեցի» խոսքը վերագրվում է Հուլիոս Կեսարին։"
   },
   {
-    "level": 9,
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞վ է գրել «Մարդը ծնվում է ազատ, բայց ամենուր շղթաների մեջ է» միտքը",
-    "answers": ["Ժան-Ժակ Ռուսո", "Վոլտեր", "Մոնտեսքյո", "Դենի Դիդրո"],
+    "answers": [
+      "Ժան-Ժակ Ռուսո",
+      "Վոլտեր",
+      "Մոնտեսքյո",
+      "Դենի Դիդրո"
+    ],
     "correctIndex": 0,
     "explanation": "Այս միտքը Ժան-Ժակ Ռուսոյի «Հասարակական դաշինք» աշխատությունից է։"
   },
   {
-    "level": 10,
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ր փիլիսոփայի հետ է կապվում «Այն, ինչ չի սպանում ինձ, ինձ ավելի ուժեղ է դարձնում» միտքը",
-    "answers": ["Ֆրիդրիխ Նիցշե", "Արթուր Շոպենհաուեր", "Սյորեն Կիերկեգոր", "Գեորգ Հեգել"],
+    "answers": [
+      "Ֆրիդրիխ Նիցշե",
+      "Արթուր Շոպենհաուեր",
+      "Սյորեն Կիերկեգոր",
+      "Գեորգ Հեգել"
+    ],
     "correctIndex": 0,
     "explanation": "Այս հայտնի միտքը կապվում է Ֆրիդրիխ Նիցշեի հետ։"
   },
   {
-    "level": 11,
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "«Ճանաչիր ինքդ քեզ» արտահայտությունը կապված է",
-    "answers": ["Դելֆյան տաճարի արձանագրության հետ", "Ռոմեական սենատի հետ", "Մեծ Չինական պատի հետ", "Վիկինգների սագաների հետ"],
+    "answers": [
+      "Դելֆյան տաճարի արձանագրության հետ",
+      "Ռոմեական սենատի հետ",
+      "Մեծ Չինական պատի հետ",
+      "Վիկինգների սագաների հետ"
+    ],
     "correctIndex": 0,
     "explanation": "«Ճանաչիր ինքդ քեզ» հին հունական հայտնի ասույթը կապված է Դելֆյան տաճարի հետ։"
   },
   {
-    "level": 12,
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ է վերագրվում «Ոճը հենց մարդն է» արտահայտությունը",
-    "answers": ["Ժորժ-Լուի Լըկլերկ դը Բյուֆոն", "Վիկտոր Հյուգո", "Գյուստավ Ֆլոբեր", "Օնորե դը Բալզակ"],
+    "answers": [
+      "Ժորժ-Լուի Լըկլերկ դը Բյուֆոն",
+      "Վիկտոր Հյուգո",
+      "Գյուստավ Ֆլոբեր",
+      "Օնորե դը Բալզակ"
+    ],
     "correctIndex": 0,
     "explanation": "«Ոճը հենց մարդն է» արտահայտությունը վերագրվում է Բյուֆոնին։"
   },
   {
-    "level": 13,
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ հետ է կապվում «Կյանքը կարճ է, արվեստը՝ երկար» ասույթը",
-    "answers": ["Հիպոկրատ", "Հերոդոտոս", "Պյութագորաս", "Էվկլիդես"],
+    "answers": [
+      "Հիպոկրատ",
+      "Հերոդոտոս",
+      "Պյութագորաս",
+      "Էվկլիդես"
+    ],
     "correctIndex": 0,
     "explanation": "Այս հին ասույթը ավանդաբար կապվում է Հիպոկրատի անվան հետ։"
   },
   {
-    "level": 14,
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "«Գոյությունը նախորդում է էությանը» ձևակերպումը կապվում է",
-    "answers": ["Ժան-Պոլ Սարտր", "Ալբեր Կամյու", "Մարտին Հայդեգեր", "Կարլ Յասպերս"],
+    "answers": [
+      "Ժան-Պոլ Սարտր",
+      "Ալբեր Կամյու",
+      "Մարտին Հայդեգեր",
+      "Կարլ Յասպերս"
+    ],
     "correctIndex": 0,
     "explanation": "Այս ձևակերպումը հաճախ կապվում է Ժան-Պոլ Սարտրի էքզիստենցիալիզմի հետ։"
   },
   {
-    "level": 15,
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ր փիլիսոփայի հետ է կապվում «Աստված մեռած է» արտահայտությունը",
-    "answers": ["Ֆրիդրիխ Նիցշե", "Ռենե Դեկարտ", "Բերտրան Ռասել", "Լյուդվիգ Վիտգենշտայն"],
+    "answers": [
+      "Ֆրիդրիխ Նիցշե",
+      "Ռենե Դեկարտ",
+      "Բերտրան Ռասել",
+      "Լյուդվիգ Վիտգենշտայն"
+    ],
     "correctIndex": 0,
     "explanation": "«Աստված մեռած է» արտահայտությունը հայտնի է Ֆրիդրիխ Նիցշեի փիլիսոփայությունից։"
   }

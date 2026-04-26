@@ -4,6 +4,7 @@ const PRIZES = [
 ];
 
 const SAFE_LEVELS = new Set([4, 9]);
+const DIFFICULTIES = ["easy", "average", "hard"];
 const ANSWER_LABELS = ["Ա", "Բ", "Գ", "Դ"];
 const STORAGE_KEY = "million-road-progress-v1";
 const SETTINGS_KEY = "million-road-settings-v1";
@@ -240,11 +241,13 @@ function questionPool() {
 
 function alternativeQuestionForCurrentLevel() {
   const current = currentQuestion();
+  if (!current) return null;
   const usedIds = new Set(state.questions.map(questionId));
+  const difficulty = DIFFICULTIES[Math.floor(state.questionIndex / 5)];
 
   return shuffle(questionPool()).find(
     (question) =>
-      question.level === current?.level &&
+      question.level === difficulty &&
       questionId(question) !== questionId(current) &&
       !usedIds.has(questionId(question)),
   );
@@ -262,8 +265,8 @@ function buildQuestionSet() {
   let previousCategory = null;
 
   for (let index = 0; index < PRIZES.length; index += 1) {
-    const level = index + 1;
-    const options = grouped.get(level) || [];
+    const difficulty = DIFFICULTIES[Math.floor(index / 5)];
+    const options = grouped.get(difficulty) || [];
 
     if (!options.length) {
       const fallback = pool[index % pool.length];
@@ -276,13 +279,8 @@ function buildQuestionSet() {
     const category = (question) => (typeof question?.category === "string" ? question.category : "");
     const differsFromPrevious = (question) => !previousCategory || category(question) !== previousCategory;
 
-    // Prefer: unseen + different category from previous question.
     let chosen = options.find((question) => isUnseen(question) && differsFromPrevious(question));
-
-    // Fallback: unseen (even if same category).
     if (!chosen) chosen = options.find((question) => isUnseen(question));
-
-    // If all questions for this level were already asked on this device, clear only this level and retry.
     if (!chosen) {
       for (const question of options) {
         delete state.asked[questionId(question)];
@@ -298,6 +296,7 @@ function buildQuestionSet() {
     state.asked[questionId(question)] = Date.now();
   }
   saveAsked();
+
   return picked;
 }
 
@@ -653,9 +652,8 @@ function showWrongFeedback() {
   };
   elements.questionCard.classList.add("is-shaking");
   elements.feedbackTitle.textContent = "Սխալ պատասխան";
-  elements.feedbackText.textContent = `Ճիշտ պատասխանը՝ ${ANSWER_LABELS[question.correctIndex]}։ ${
-    question.explanation || ""
-  }`;
+  elements.feedbackText.textContent = `Ճիշտ պատասխանը՝ ${ANSWER_LABELS[question.correctIndex]}։ ${question.explanation || ""
+    }`;
   elements.nextQuestionButton.textContent = "Շարունակել";
   elements.feedbackCard.classList.remove("is-hidden");
 }
@@ -741,14 +739,12 @@ function useFriend() {
   let message = "Ընկերդ ասում է․ «Չգիտեմ, վստահ չեմ պատասխանի վրա»։";
 
   if (roll < 0.8 || !visibleWrongAnswers.length) {
-    message = `Ընկերդ ասում է․ «Ես կընտրեի ${ANSWER_LABELS[question.correctIndex]} տարբերակը՝ ${
-      question.answers[question.correctIndex]
-    }»։`;
+    message = `Ընկերդ ասում է․ «Ես կընտրեի ${ANSWER_LABELS[question.correctIndex]} տարբերակը՝ ${question.answers[question.correctIndex]
+      }»։`;
   } else if (roll < 0.9) {
     const suggestedIndex = visibleWrongAnswers[Math.floor(Math.random() * visibleWrongAnswers.length)];
-    message = `Ընկերդ ասում է․ «Ես կընտրեի ${ANSWER_LABELS[suggestedIndex]} տարբերակը՝ ${
-      question.answers[suggestedIndex]
-    }»։`;
+    message = `Ընկերդ ասում է․ «Ես կընտրեի ${ANSWER_LABELS[suggestedIndex]} տարբերակը՝ ${question.answers[suggestedIndex]
+      }»։`;
   }
 
   state.lifelines.friend = true;
