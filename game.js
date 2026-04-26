@@ -97,6 +97,7 @@ const state = {
   nextQuestionTimer: null,
   trackedQuestionId: null,
   startedAt: 0,
+  questionStartedAt: 0,
   run: {
     correct: 0,
     streak: 0,
@@ -486,6 +487,7 @@ function renderGame() {
       question_category: question.category || "Ընդհանուր գիտելիքներ",
       prize_amount: prize,
     });
+    state.questionStartedAt = Date.now();
   }
   elements.fiftyButton.disabled = state.locked || state.lifelines.fifty;
   elements.audienceButton.disabled = state.locked || state.lifelines.audience;
@@ -608,6 +610,7 @@ function lockAnswer() {
     correct_answer: ANSWER_LABELS[question.correctIndex],
     is_correct: selectedIsCorrect,
     prize_amount: PRIZES[state.questionIndex],
+    time_taken_seconds: Math.round((Date.now() - state.questionStartedAt) / 1000),
   });
 
   if (selectedIsCorrect) {
