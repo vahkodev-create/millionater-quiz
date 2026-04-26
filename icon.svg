@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Միլիոնի Ճանապարհ">
+  <rect width="512" height="512" rx="104" fill="#050814"/>
+  <path fill="#0B1026" d="M72 72h368v368H72z"/>
+  <path fill="none" stroke="#172047" stroke-width="18" d="M112 112h288v288H112z"/>
+  <path fill="none" stroke="#22D3EE" stroke-width="10" opacity=".55" d="m120 256 136-136 136 136-136 136z"/>
+  <circle cx="256" cy="256" r="142" fill="#111936" stroke="#F5C542" stroke-width="22"/>
+  <circle cx="256" cy="256" r="94" fill="none" stroke="#FFE08A" stroke-width="8" stroke-dasharray="16 14"/>
+  <text x="256" y="305" text-anchor="middle" font-family="Noto Serif Armenian, serif" font-size="150" font-weight="900" fill="#FFE08A">Մ</text>
+</svg>

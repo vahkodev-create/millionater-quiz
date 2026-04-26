@@ -1,0 +1,12 @@
+{
+  "name": "million-road",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen:icons": "node ./scripts/generate-icons.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.3"
+  }
+}
+
