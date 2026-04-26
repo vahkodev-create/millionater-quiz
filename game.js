@@ -1,6 +1,6 @@
 const PRIZES = [
-  100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000,
-  500000, 1000000,
+  5000, 7500, 10000, 15000, 25000, 50000, 100000, 250000, 450000, 700000, 1000000,
+  2000000, 3000000, 5000000, 10000000,
 ];
 
 const SAFE_LEVELS = new Set([4, 9]);
@@ -8,6 +8,10 @@ const ANSWER_LABELS = ["Ա", "Բ", "Գ", "Դ"];
 const STORAGE_KEY = "million-road-progress-v1";
 const SETTINGS_KEY = "million-road-settings-v1";
 const ASKED_KEY = "million-road-asked-questions-v1";
+
+function trackEvent(name, params = {}) {
+  window.MillionaterAnalytics?.trackEvent(name, params);
+}
 
 const onboardingSlides = [
   {
@@ -57,6 +61,8 @@ const elements = {
   nextQuestionButton: document.querySelector("#nextQuestionButton"),
   fiftyButton: document.querySelector("#fiftyButton"),
   audienceButton: document.querySelector("#audienceButton"),
+  friendButton: document.querySelector("#friendButton"),
+  swapButton: document.querySelector("#swapButton"),
   resultKicker: document.querySelector("#resultKicker"),
   resultTitle: document.querySelector("#resultTitle"),
   resultText: document.querySelector("#resultText"),
@@ -86,8 +92,10 @@ const state = {
   locked: false,
   removedAnswers: new Set(),
   audienceShares: null,
-  lifelines: { fifty: false, audience: false },
+  lifelines: { fifty: false, audience: false, friend: false, swap: false },
   pendingResult: null,
+  nextQuestionTimer: null,
+  trackedQuestionId: null,
   startedAt: 0,
   run: {
     correct: 0,
@@ -170,8 +178,8 @@ function saveSettings() {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(state.settings));
 }
 
-function formatPoints(value) {
-  return `${value.toLocaleString("hy-AM")} միավոր`;
+function formatDram(value) {
+  return `${value.toLocaleString("hy-AM")} դրամ`;
 }
 
 function formatTime(milliseconds) {
@@ -226,6 +234,18 @@ function questionPool() {
       Number.isInteger(question.correctIndex) &&
       question.correctIndex >= 0 &&
       question.correctIndex <= 3,
+  );
+}
+
+function alternativeQuestionForCurrentLevel() {
+  const current = currentQuestion();
+  const usedIds = new Set(state.questions.map(questionId));
+
+  return shuffle(questionPool()).find(
+    (question) =>
+      question.level === current?.level &&
+      questionId(question) !== questionId(current) &&
+      !usedIds.has(questionId(question)),
   );
 }
 
@@ -368,6 +388,7 @@ function renderOnboarding() {
 function completeOnboarding() {
   state.progress.onboardingDone = true;
   saveProgress();
+  trackEvent("onboarding_complete");
   renderProgress();
   showScreen("home");
 }
@@ -382,7 +403,42 @@ function renderProgress() {
   if (elements.homeVibrationButton) elements.homeVibrationButton.textContent = vibrationLabel;
 }
 
+function fitTextToBox(element, minFontSize = 10) {
+  if (!element || !element.isConnected) return;
+
+  element.style.fontSize = "";
+  const maxFontSize = parseFloat(window.getComputedStyle(element).fontSize);
+  if (!Number.isFinite(maxFontSize)) return;
+
+  let low = minFontSize;
+  let high = maxFontSize;
+  let best = minFontSize;
+
+  for (let pass = 0; pass < 8; pass += 1) {
+    const next = (low + high) / 2;
+    element.style.fontSize = `${next}px`;
+
+    if (element.scrollHeight <= element.clientHeight + 1 && element.scrollWidth <= element.clientWidth + 1) {
+      best = next;
+      low = next;
+    } else {
+      high = next;
+    }
+  }
+
+  element.style.fontSize = `${best}px`;
+}
+
+function fitVisibleText() {
+  if (state.screen !== "game") return;
+
+  fitTextToBox(elements.questionText, 10);
+  document.querySelectorAll(".answer-text").forEach((element) => fitTextToBox(element, 9));
+}
+
 function resetQuestionState() {
+  window.clearTimeout(state.nextQuestionTimer);
+  state.nextQuestionTimer = null;
   state.selectedIndex = null;
   state.locked = false;
   state.removedAnswers = new Set();
@@ -396,12 +452,17 @@ function resetQuestionState() {
 function startClassicGame() {
   state.questions = buildQuestionSet();
   state.questionIndex = 0;
-  state.lifelines = { fifty: false, audience: false };
+  state.trackedQuestionId = null;
+  state.lifelines = { fifty: false, audience: false, friend: false, swap: false };
   state.startedAt = Date.now();
   state.run = { correct: 0, streak: 0, bestStreak: 0, lifelinesUsed: 0 };
   resetQuestionState();
   showScreen("game");
   renderGame();
+  trackEvent("game_start", {
+    question_count: state.questions.length,
+    total_games: state.progress.games,
+  });
 }
 
 function renderGame() {
@@ -414,15 +475,29 @@ function renderGame() {
   const prize = PRIZES[state.questionIndex];
   elements.questionCounter.textContent = `Հարց ${state.questionIndex + 1} / ${PRIZES.length}`;
   elements.questionProgress.style.width = `${((state.questionIndex + 1) / PRIZES.length) * 100}%`;
-  elements.ladderButton.textContent = formatPoints(prize);
+  elements.ladderButton.textContent = formatDram(prize);
   elements.categoryLabel.textContent = question.category || "Ընդհանուր գիտելիքներ";
   elements.questionText.textContent = formatPrompt(question.prompt);
+  const currentQuestionId = questionId(question);
+  if (state.trackedQuestionId !== currentQuestionId) {
+    state.trackedQuestionId = currentQuestionId;
+    trackEvent("question_shown", {
+      question_level: state.questionIndex + 1,
+      question_category: question.category || "Ընդհանուր գիտելիքներ",
+      prize_amount: prize,
+    });
+  }
   elements.fiftyButton.disabled = state.locked || state.lifelines.fifty;
   elements.audienceButton.disabled = state.locked || state.lifelines.audience;
+  elements.friendButton.disabled = state.locked || state.lifelines.friend;
+  elements.swapButton.disabled = state.locked || state.lifelines.swap || !alternativeQuestionForCurrentLevel();
   elements.fiftyButton.classList.toggle("is-used", state.lifelines.fifty);
   elements.audienceButton.classList.toggle("is-used", state.lifelines.audience);
+  elements.friendButton.classList.toggle("is-used", state.lifelines.friend);
+  elements.swapButton.classList.toggle("is-used", state.lifelines.swap);
   renderAnswers();
   renderLadder();
+  window.requestAnimationFrame(fitVisibleText);
 }
 
 function renderAnswers() {
@@ -487,7 +562,7 @@ function renderLadder() {
 
     status.textContent = prizeIndex < state.questionIndex ? "✓" : SAFE_LEVELS.has(prizeIndex) ? "◆" : "";
     number.textContent = String(prizeIndex + 1);
-    prize.textContent = formatPoints(PRIZES[prizeIndex]);
+    prize.textContent = formatDram(PRIZES[prizeIndex]);
     item.append(number, prize, status);
     elements.ladderList.append(item);
   }
@@ -526,6 +601,14 @@ function lockAnswer() {
   state.locked = true;
   elements.confirmationBar.classList.add("is-hidden");
   state.progress.totalAnswered += 1;
+  trackEvent("question_answered", {
+    question_level: state.questionIndex + 1,
+    question_category: question.category || "Ընդհանուր գիտելիքներ",
+    selected_answer: ANSWER_LABELS[state.selectedIndex],
+    correct_answer: ANSWER_LABELS[question.correctIndex],
+    is_correct: selectedIsCorrect,
+    prize_amount: PRIZES[state.questionIndex],
+  });
 
   if (selectedIsCorrect) {
     state.run.correct += 1;
@@ -549,11 +632,12 @@ function showCorrectFeedback() {
   const prize = PRIZES[state.questionIndex];
   elements.feedbackTitle.textContent = "Ճիշտ է";
   elements.feedbackText.textContent = SAFE_LEVELS.has(state.questionIndex)
-    ? `Դու հասար ${formatPoints(prize)} շեմին։ Սա անվտանգ շեմ է։`
-    : `Դու հասար ${formatPoints(prize)}։ Հաջորդ հարցը ավելի բարդ է լինելու։`;
+    ? `Դու հասար ${formatDram(prize)} շեմին։ Սա անվտանգ շեմ է։`
+    : `Դու հասար ${formatDram(prize)}։ Հաջորդ հարցը ավելի բարդ է լինելու։`;
   elements.nextQuestionButton.textContent =
     state.questionIndex === PRIZES.length - 1 ? "Ավարտել" : "Հաջորդ հարցը";
   elements.feedbackCard.classList.remove("is-hidden");
+  state.nextQuestionTimer = window.setTimeout(advanceAfterFeedback, 3000);
 }
 
 function showWrongFeedback() {
@@ -574,6 +658,11 @@ function showWrongFeedback() {
 }
 
 function advanceAfterFeedback() {
+  window.clearTimeout(state.nextQuestionTimer);
+  state.nextQuestionTimer = null;
+
+  if (state.screen !== "game") return;
+
   if (state.pendingResult) {
     finishGame(state.pendingResult.kicker, state.pendingResult.prize, state.pendingResult.text);
     return;
@@ -599,6 +688,11 @@ function useFifty() {
   state.run.lifelinesUsed += 1;
   state.progress.lifelinesUsed += 1;
   saveProgress();
+  trackEvent("lifeline_used", {
+    lifeline_name: "fifty",
+    question_level: state.questionIndex + 1,
+    question_category: question.category || "Ընդհանուր գիտելիքներ",
+  });
   vibrate(18);
   renderGame();
 }
@@ -626,12 +720,82 @@ function useAudience() {
   state.run.lifelinesUsed += 1;
   state.progress.lifelinesUsed += 1;
   saveProgress();
+  trackEvent("lifeline_used", {
+    lifeline_name: "audience",
+    question_level: state.questionIndex + 1,
+    question_category: question.category || "Ընդհանուր գիտելիքներ",
+  });
   vibrate(18);
   renderGame();
 }
 
+function useFriend() {
+  if (state.lifelines.friend || state.locked) return;
+  const question = currentQuestion();
+  const visibleAnswers = [0, 1, 2, 3].filter((index) => !state.removedAnswers.has(index));
+  const visibleWrongAnswers = visibleAnswers.filter((index) => index !== question.correctIndex);
+  const roll = Math.random();
+  let message = "Ընկերդ ասում է․ «Չգիտեմ, վստահ չեմ պատասխանի վրա»։";
+
+  if (roll < 0.8 || !visibleWrongAnswers.length) {
+    message = `Ընկերդ ասում է․ «Ես կընտրեի ${ANSWER_LABELS[question.correctIndex]} տարբերակը՝ ${
+      question.answers[question.correctIndex]
+    }»։`;
+  } else if (roll < 0.9) {
+    const suggestedIndex = visibleWrongAnswers[Math.floor(Math.random() * visibleWrongAnswers.length)];
+    message = `Ընկերդ ասում է․ «Ես կընտրեի ${ANSWER_LABELS[suggestedIndex]} տարբերակը՝ ${
+      question.answers[suggestedIndex]
+    }»։`;
+  }
+
+  state.lifelines.friend = true;
+  state.run.lifelinesUsed += 1;
+  state.progress.lifelinesUsed += 1;
+  saveProgress();
+  trackEvent("lifeline_used", {
+    lifeline_name: "friend",
+    question_level: state.questionIndex + 1,
+    question_category: question.category || "Ընդհանուր գիտելիքներ",
+    friend_result: roll < 0.8 || !visibleWrongAnswers.length ? "correct" : roll < 0.9 ? "wrong" : "unknown",
+  });
+  vibrate(18);
+  renderGame();
+  showMessage("Զանգ ընկերոջը", message);
+}
+
+function useSwapQuestion() {
+  if (state.lifelines.swap || state.locked) return;
+  const replacement = alternativeQuestionForCurrentLevel();
+
+  if (!replacement) {
+    showMessage("Հարց չկա", "Այս մակարդակի համար փոխարինող հարց այլևս չկա։");
+    return;
+  }
+
+  state.lifelines.swap = true;
+  state.run.lifelinesUsed += 1;
+  state.progress.lifelinesUsed += 1;
+  state.questions[state.questionIndex] = replacement;
+  state.asked[questionId(replacement)] = Date.now();
+  saveProgress();
+  saveAsked();
+  trackEvent("lifeline_used", {
+    lifeline_name: "swap",
+    question_level: state.questionIndex + 1,
+    question_category: replacement.category || "Ընդհանուր գիտելիքներ",
+  });
+  vibrate(18);
+  resetQuestionState();
+  renderGame();
+}
+
 function finishGame(kicker, prize, text) {
+  window.clearTimeout(state.nextQuestionTimer);
+  state.nextQuestionTimer = null;
+
   const elapsed = Date.now() - state.startedAt;
+  const answeredCount = state.run.correct + (state.pendingResult ? 1 : 0);
+  const wrongCount = state.pendingResult ? 1 : 0;
   state.progress.games += 1;
   state.progress.bestPrize = Math.max(state.progress.bestPrize, prize);
   state.progress.coins += Math.round(prize / 100);
@@ -640,7 +804,7 @@ function finishGame(kicker, prize, text) {
   saveProgress();
 
   elements.resultKicker.textContent = kicker;
-  elements.resultTitle.textContent = `Դու հասար ${formatPoints(prize)}`;
+  elements.resultTitle.textContent = `Դու հասար ${formatDram(prize)}`;
   elements.resultText.textContent = text;
   elements.runCorrectLabel.textContent = `${state.run.correct} / ${PRIZES.length}`;
   elements.runStreakLabel.textContent = state.run.bestStreak.toLocaleString("hy-AM");
@@ -648,23 +812,41 @@ function finishGame(kicker, prize, text) {
   elements.runLifelinesLabel.textContent = state.run.lifelinesUsed.toLocaleString("hy-AM");
   renderProgress();
   showScreen("result");
+  trackEvent("game_finish", {
+    result_type: kicker,
+    prize_amount: prize,
+    correct_count: state.run.correct,
+    wrong_count: wrongCount,
+    answered_count: answeredCount,
+    best_streak: state.run.bestStreak,
+    lifelines_used: state.run.lifelinesUsed,
+    elapsed_seconds: Math.round(elapsed / 1000),
+  });
 }
 
 function walkOutToHome() {
   const prize = currentWalkAwayPrize();
-  finishGame("Խաղն ավարտվեց", prize, `Դու կանգ առար և պահեցիր ${formatPoints(prize)}։`);
+  finishGame("Խաղն ավարտվեց", prize, `Դու կանգ առար և պահեցիր ${formatDram(prize)}։`);
 }
 
 function toggleSound() {
   state.settings.sound = !state.settings.sound;
   saveSettings();
   renderProgress();
+  trackEvent("setting_changed", {
+    setting_name: "sound",
+    enabled: state.settings.sound,
+  });
 }
 
 function toggleVibration() {
   state.settings.vibration = !state.settings.vibration;
   saveSettings();
   renderProgress();
+  trackEvent("setting_changed", {
+    setting_name: "vibration",
+    enabled: state.settings.vibration,
+  });
 }
 
 function registerServiceWorker() {
@@ -710,6 +892,8 @@ elements.lockButton.addEventListener("click", lockAnswer);
 elements.nextQuestionButton.addEventListener("click", advanceAfterFeedback);
 elements.fiftyButton.addEventListener("click", useFifty);
 elements.audienceButton.addEventListener("click", useAudience);
+elements.friendButton.addEventListener("click", useFriend);
+elements.swapButton.addEventListener("click", useSwapQuestion);
 elements.playAgainButton.addEventListener("click", startClassicGame);
 elements.resultHomeButton.addEventListener("click", () => showScreen("home"));
 elements.soundButton.addEventListener("click", toggleSound);

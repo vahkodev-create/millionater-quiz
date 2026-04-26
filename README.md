@@ -1,4 +1,4 @@
-# Միլիոնի Ճանապարհ
+# Միլիոնատեր Quiz
 
 Հայերեն, mobile-first browser quiz game with PWA offline caching.
 
@@ -42,6 +42,13 @@ When deploying updated questions or UI, bump `CACHE_NAME` in `service-worker.js`
 - Pause/settings modal
 - Local progress storage
 - Offline PWA cache
+- Optional Firebase Analytics via `analytics-config.js`
+
+## Analytics
+
+Analytics is disabled by default. To enable Firebase Analytics, paste your Firebase Web App config into `analytics-config.js` and set `enabled: true`.
+
+The app tracks anonymous gameplay events only: app/session start, game start, question shown, answer result, lifeline use, settings changes, and game finish.
 
 ## Future Play Store path
 

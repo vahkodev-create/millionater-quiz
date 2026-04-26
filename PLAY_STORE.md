@@ -1,10 +1,16 @@
 ## Publish to Google Play (TWA / Bubblewrap)
 
-This project is a PWA. The Play Store path is:
+This project is a PWA for **Միլիոնատեր Quiz**. The clean Play Store path is:
 
 - Host the game on **HTTPS**
 - Wrap it as an Android app using **Trusted Web Activity (TWA)**
 - Upload the generated **`.aab`** to Google Play Console
+
+Current Google Play requirements to keep in mind:
+
+- New apps and updates must target Android 15 / API 35 or higher.
+- New Play apps should be uploaded as Android App Bundles (`.aab`).
+- Use Play App Signing in Play Console.
 
 ### 1) Generate required PNG icons
 
@@ -46,7 +52,7 @@ bubblewrap init --manifest https://yourdomain.com/manifest.json
 ```
 
 When prompted:
-- Use a unique **package name**, e.g. `com.yourname.millionroad`
+- Use a unique **package name**, e.g. `com.yourname.millionater`
 - Choose **Play App Signing** in Play Console later (recommended)
 
 Build an Android App Bundle:
@@ -84,8 +90,50 @@ Then copy the `SHA256:` value into `assetlinks.json`.
 - Create an app in Google Play Console
 - Upload the `.aab` to **Internal testing** first
 - Fill in:
-  - Store listing (title/description/screenshots)
+  - Store listing (use `STORE_LISTING.md` as a draft)
   - Data safety
   - Content rating
-  - Privacy policy URL (required)
+  - Privacy policy URL, for example `https://yourdomain.com/privacy.html`
 
+### Files already prepared in this repo
+
+- `manifest.json`
+- `service-worker.js`
+- `analytics-config.js`
+- `analytics.js`
+- `icons/`
+- `.well-known/assetlinks.json` template
+- `STORE_LISTING.md`
+- `privacy.html`
+
+### 6) Optional analytics setup
+
+The app includes Firebase-ready analytics, disabled by default.
+
+To enable it:
+
+1. Create a Firebase project.
+2. Add a Web App in Firebase.
+3. Copy the Firebase config into `analytics-config.js`.
+4. Change `enabled: false` to `enabled: true`.
+5. Confirm the privacy policy and Play/App Store privacy forms disclose analytics.
+
+Tracked anonymously:
+
+- `app_open`
+- `session_start`
+- `onboarding_complete`
+- `game_start`
+- `question_shown`
+- `question_answered`
+- `lifeline_used`
+- `setting_changed`
+- `game_finish`
+
+Each event includes an anonymous local user ID, session ID, and detected platform such as `android_app`, `ios_app`, `android_web`, `ios_web`, or `web`.
+
+### What I need from you to build the uploadable `.aab`
+
+- Public HTTPS URL where the game will live
+- Final Android package name, like `com.vahram.millionater`
+- Whether you already have a Google Play Developer account

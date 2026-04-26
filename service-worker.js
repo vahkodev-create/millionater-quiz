@@ -1,7 +1,10 @@
-const CACHE_NAME = "million-road-v3";
+const CACHE_NAME = "millionater-v9";
 const ASSETS = [
   "./",
   "./index.html",
+  "./privacy.html",
+  "./analytics-config.js",
+  "./analytics.js",
   "./styles.css",
   "./questions.js",
   "./game.js",

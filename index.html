@@ -6,9 +6,9 @@
     <meta name="theme-color" content="#050814" />
     <meta
       name="description"
-      content="«Միլիոնի Ճանապարհ»՝ հայերեն, անցանց աշխատող, մոբայլ quiz խաղ։"
+      content="«Միլիոնատեր Quiz»՝ հայերեն, անցանց աշխատող, մոբայլ quiz խաղ։"
     />
-    <title>Միլիոնի Ճանապարհ</title>
+    <title>Միլիոնատեր Quiz</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icon.svg" />
@@ -16,10 +16,10 @@
   </head>
   <body>
     <main class="app-shell">
-      <section class="app-frame" aria-label="Միլիոնի Ճանապարհ խաղ">
+      <section class="app-frame" aria-label="Միլիոնատեր Quiz խաղ">
         <section class="screen splash-screen" id="splashScreen" aria-live="polite">
           <div class="brand-mark" aria-hidden="true">Մ</div>
-          <h1>Միլիոնի Ճանապարհ</h1>
+          <h1>Միլիոնատեր Quiz</h1>
           <p>Բարձրացիր հարց առ հարց</p>
           <span class="loader">Բեռնվում է...</span>
         </section>
@@ -41,7 +41,7 @@
         <section class="screen home-screen is-hidden" id="homeScreen">
           <section class="hero-card">
             <p class="eyebrow">Խաղ</p>
-            <h2>Միլիոնի Ճանապարհ</h2>
+            <h2>Միլիոնատեր Quiz</h2>
             <p>Սեղմիր սկսել՝ խաղալու համար</p>
             <button class="primary-button" id="classicButton" type="button">Սկսել</button>
           </section>
@@ -60,7 +60,7 @@
           <header class="game-top">
             <button class="icon-button" id="pauseButton" type="button" aria-label="Դադար" title="Դադար">Ⅱ</button>
             <strong id="questionCounter">Հարց 1 / 15</strong>
-            <button class="prize-pill" id="ladderButton" type="button">100 միավոր</button>
+            <button class="prize-pill" id="ladderButton" type="button">5 000 դրամ</button>
           </header>
 
           <div class="mini-progress" aria-hidden="true">
@@ -100,12 +100,20 @@
               <span>Հանդիսատես</span>
               <small>Տոկոսներ</small>
             </button>
+            <button class="lifeline-button" id="friendButton" type="button">
+              <span>Զանգ ընկերոջը</span>
+              <small>Հուշում</small>
+            </button>
+            <button class="lifeline-button" id="swapButton" type="button">
+              <span>Փոխել հարցը</span>
+              <small>Նոր հարց</small>
+            </button>
           </section>
         </section>
 
         <section class="screen result-screen is-hidden" id="resultScreen" aria-live="assertive">
           <p class="eyebrow" id="resultKicker">Խաղն ավարտվեց</p>
-          <h2 id="resultTitle">Դու հասար 0 միավորի</h2>
+          <h2 id="resultTitle">Դու հասար 0 դրամի</h2>
           <p id="resultText"></p>
           <div class="stats-grid">
             <article><span>Ճիշտ պատասխաններ</span><strong id="runCorrectLabel">0</strong></article>
@@ -156,6 +164,8 @@
     </main>
 
     <script src="questions.js" charset="utf-8"></script>
+    <script src="analytics-config.js" charset="utf-8"></script>
+    <script src="analytics.js" charset="utf-8"></script>
     <script src="game.js" charset="utf-8"></script>
   </body>
 </html>
