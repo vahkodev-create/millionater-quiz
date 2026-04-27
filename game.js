@@ -8,7 +8,7 @@ const DIFFICULTIES = ["easy", "average", "hard"];
 const ANSWER_LABELS = ["Ա", "Բ", "Գ", "Դ"];
 const STORAGE_KEY = "million-road-progress-v1";
 const SETTINGS_KEY = "million-road-settings-v1";
-const ASKED_KEY = "million-road-asked-questions-v1";
+const ASKED_KEY = "million-road-asked-questions-v2";
 
 function trackEvent(name, params = {}) {
   window.MillionaterAnalytics?.trackEvent(name, params);
@@ -172,6 +172,18 @@ function questionId(question) {
   return `${level}||${category}||${prompt}`;
 }
 
+function questionCategory(question) {
+  return typeof question?.category === "string" ? question.category : "";
+}
+
+function markQuestionAsked(question) {
+  const id = questionId(question);
+  if (!id || state.asked[id]) return;
+
+  state.asked[id] = Date.now();
+  saveAsked();
+}
+
 function saveProgress() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
 }
@@ -242,13 +254,15 @@ function alternativeQuestionForCurrentLevel() {
   if (!current) return null;
   const usedIds = new Set(state.questions.map(questionId));
   const difficulty = DIFFICULTIES[Math.floor(state.questionIndex / 5)];
-
-  return shuffle(questionPool()).find(
+  const options = shuffle(questionPool()).filter(
     (question) =>
       question.level === difficulty &&
       questionId(question) !== questionId(current) &&
       !usedIds.has(questionId(question)),
   );
+  const unseen = options.filter((question) => !state.asked[questionId(question)]);
+
+  return unseen[0] || options[0] || null;
 }
 
 function buildQuestionSet() {
@@ -273,31 +287,17 @@ function buildQuestionSet() {
       continue;
     }
 
-    const isUnseen = (question) => !state.asked[questionId(question)] && !picked.some(p => questionId(p) === questionId(question));
-    const category = (question) => (typeof question?.category === "string" ? question.category : "");
-    const differsFromPrevious = (question) => !previousCategory || category(question) !== previousCategory;
-
-    let chosen = options.find((question) => isUnseen(question) && differsFromPrevious(question));
-    if (!chosen) chosen = options.find((question) => isUnseen(question));
-    if (!chosen) {
-      for (const question of options) {
-        delete state.asked[questionId(question)];
-      }
-      // Even if we reset asked, we still shouldn't pick something already in 'picked'
-      const isNotInCurrentSet = (question) => !picked.some(p => questionId(p) === questionId(question));
-      chosen = options.find((question) => isNotInCurrentSet(question) && differsFromPrevious(question)) 
-               || options.find(isNotInCurrentSet)
-               || options[0];
-    }
+    const pickedIds = new Set(picked.map(questionId));
+    const available = options.filter((question) => !pickedIds.has(questionId(question)));
+    const unseen = available.filter((question) => !state.asked[questionId(question)]);
+    const candidates = unseen.length ? unseen : available;
+    const differsFromPrevious = (question) => !previousCategory || questionCategory(question) !== previousCategory;
+    const shuffledCandidates = shuffle(candidates.length ? candidates : options);
+    const chosen = shuffledCandidates.find(differsFromPrevious) || shuffledCandidates[0];
 
     picked.push(chosen);
-    previousCategory = category(chosen) || previousCategory;
+    previousCategory = questionCategory(chosen) || previousCategory;
   }
-
-  for (const question of picked) {
-    state.asked[questionId(question)] = Date.now();
-  }
-  saveAsked();
 
   return picked;
 }
@@ -494,6 +494,7 @@ function renderGame() {
   const currentQuestionId = questionId(question);
   if (state.trackedQuestionId !== currentQuestionId) {
     state.trackedQuestionId = currentQuestionId;
+    markQuestionAsked(question);
     trackEvent("question_shown", {
       question_level: state.questionIndex + 1,
       question_category: question.category || "Ընդհանուր գիտելիքներ",
@@ -788,9 +789,7 @@ function useSwapQuestion() {
   state.run.lifelinesUsed += 1;
   state.progress.lifelinesUsed += 1;
   state.questions[state.questionIndex] = replacement;
-  state.asked[questionId(replacement)] = Date.now();
   saveProgress();
-  saveAsked();
   trackEvent("lifeline_used", {
     lifeline_name: "swap",
     question_level: state.questionIndex + 1,
