@@ -236,6 +236,15 @@ function shuffle(items) {
   return copy;
 }
 
+function withShuffledAnswers(question) {
+  const answers = shuffle(question.answers.map((answer, index) => ({ answer, index })));
+  return {
+    ...question,
+    answers: answers.map(({ answer }) => answer),
+    correctIndex: answers.findIndex(({ index }) => index === question.correctIndex),
+  };
+}
+
 function questionPool() {
   return (window.MILLIONAIRE_QUESTIONS || []).filter(
     (question) =>
@@ -299,7 +308,7 @@ function buildQuestionSet() {
     previousCategory = questionCategory(chosen) || previousCategory;
   }
 
-  return picked;
+  return picked.filter(Boolean).map(withShuffledAnswers);
 }
 
 function currentQuestion() {
@@ -788,7 +797,7 @@ function useSwapQuestion() {
   state.lifelines.swap = true;
   state.run.lifelinesUsed += 1;
   state.progress.lifelinesUsed += 1;
-  state.questions[state.questionIndex] = replacement;
+  state.questions[state.questionIndex] = withShuffledAnswers(replacement);
   saveProgress();
   trackEvent("lifeline_used", {
     lifeline_name: "swap",
