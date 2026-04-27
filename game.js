@@ -166,7 +166,7 @@ function saveAsked() {
 }
 
 function questionId(question) {
-  const level = Number.isInteger(question?.level) ? question.level : "";
+  const level = question?.level ?? "";
   const category = typeof question?.category === "string" ? question.category : "";
   const prompt = typeof question?.prompt === "string" ? question.prompt : "";
   return `${level}||${category}||${prompt}`;
@@ -273,7 +273,7 @@ function buildQuestionSet() {
       continue;
     }
 
-    const isUnseen = (question) => !state.asked[questionId(question)];
+    const isUnseen = (question) => !state.asked[questionId(question)] && !picked.some(p => questionId(p) === questionId(question));
     const category = (question) => (typeof question?.category === "string" ? question.category : "");
     const differsFromPrevious = (question) => !previousCategory || category(question) !== previousCategory;
 
@@ -283,7 +283,11 @@ function buildQuestionSet() {
       for (const question of options) {
         delete state.asked[questionId(question)];
       }
-      chosen = options.find((question) => differsFromPrevious(question)) || options[0];
+      // Even if we reset asked, we still shouldn't pick something already in 'picked'
+      const isNotInCurrentSet = (question) => !picked.some(p => questionId(p) === questionId(question));
+      chosen = options.find((question) => isNotInCurrentSet(question) && differsFromPrevious(question)) 
+               || options.find(isNotInCurrentSet)
+               || options[0];
     }
 
     picked.push(chosen);
@@ -648,7 +652,7 @@ function showCorrectFeedback() {
   elements.nextQuestionButton.textContent =
     state.questionIndex === PRIZES.length - 1 ? "Ավարտել" : "Հաջորդ հարցը";
   elements.feedbackCard.classList.remove("is-hidden");
-  state.nextQuestionTimer = window.setTimeout(advanceAfterFeedback, 3000);
+  state.nextQuestionTimer = window.setTimeout(advanceAfterFeedback, 1500);
 }
 
 function showWrongFeedback() {
