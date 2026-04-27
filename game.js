@@ -227,9 +227,7 @@ function shuffle(items) {
 function questionPool() {
   return (window.MILLIONAIRE_QUESTIONS || []).filter(
     (question) =>
-      Number.isInteger(question.level) &&
-      question.level >= 1 &&
-      question.level <= 15 &&
+      (typeof question.level === "string" && ["easy", "average", "hard"].includes(question.level)) &&
       typeof question.prompt === "string" &&
       Array.isArray(question.answers) &&
       question.answers.length === 4 &&
