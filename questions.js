@@ -416,19 +416,6 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Բեռլին-ը Գերմանիայի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
-    "category": "Աշխարհագրություն",
-    "prompt": "Ո՞րն է Իտալիայի մայրաքաղաքը։",
-    "answers": [
-      "Հռոմ",
-      "Վարշավա",
-      "Մադրիդ",
-      "Բեռլին"
-    ],
-    "correctIndex": 0,
-    "explanation": "Հռոմ-ը Իտալիայի մայրաքաղաքը է։"
-  },
-  {
     "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Իսպանիայի մայրաքաղաքը։",
@@ -1562,19 +1549,6 @@ window.MILLIONAIRE_QUESTIONS = [
   {
     "level": "average",
     "category": "Աշխարհագրություն",
-    "prompt": "Ո՞ր քաղաքում է Էյֆելյան աշտարակը",
-    "answers": [
-      "Մադրիդ",
-      "Լոնդոն",
-      "Բեռլին",
-      "Փարիզ"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ճիշտ պատասխանը՝ Փարիզ։"
-  },
-  {
-    "level": "average",
-    "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է ամենափոքր մայրցամաքը",
     "answers": [
       "Եվրոպա",
@@ -1610,32 +1584,6 @@ window.MILLIONAIRE_QUESTIONS = [
     ],
     "correctIndex": 1,
     "explanation": "Ճիշտ պատասխանը՝ Ճապոնիա։"
-  },
-  {
-    "level": "average",
-    "category": "Աշխարհագրություն",
-    "prompt": "Ո՞ր քաղաքի միջով է անցնում Թեմզա գետը",
-    "answers": [
-      "Լոնդոն",
-      "Հռոմ",
-      "Փարիզ",
-      "Բեռլին"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ճիշտ պատասխանը՝ Լոնդոն։"
-  },
-  {
-    "level": "hard",
-    "category": "Աշխարհագրություն",
-    "prompt": "Ո՞ր քաղաքում է գտնվում Կրեմլը",
-    "answers": [
-      "Կիև",
-      "Մինսկ",
-      "Մոսկվա",
-      "Սանկտ Պետերբուրգ"
-    ],
-    "correctIndex": 2,
-    "explanation": "Ճիշտ պատասխանը՝ Մոսկվա։"
   },
   {
     "level": "hard",
@@ -2444,7 +2392,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Տիգրան Մեծը պատմականորեն կապված է «Արտաշեսյան դինաստիա» պատասխանին։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայոց պատմություն",
     "prompt": "Ե՞րբ է Հայաստանը ընդունել քրիստոնեությունը որպես պետական կրոն։",
     "answers": [
@@ -8867,32 +8815,6 @@ window.MILLIONAIRE_QUESTIONS = [
   },
   {
     "level": "average",
-    "category": "Գիտություն",
-    "prompt": "Ո՞րն է բնության մեջ ամենակարծր հանքանյութը։",
-    "answers": [
-      "Ալմաստ",
-      "Կորունդ",
-      "Տոպազ",
-      "Քվարց"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ալմաստը (ադամանդը) ամենակարծրն է։"
-  },
-  {
-    "level": "average",
-    "category": "Աշխարհագրություն",
-    "prompt": "Ո՞ր ծովն է առանց ափերի (բացի օվկիանոսից)։",
-    "answers": [
-      "Սև",
-      "Սարգասյան",
-      "Մեռյալ",
-      "Կարմիր"
-    ],
-    "correctIndex": 1,
-    "explanation": "Սարգասյան ծովը շրջապատված է հոսանքներով։"
-  },
-  {
-    "level": "average",
     "category": "Անատոմիա",
     "prompt": "Ի՞նչ է մարդու մազերի և եղունգների հիմնական բաղադրիչը։",
     "answers": [
@@ -8905,7 +8827,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Կերատին պրոտեինն է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Պատմություն",
     "prompt": "Ո՞ր հռոմեական կայսրն է ընդունել քրիստոնեությունը։",
     "answers": [
@@ -8916,19 +8838,6 @@ window.MILLIONAIRE_QUESTIONS = [
     ],
     "correctIndex": 1,
     "explanation": "Կոստանդիանոսը այն դարձրեց պետական կրոն (չնայած Հայաստանն ավելի շուտ էր ընդունել)։"
-  },
-  {
-    "level": "average",
-    "category": "Կինո",
-    "prompt": "Ինչպե՞ս է կոչվում մուլտիպլիկացիոն ֆիլմերի ստուդիան, որը ստեղծել է Խաղալիքների պատմությունը։",
-    "answers": [
-      "Illumination",
-      "DreamWorks",
-      "Pixar",
-      "Disney"
-    ],
-    "correctIndex": 2,
-    "explanation": "Pixar ստուդիայի գործն է։"
   },
   {
     "level": "average",
@@ -9269,7 +9178,7 @@ window.MILLIONAIRE_QUESTIONS = [
     "explanation": "Վան Գոգի ամենահայտնի գործն է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայոց պատմություն",
     "prompt": "Ո՞ր թվականին Հայաստանը ընդունեց քրիստոնեությունը որպես պետական կրոն։",
     "answers": [
