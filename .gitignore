@@ -8,3 +8,28 @@ yarn-error.log*
 .vscode/
 .idea/
 
+# Local scratch scripts and temporary audits
+scratch/
+scripts/review-question-levels.mjs
+scripts/set_package.mjs
+
+# Android / Bubblewrap generated project and build outputs
+.gradle/
+gradle/
+app/
+build/
+build.gradle
+settings.gradle
+gradle.properties
+gradlew
+gradlew.bat
+build_android.sh
+manifest-checksum.txt
+twa-manifest.json
+store_icon.png
+
+# Android signing keys and release artifacts
+*.keystore
+*.apk
+*.apk.idsig
+*.aab
