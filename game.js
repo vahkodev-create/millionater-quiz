@@ -889,10 +889,6 @@ function boot() {
   }, 800);
 }
 
-window.addEventListener("offline", () => {
-  showMessage("Կապ չկա", "Խաղը հասանելի է անցանց, բայց վարկանիշի և պարգևների համար ինտերնետ է պետք։");
-});
-
 elements.nextOnboardingButton.addEventListener("click", () => {
   if (state.onboardingIndex === onboardingSlides.length - 1) {
     completeOnboarding();

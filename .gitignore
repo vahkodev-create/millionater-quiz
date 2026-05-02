@@ -7,6 +7,7 @@ yarn-error.log*
 .env.*
 .vscode/
 .idea/
+local.properties
 
 # Local scratch scripts and temporary audits
 scratch/
