@@ -16,7 +16,7 @@ function trackEvent(name, params = {}) {
 
 const onboardingSlides = [
   {
-    title: "Առաջ գնա աղյուսակով",
+    title: "Հաղթահարիր հարցերը հերթով",
     text: "Պատասխանիր հարցերին և մոտեցիր գլխավոր մրցանակին",
   },
   {
