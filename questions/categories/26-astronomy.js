@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Յուպիտերի Գանիմեդ արբանյակը ամենամեծն է մեր համակարգում։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Աստղագիտություն",
     "prompt": "Ո՞րն է մեզ ամենամոտ աստղը (չհաշված Արեգակը)",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Մարսը կոչվում է Կարմիր մոլորակ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աստղագիտություն",
     "prompt": "Ի՞նչ է Արեգակը։",
     "answers": [

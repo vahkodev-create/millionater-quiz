@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Մաշկը մարդու ամենամեծ օրգանն է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Արյան ո՞ր բջիջներն են պատասխանատու վարակների դեմ պայքարի համար",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Լեյկոցիտները (սպիտակ արյան բջիջները) մասնակցում են իմունային պաշտպանությանը։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր նյութն է հանդիսանում բջիջների հիմնական էներգիայի «արժույթը»",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "ԱՏՓ-ը (ATP) բջիջներում էներգիայի հիմնական կրող մոլեկուլն է։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Մարդու որ համակարգն է պատասխանատու հորմոնների արտադրության համար",
     "answers": [
@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Սպառողները սնվում են պատրաստ օրգանական նյութերով՝ ստանալով էներգիա։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է մարսողական համակարգի հիմնական գործառույթը",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Մարսողական համակարգը քայքայում է սնունդը և ապահովում սննդանյութերի ներծծումը։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Միտոքոնդրիան բջջում ինչի՞ հետ է կապվում",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Միտոքոնդրիան բջջային շնչառության կարևոր կենտրոն է՝ ԱՏՓ արտադրության համար։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է ֆոտոսինթեզի հիմնական արտադրված նյութերից մեկը",
     "answers": [
@@ -197,7 +197,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Երիկամները ֆիլտրում են արյունը և առաջացնում մեզ՝ հեռացնելով ավելորդ նյութերը։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր բջջային օրգանելն է պատասխանատու սպիտակուցների սինթեզի համար",
     "answers": [
@@ -210,7 +210,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ռիբոսոմներում է իրականացվում սպիտակուցների սինթեզը։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում օրգանիզմի ներքին միջավայրի կայուն պահպանումը",
     "answers": [
@@ -249,7 +249,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Կենսաբանական դասակարգման աստիճաններից է «թագավորություն»-ը (kingdom)։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է բակտերիաների կարևոր առանձնահատկություններից մեկը",
     "answers": [
@@ -275,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Գրեգոր Մենդելը հիմք դրեց ժառանգականության (գենետիկայի) օրինաչափություններին։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում տեսակների փոփոխությունն ու հարմարվողականության ձևավորումը ժամանակի ընթացքում",
     "answers": [
@@ -288,7 +288,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Էվոլյուցիան տեսակների փոփոխությունն է ժամանակի ընթացքում։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր օրգանն է արտադրում լեղի (մաղձ)",
     "answers": [
@@ -314,7 +314,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Սպիտակուցները կազմված են ամինաթթուներից։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր վիտամինն է առաջանում օրգանիզմում արևի լույսի ազդեցությամբ",
     "answers": [
@@ -327,7 +327,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Արևի լույսի ազդեցությամբ մաշկում սինթեզվում է վիտամին D։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում սրտի և անոթների համակարգը",
     "answers": [
@@ -340,7 +340,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Սիրտն ու արյունատար անոթները կազմում են սրտանոթային (արյան շրջանառության) համակարգը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ է կոչվում օրգանիզմում հիվանդությունների դեմ պաշտպանական համակարգը",
     "answers": [
@@ -353,7 +353,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Իմունային համակարգը պաշտպանում է օրգանիզմը վարակներից և օտար նյութերից։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞րն է վիրուսների ընդհանուր առանձնահատկություններից մեկը",
     "answers": [
@@ -379,7 +379,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Գենի տարբեր ձևերը կոչվում են ալելներ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր գործընթացի արդյունքում է բջիջը բաժանվում երկու նույնական դուստր բջիջների",
     "answers": [
@@ -392,7 +392,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Միտոզի արդյունքում առաջանում են երկու գենետիկորեն նույնական դուստր բջիջներ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Ո՞ր վիտամինի պակասն է առաջացնում ցինգա հիվանդությունը",
     "answers": [
@@ -405,7 +405,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ցինգան (լնդախտ) առաջանում է վիտամին C-ի պակասից։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կենսաբանություն",
     "prompt": "Քանի՞ քրոմոսոմ ունի առողջ մարդու սոմատիկ բջիջը",
     "answers": [
@@ -418,7 +418,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Մարդու նորմալ սոմատիկ բջիջն ունի 46 քրոմոսոմ (23 զույգ)։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Կենսաբանություն",
     "prompt": "Ի՞նչ են անվանում բջիջների էներգիայի կայանները։",
     "answers": [

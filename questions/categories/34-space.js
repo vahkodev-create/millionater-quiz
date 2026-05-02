@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "average",
     "category": "Տիեզերք",
     "prompt": "Ո՞վ է եղել առաջին կին տիեզերագնացը",
     "answers": [

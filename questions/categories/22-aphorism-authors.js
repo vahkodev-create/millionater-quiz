@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ հետ է հաճախ կապվում «Գիտելիքն ուժ է» արտահայտությունը",
     "answers": [
@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Գիտելիքն ուժ է» հայտնի միտքը հաճախ կապվում է Ֆրենսիս Բեկոնի հետ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ր փիլիսոփայի հետ է կապվում «Ես գիտեմ, որ ոչինչ չգիտեմ» միտքը",
     "answers": [
@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Այս հայտնի միտքը ավանդաբար կապվում է Սոկրատեսի հետ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "«Լինել թե չլինել» հայտնի արտահայտությունը որ ստեղծագործությունից է",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Լինել թե չլինել» արտահայտությունը Շեքսպիրի «Համլետ» ողբերգությունից է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ է պատկանում «Մտածում եմ, ուրեմն գոյություն ունեմ» միտքը",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Մտածում եմ, ուրեմն գոյություն ունեմ» միտքը Ռենե Դեկարտի փիլիսոփայության հայտնի ձևակերպումն է։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ հետ է հաճախ կապվում «Ժամանակը փող է» արտահայտությունը",
     "answers": [
@@ -80,7 +80,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Մարդու՝ «քաղաքական կենդանի» լինելու գաղափարը կապվում է Արիստոտելի հետ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ւմ է վերագրվում «Կարճությունը տաղանդի քույրն է» արտահայտությունը",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Եկա, տեսա, հաղթեցի» խոսքը վերագրվում է Հուլիոս Կեսարին։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞վ է գրել «Մարդը ծնվում է ազատ, բայց ամենուր շղթաների մեջ է» միտքը",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Այս ձևակերպումը հաճախ կապվում է Ժան-Պոլ Սարտրի էքզիստենցիալիզմի հետ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Աֆորիզմների հեղինակներ",
     "prompt": "Ո՞ր փիլիսոփայի հետ է կապվում «Աստված մեռած է» արտահայտությունը",
     "answers": [

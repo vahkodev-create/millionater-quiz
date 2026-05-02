@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «salve» բառը ինչպե՞ս է թարգմանվում հայերեն",
     "answers": [
@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«salve» նշանակում է «բարև» (մի հոգու)։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «vale» բառը ինչպե՞ս է թարգմանվում հայերեն",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«aqua» նշանակում է ջուր։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «terra» բառը նշանակում է",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«terra» նշանակում է հող/երկիր։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «bonus» բառը նշանակում է",
     "answers": [
@@ -67,7 +67,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«bonus» նշանակում է լավ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «malus» բառը նշանակում է",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«magnus» նշանակում է մեծ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «parvus» բառը նշանակում է",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«parvus» նշանակում է փոքր։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «lux» բառը նշանակում է",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«lux» նշանակում է լույս։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «nox» բառը նշանակում է",
     "answers": [
@@ -132,7 +132,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«nox» նշանակում է գիշեր։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Ո՞ր արտահայտությունն է նշանակում «Կյանքը կարճ է, արվեստը՝ երկար»",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Carpe diem» նշանակում է «Օրը ապրիր»։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Ո՞ր արտահայտությունն է նշանակում «Եկա, տեսա, հաղթեցի»",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Veni, vidi, vici» նշանակում է «Եկա, տեսա, հաղթեցի»։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Լատիներեն «in vino veritas» արտահայտությունը նշանակում է",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«in vino veritas» նշանակում է «Գինու մեջ կա ճշմարտություն»։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Լատիներեն",
     "prompt": "Ո՞ր արտահայտությունն է նշանակում «Զառը նետված է»",
     "answers": [

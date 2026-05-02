@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Էնդրյու Ուայլսը ապացուցեց թեորեմը ավելի քան 300 տարի անց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Մաթեմատիկա",
     "prompt": "Ինչպե՞ս է կոչվում եռանկյունը, որի բոլոր երեք կողմերը իրար հավասար են։",
     "answers": [
@@ -67,7 +67,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Դա հավասարակողմ եռանկյունն է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Մաթեմատիկա",
     "prompt": "Ի՞նչ են անվանում այն թիվը, որը բաժանվում է միայն 1-ի և ինքն իր վրա։",
     "answers": [

@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Սա Հայաստանի վարչատարածքային հիմնական գիտելիք է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր լիճն է Հայաստանի ամենամեծ լիճը",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սևանա լիճ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր լեռն է Հայաստանի ամենաբարձր գագաթը ներկայիս սահմաններում",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Արագած։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր գետն է հոսում Երևանի միջով",
     "answers": [
@@ -210,7 +210,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ախուրյան։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է հայտնի որպես Հայաստանի երկրորդ քաղաք",
     "answers": [
@@ -223,7 +223,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Գյումրի։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է Հայաստանի մայրաքաղաքը",
     "answers": [
@@ -249,20 +249,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Գեղարդավանք։"
   },
   {
-    "level": "average",
-    "category": "Հայաստան",
-    "prompt": "Ո՞ր վանքն է կապված «Տաթևեր» ճոպանուղու հետ",
-    "answers": [
-      "Գեղարդավանք",
-      "Տաթևի վանք",
-      "Սանահին",
-      "Խոր Վիրապ"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ճիշտ պատասխանը՝ Տաթևի վանք։"
-  },
-  {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր վանքից է բացվում Արարատի հայտնի տեսարանը",
     "answers": [
@@ -275,7 +262,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Խոր Վիրապ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքում է գտնվում Մայր Աթոռ Սուրբ Էջմիածինը",
     "answers": [
@@ -288,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Վաղարշապատ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ի՞նչ օր է ապրիլի 24-ը Հայաստանում",
     "answers": [
@@ -301,20 +288,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հայոց ցեղասպանության զոհերի հիշատակի օր։"
   },
   {
-    "level": "hard",
-    "category": "Հայաստան",
-    "prompt": "Ո՞ր օրն է Հայաստանի Անկախության օրը",
-    "answers": [
-      "Մայիսի 28",
-      "Հուլիսի 5",
-      "Սեպտեմբերի 21",
-      "Դեկտեմբերի 7"
-    ],
-    "correctIndex": 2,
-    "explanation": "Ճիշտ պատասխանը՝ Սեպտեմբերի 21։"
-  },
-  {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր օրն է Հայաստանի Հանրապետության օրը",
     "answers": [
@@ -325,19 +299,6 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     ],
     "correctIndex": 1,
     "explanation": "Ճիշտ պատասխանը՝ Մայիսի 28։"
-  },
-  {
-    "level": "easy",
-    "category": "Հայաստան",
-    "prompt": "Ո՞րն է Հայաստանի դրամական միավորը",
-    "answers": [
-      "Հայկական դրամ",
-      "Ռուբլի",
-      "Լարի",
-      "Եվրո"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ճիշտ պատասխանը՝ Հայկական դրամ։"
   },
   {
     "level": "easy",
@@ -353,7 +314,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հայերեն։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքում է գտնվում Հանրապետության հրապարակը",
     "answers": [
@@ -366,7 +327,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Երևան։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր թանգարանն է Երևանի կենտրոնում նվիրված հին ձեռագրերին",
     "answers": [
@@ -392,7 +353,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Էրեբունի։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր տաճարն է Հայաստանի հեթանոսական շրջանի հայտնի հուշարձան",
     "answers": [
@@ -418,7 +379,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Տավուշ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Ջերմուկը",
     "answers": [
@@ -431,7 +392,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Վայոց ձոր։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Ծաղկաձորը",
     "answers": [
@@ -444,7 +405,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Կոտայք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքն է հայտնի իր հանքային ջրերով և առողջարաններով",
     "answers": [
@@ -483,7 +444,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ա։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է հայկական այբուբենի վերջին տառը դասական այբուբենում",
     "answers": [
@@ -496,7 +457,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞վ է ստեղծել հայոց այբուբենը",
     "answers": [
@@ -509,7 +470,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մեսրոպ Մաշտոց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր երաժշտական գործիքն է հայկական ավանդական փայտափող գործիք",
     "answers": [
@@ -535,7 +496,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ալյուր։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր ուտեստն է հաճախ պատրաստվում խաղողի տերևով",
     "answers": [
@@ -548,7 +509,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Տոլմա։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր ուտեստն է կապված դդմի և բրնձի հետ",
     "answers": [
@@ -561,7 +522,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ղափամա։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր հայկական ապուրն է պատրաստվում մածունով կամ թանով",
     "answers": [
@@ -574,7 +535,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սպաս։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Սևանա լճի մեծ մասը",
     "answers": [
@@ -587,7 +548,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Գեղարքունիք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Հայաստան",
     "prompt": "Ո՞ր քաղաքում է գտնվում հայտնի Սև բերդը",
     "answers": [
@@ -639,7 +600,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սանահին։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞ր մարզում է գտնվում Գորիսը",
     "answers": [
@@ -665,7 +626,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մեղրի։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Հայաստան",
     "prompt": "Ո՞րն է Հայաստանի ամենաերկար գետը (միայն ՀՀ տարածքում հոսող մասով)",
     "answers": [

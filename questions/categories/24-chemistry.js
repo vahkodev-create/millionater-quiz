@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "average",
     "category": "Քիմիա",
     "prompt": "Ո՞րն է Պոլոնիում տարրի քիմիական նշանը",
     "answers": [
@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Պոլոնիումի քիմիական նշանը Po է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Քիմիա",
     "prompt": "Ո՞րն է բրոնզի հիմնական բաղադրիչը պղնձից բացի",
     "answers": [
@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Բրոնզը պղնձի և անագի համաձուլվածք է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Քիմիա",
     "prompt": "Ո՞րն է բնության մեջ ամենակարծր հանքանյութը",
     "answers": [

@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Համմուրաբիի թագավորի օրենսգիրքը ամենահին պահպանվածներից է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Պատմություն",
     "prompt": "Ո՞ր հռոմեական կայսրն է ընդունել քրիստոնեությունը։",
     "answers": [

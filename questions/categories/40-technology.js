@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Sony-ն թողարկեց այն 1994-ին։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Տեխնոլոգիա",
     "prompt": "Ի՞նչ է նշանակում CPU հապավումը։",
     "answers": [

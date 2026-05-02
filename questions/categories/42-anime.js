@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում գլխավոր հերոսը երազում է դառնալ Հոկագե։",
     "answers": [
@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Նարուտո։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում մարդիկ պայքարում են հսկայական մարդակերպ արարածների դեմ։",
     "answers": [
@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հարձակում տիտանների վրա։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում հայտնվում է խորհրդավոր տետր, որի միջոցով կարելի է սպանել մարդկանց։",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մահվան տետր։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում գլխավոր հերոսը ցանկանում է դառնալ ծովահենների արքա։",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մեկ Փիս։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում հերոսները պայքարում են դևերի դեմ սրերով։",
     "answers": [
@@ -67,7 +67,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Դևերի կործանիչ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեն հիմնականում վոլեյբոլի թիմի մասին է։",
     "answers": [
@@ -80,7 +80,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հայկյու։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում գլխավոր հերոսը ունի ռետինի նման ձգվող մարմին։",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մեկ Փիս։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում գլխավոր հերոսը սովորում է նինջաների գյուղում։",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Նարուտո։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում հերոսը ստանում է մահվան աստծո ուժեր։",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Բլիչ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում գլխավոր հերոսը ցանկանում է գտնել իր հորը և դառնում է որսորդ։",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սասկե Ուչիհա։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Անիմե",
     "prompt": "Ո՞ր կերպարն է հայտնի իր կանաչ մազերով և երեք սրերով մարտաոճով։",
     "answers": [
@@ -197,7 +197,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Դևերի կործանիչ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Անիմե",
     "prompt": "Ո՞ր կերպարն է հայտնի որպես մարդկության ամենաուժեղ զինվոր։",
     "answers": [
@@ -223,7 +223,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ֆուլմետալ Ալքիմիկոս։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Անիմե",
     "prompt": "Ո՞ր կերպարն է հայտնի իր էլեկտրական արագությամբ և յոյոներով։",
     "answers": [
@@ -249,33 +249,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Դոկտոր Սթոուն։"
   },
   {
-    "level": "average",
-    "category": "Անիմե",
-    "prompt": "Ո՞ր անիմեում գլխավոր հերոսը կիսով չափ մարդ, կիսով չափ գուլ է դառնում։",
-    "answers": [
-      "Դևերի կործանիչ",
-      "Բլիչ",
-      "Տոկիոյի գուլ",
-      "Հարձակում տիտանների վրա"
-    ],
-    "correctIndex": 2,
-    "explanation": "Ճիշտ պատասխանը՝ Տոկիոյի գուլ։"
-  },
-  {
-    "level": "average",
-    "category": "Անիմե",
-    "prompt": "Ո՞ր անիմեում հերոսը ժառանգում է ամենաուժեղ հերոսի կարողությունը։",
-    "answers": [
-      "Սև երեքնուկ",
-      "Իմ հերոսական ակադեմիան",
-      "Հայկյու",
-      "Սպայ x Ֆեմիլի"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ճիշտ պատասխանը՝ Իմ հերոսական ակադեմիան։"
-  },
-  {
-    "level": "average",
+    "level": "hard",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում գլխավոր հերոսը ծնվում է առանց մոգական ուժի, բայց երազում է դառնալ կախարդների արքա։",
     "answers": [
@@ -288,20 +262,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սև երեքնուկ։"
   },
   {
-    "level": "average",
-    "category": "Անիմե",
-    "prompt": "Ո՞ր անիմեում գլխավոր հերոսը հաճախ հաղթում է մեկ հարվածով։",
-    "answers": [
-      "Մոբ Փսայքո 100",
-      "Դևերի կործանիչ",
-      "Բլիչ",
-      "Մեկ հարվածով մարդը"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ճիշտ պատասխանը՝ Մեկ հարվածով մարդը։"
-  },
-  {
-    "level": "average",
+    "level": "hard",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում դպրոցականը դառնում է անեծքների դեմ պայքարող կախարդ։",
     "answers": [
@@ -314,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Կախարդական ճակատամարտ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում փոքրիկ աղջիկը կարողանում է կարդալ մարդկանց մտքերը։",
     "answers": [
@@ -353,7 +314,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Շիգանշինա։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր կերպարն է հայտնի որպես հանճարեղ դետեկտիվ և հաճախ նստում է յուրահատուկ դիրքով։",
     "answers": [
@@ -366,7 +327,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Էլ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր կերպարն է օգտագործում ռետինե մարմնի վրա հիմնված մարտական կարողություններ։",
     "answers": [
@@ -496,7 +457,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Գիյու Տոմիոկա։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր կերպարն է Կակաշիի ուսուցիչը և չորրորդ ղեկավար նինջան։",
     "answers": [
@@ -509,7 +470,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մինատո Նամիկազե։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր խմբի անդամներն են կրում սև թիկնոցներ կարմիր ամպերով։",
     "answers": [
@@ -548,7 +509,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Իչիգո Կուրոսակի։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Անիմե",
     "prompt": "Ո՞ր անիմեում հասարակությունը բաժանված է հերոսների և չարագործների՝ հատուկ կարողությունների հիման վրա։",
     "answers": [

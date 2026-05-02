@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ջեդայները «Աստղային պատերազմներ» տիեզերքի կերպարներ են։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞վ է ռեժիսորել «Տիտանիկ» ֆիլմը",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Տիտանիկը» ռեժիսորել է Ջեյմս Քեմերոնը։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞ր դերասանն է մարմնավորել Ջեք Սփարոուին",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ջեք Սփարոուի դերը «Կարիբյան ծովի ծովահենները» ֆիլմաշարում խաղացել է Ջոնի Դեփը։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմում է հնչում «I'll be back» հայտնի արտահայտությունը",
     "answers": [
@@ -80,7 +80,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Toy Story»-ն Pixar ստուդիայի առաջին լիամետրաժ անիմացիոն ֆիլմն էր։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմը 1994 թվականին ստացել է «Օսկար» լավագույն ֆիլմի համար",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Լավագույն անիմացիոն լիամետրաժ ֆիլմի առաջին «Օսկարը» 2002 թվականին ստացավ «Շրեկը»։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կինո",
     "prompt": "Ո՞ր ֆիլմն է 2020 թվականին դարձել առաջին ոչ անգլերեն լավագույն ֆիլմի «Օսկար» հաղթողը",
     "answers": [
@@ -184,20 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Պարազիտը» 2020 թվականին դարձավ առաջին ոչ անգլերեն ֆիլմը, որը շահեց լավագույն ֆիլմի «Օսկարը»։"
   },
   {
-    "level": "average",
-    "category": "Կինո",
-    "prompt": "Ո՞ր ֆիլմում է հնչում Ես կվերադառնամ (I'll be back) արտահայտությունը։",
-    "answers": [
-      "Ռոքի",
-      "Ռեմբո",
-      "Տերմինատոր",
-      "Կնքահայրը"
-    ],
-    "correctIndex": 2,
-    "explanation": "Առնոլդ Շվարցենեգերի հայտնի ֆրազան է։"
-  },
-  {
-    "level": "average",
+    "level": "easy",
     "category": "Կինո",
     "prompt": "Ո՞րն է աշխարհի ամենահեղինակավոր կինոմրցանակը։",
     "answers": [

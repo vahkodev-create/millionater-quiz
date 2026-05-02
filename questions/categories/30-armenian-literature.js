@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայ գրականություն",
     "prompt": "Ո՞վ է գրել «Սամվել» պատմական վեպը",
     "answers": [

@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ընկերներ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում գլխավոր հերոսը քիմիայի ուսուցիչ է, որը սկսում է զբաղվել թմրանյութերի արտադրությամբ։",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Գահերի խաղը։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում բժիշկը հայտնի է իր կոպիտ բնավորությամբ և բարդ ախտորոշումներով։",
     "answers": [
@@ -67,7 +67,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Կորածները։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում գլխավոր հերոսը դատաբժշկական փորձագետ է և գաղտնի սերիական մարդասպան։",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Շերլոկ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում գլխավոր հերոսը դժոխքից եկած է և օգնում է ոստիկանությանը։",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Լյուցիֆեր։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում մարդիկ պայքարում են զոմբիների դեմ ապոկալիպսիսի ժամանակ։",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Քայլող մեռյալները։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում յուրաքանչյուր դրվագ սովորաբար ներկայացնում է տեխնոլոգիայի մութ կողմը։",
     "answers": [
@@ -156,19 +156,6 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     ],
     "correctIndex": 0,
     "explanation": "Ճիշտ պատասխանը՝ Գրասենյակը։"
-  },
-  {
-    "level": "average",
-    "category": "Սերիալներ",
-    "prompt": "Ո՞ր սերիալում հայրը երկար պատմում է իր երեխաներին, թե ինչպես է հանդիպել նրանց մորը։",
-    "answers": [
-      "Ընկերներ",
-      "Գրասենյակը",
-      "Ինչպես հանդիպեցի ձեր մայրիկին",
-      "Ժամանակակից ընտանիք"
-    ],
-    "correctIndex": 2,
-    "explanation": "Ճիշտ պատասխանը՝ Ինչպես հանդիպեցի ձեր մայրիկին։"
   },
   {
     "level": "average",
@@ -223,7 +210,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Պարոն ռոբոտ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում գովազդային գործակալության աշխարհն է ներկայացվում 1960-ականներին։",
     "answers": [
@@ -260,19 +247,6 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     ],
     "correctIndex": 0,
     "explanation": "Ճիշտ պատասխանը՝ Վիկինգներ։"
-  },
-  {
-    "level": "average",
-    "category": "Սերիալներ",
-    "prompt": "Ո՞ր սերիալում մանդալորցի որսորդը պաշտպանում է փոքրիկ գերբնական երեխայի։",
-    "answers": [
-      "Տղաները",
-      "Մանդալորցին",
-      "Գահերի խաղը",
-      "Վայրի արևմուտքի աշխարհը"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ճիշտ պատասխանը՝ Մանդալորցին։"
   },
   {
     "level": "average",
@@ -316,19 +290,6 @@ window.MILLIONAIRE_QUESTIONS.push(...[
   {
     "level": "average",
     "category": "Սերիալներ",
-    "prompt": "Ո՞ր սերիալում գլխավոր հերոսը կարողանում է մարդկանց դեմքի արտահայտություններից հասկանալ սուտը։",
-    "answers": [
-      "Սուտ ինձ",
-      "Մենթալիստը",
-      "Շերլոկ",
-      "Ոսկորներ"
-    ],
-    "correctIndex": 0,
-    "explanation": "Ճիշտ պատասխանը՝ Սուտ ինձ։"
-  },
-  {
-    "level": "hard",
-    "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում գլխավոր հերոսը նախկինում ձևացնում էր, թե ունի էքստրասենսի կարողություններ, բայց իրականում հիանալի դիտողականություն ուներ։",
     "answers": [
       "Մենթալիստը",
@@ -340,7 +301,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մենթալիստը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում դատաբժշկական մարդաբանն օգնում է լուծել սպանությունների գործեր։",
     "answers": [
@@ -353,7 +314,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ոսկորներ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում բժիշկը ունի աուտիզմի սպեկտրի առանձնահատկություններ և բացառիկ բժշկական տաղանդ։",
     "answers": [
@@ -366,7 +327,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Լավ բժիշկը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում վիրաբույժների անձնական և աշխատանքային կյանքն է ներկայացվում հիվանդանոցում։",
     "answers": [
@@ -379,7 +340,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Գրեյի անատոմիա։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում Նյու Ջերսիի մաֆիայի ղեկավարն այցելում է հոգեբանի։",
     "answers": [
@@ -392,7 +353,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սոպրանոները։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում ֆինանսական աշխարհում պայքարում են հեջ ֆոնդի ղեկավարն ու դատախազը։",
     "answers": [
@@ -418,7 +379,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մութը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում անսպասելիորեն անհետանում է աշխարհի բնակչության մի մասը, իսկ մնացածները փորձում են ապրել դրա հետևանքներով։",
     "answers": [
@@ -470,7 +431,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հայրենիք։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում ոստիկանության բաժանմունքի կյանքը ներկայացվում է կատակերգական ձևով։",
     "answers": [
@@ -509,7 +470,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Օզարկ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում բանտարկյալը մանրակրկիտ պլանով փորձում է փրկել իր եղբորը բանտից։",
     "answers": [
@@ -522,7 +483,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Բանտից փախուստ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում երիտասարդ վիրավոր հերոսը վերածվում է հզոր առաջնորդի զոմբիների աշխարհում։",
     "answers": [
@@ -535,7 +496,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Քայլող մեռյալները։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում ուսանողները և պրոֆեսորը ծրագրում են մեծ գողություն Իսպանիայում։",
     "answers": [
@@ -548,7 +509,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Թղթե տունը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում շախմատիստ աղջկա աճն ու կախվածության դեմ պայքարն են կենտրոնական թեմաներ։",
     "answers": [
@@ -561,7 +522,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Թագուհու գամբիտը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում կորեական խաղի մասնակիցները պայքարում են մեծ գումարի համար մահացու խաղերում։",
     "answers": [
@@ -574,7 +535,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Կաղամարի խաղը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում գլխավոր հերոսուհին դեռահաս կախարդ է մութ ու գերբնական աշխարհում։",
     "answers": [
@@ -587,7 +548,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սաբրինայի սարսափելի արկածները։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում քոլեջի ուսանողը դառնում է կախարդական դպրոցի աշխարհում ներգրավված։",
     "answers": [
@@ -600,7 +561,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մոգերը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում սուպերհերոսական թեման խառնվում է հոգեբանական և սյուրռեալ պատմությանը։",
     "answers": [
@@ -613,7 +574,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Լեգեոն։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում գաղտնի գործակալներն ու խորհրդավոր երևույթները հաճախ կապված են այլմոլորակայինների հետ։",
     "answers": [
@@ -626,7 +587,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Գաղտնի նյութեր։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում երկու եղբայրների փոխհարաբերությունն ու հանցավոր անցյալը կենտրոնական դեր ունեն Նյու Մեքսիկոյում։",
     "answers": [
@@ -639,7 +600,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ավելի լավ զանգիր Սոլին։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Սերիալներ",
     "prompt": "Ո՞ր սերիալում իրավաբանն աստիճանաբար դառնում է քրեական աշխարհի հայտնի փաստաբան։",
     "answers": [

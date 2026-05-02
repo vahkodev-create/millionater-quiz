@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "average",
     "category": "Կինոմատոգրաֆիա",
     "prompt": "Ո՞ր ֆիլմն է արժանացել առաջին «Օսկար» մրցանակին՝ որպես լավագույն ֆիլմ (1929)",
     "answers": [

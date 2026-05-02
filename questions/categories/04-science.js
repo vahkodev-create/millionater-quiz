@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Շարժման երեք դասական օրենքները կապված են Իսահակ Նյուտոնի անվան հետ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ո՞ր տարրն ունի 1 ատոմային համար",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Թոքերը։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Ո՞ր տարրերից է կազմված Արեգակի մեծ մասը",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ 300,000 կմ/վ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Էլեկտրական լարման միավորը։",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Վոլտ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Էլեկտրական հոսանքի միավորը։",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ամպեր։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Ուժի միավորը։",
     "answers": [
@@ -197,7 +197,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Նյուտոն։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Ջերմաստիճանի SI միավորը։",
     "answers": [
@@ -210,7 +210,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Կելվին։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Գիտություն",
     "prompt": "Բջջի էներգետիկ կայանը կոչվում է։",
     "answers": [
@@ -236,7 +236,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ժառանգական տեղեկություն։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Մարդու կմախքում մոտավորապես կա։",
     "answers": [
@@ -275,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ազոտ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գիտություն",
     "prompt": "Արյան կարմիր բջիջները տեղափոխում են։",
     "answers": [
@@ -379,7 +379,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Արևի լույսը նպաստում է վիտամին D-ի սինթեզին։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ո՞ր գիտնականին է ընկել խնձորը գլխին՝ ըստ լեգենդի։",
     "answers": [
@@ -392,7 +392,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Նյուտոնը և տիեզերական ձգողության օրենքը։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գիտություն",
     "prompt": "Ո՞րն է ջրի եռման աստիճանը Ցելսիուսի սանդղակով (ծովի մակարդակին)։",
     "answers": [

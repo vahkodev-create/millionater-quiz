@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ 100 տարի։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Կարմիր և կապույտ գույների խառնուրդից ստացվում է։",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Մանուշակագույն։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Ընդհանուր գիտելիքներ",
     "prompt": "Դեղին և կապույտ գույների խառնուրդից ստացվում է։",
     "answers": [

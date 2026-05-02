@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Կինո և մշակույթ",
     "prompt": "«Կտոր մը երկինք» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հենրիկ Մալյան։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կինո և մշակույթ",
     "prompt": "«Նռան գույնը» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -80,7 +80,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Փայտափող երաժշտական գործիք է։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Կինո և մշակույթ",
     "prompt": "«Աստղային պատերազմներ» ֆիլմաշարի ստեղծողը։",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ջորջ Լուկաս։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կինո և մշակույթ",
     "prompt": "«Տիտանիկ» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ջեյմս Քեմերոն։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Կինո և մշակույթ",
     "prompt": "«Սկիզբ» ֆիլմի ռեժիսորը։",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Քրիստոֆեր Նոլան։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Կինո և մշակույթ",
     "prompt": "«Մատանիների տիրակալը» ֆիլմաշարը հիմնված է։",
     "answers": [
@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Լեոնարդո դա Վինչի։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կինո և մշակույթ",
     "prompt": "«Աստղալից գիշեր»-ի հեղինակը։",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Վինսենթ վան Գոգ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Կինո և մշակույթ",
     "prompt": "Պիկասոն կապված է։",
     "answers": [

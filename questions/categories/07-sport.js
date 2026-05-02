@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ 11 խաղացող։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Սպորտ",
     "prompt": "Բասկետբոլում մեկ թիմը դաշտում ունի։",
     "answers": [
@@ -301,7 +301,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ուրուգվայը հաղթեց առաջին աշխարհի առաջնությունը։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Սպորտ",
     "prompt": "Ո՞ր մարզաձևն է հայտնի որպես «արքաների սպորտ»։",
     "answers": [

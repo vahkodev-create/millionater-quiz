@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ռադիոակտիվությունը հայտնագործել է Անրի Բեքերելը 1896 թ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Ֆիզիկա",
     "prompt": "Ինչի՞ միավոր է Հերցը (Hz)",
     "answers": [

@@ -249,7 +249,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Նյու Դելի-ը Հնդկաստանի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Կանադայի մայրաքաղաքը։",
     "answers": [
@@ -275,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Վաշինգտոն-ը ԱՄՆ-ի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Արգենտինայի մայրաքաղաքը։",
     "answers": [
@@ -288,7 +288,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Բուենոս Այրես-ը Արգենտինայի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ավստրալիայի մայրաքաղաքը։",
     "answers": [
@@ -366,7 +366,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Բեռն-ը Շվեյցարիայի մայրաքաղաքը է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Նիդերլանդների մայրաքաղաքը։",
     "answers": [
@@ -379,7 +379,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ամստերդամ-ը Նիդերլանդների մայրաքաղաքը է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Բելգիայի մայրաքաղաքը։",
     "answers": [
@@ -392,7 +392,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Բրյուսել-ը Բելգիայի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Մեքսիկայի մայրաքաղաքը։",
     "answers": [
@@ -444,7 +444,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Դամասկոս-ը Սիրիայի մայրաքաղաքը է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Լիբանանի մայրաքաղաքը։",
     "answers": [
@@ -509,7 +509,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Աբու Դաբի-ը ԱՄԷ-ի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Քաթարի մայրաքաղաքը։",
     "answers": [
@@ -535,7 +535,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Սեուլ-ը Կորեայի Հանրապետության մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Թաիլանդի մայրաքաղաքը։",
     "answers": [
@@ -548,7 +548,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Բանգկոկ-ը Թաիլանդի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Վիետնամի մայրաքաղաքը։",
     "answers": [
@@ -561,7 +561,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Հանոյ-ը Վիետնամի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Ինդոնեզիայի մայրաքաղաքը։",
     "answers": [
@@ -574,7 +574,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ջակարտա-ը Ինդոնեզիայի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Մալայզիայի մայրաքաղաքը։",
     "answers": [
@@ -587,7 +587,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Կուալա Լումպուր-ը Մալայզիայի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Մարոկկոյի մայրաքաղաքը։",
     "answers": [
@@ -626,7 +626,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Նայրոբի-ը Քենիայի մայրաքաղաքը է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Նիգերիայի մայրաքաղաքը։",
     "answers": [
@@ -1016,7 +1016,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Բրյուսել-ը Բելգիայի-ի մայրաքաղաքն է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է աշխարհի ամենամեծ օվկիանոսը",
     "answers": [
@@ -1029,7 +1029,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Խաղաղ օվկիանոս։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է աշխարհի ամենաերկար գետերից մեկը",
     "answers": [
@@ -1042,7 +1042,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Նեղոս։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր մայրցամաքում է գտնվում Եգիպտոսը",
     "answers": [
@@ -1055,7 +1055,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Աֆրիկա։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր մայրցամաքում է գտնվում Բրազիլիան",
     "answers": [
@@ -1068,7 +1068,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հարավային Ամերիկա։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Երկրի ամենամեծ մայրցամաքը",
     "answers": [
@@ -1094,7 +1094,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սև ծով։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է աշխարհի ամենաբարձր լեռը",
     "answers": [
@@ -1107,7 +1107,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Էվերեստ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկիրն ունի ամենամեծ տարածքը աշխարհում",
     "answers": [
@@ -1120,7 +1120,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ռուսաստան։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Եվրոպայի ամենաերկար գետը",
     "answers": [
@@ -1146,7 +1146,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Պերու։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրում է գտնվում Թաջ Մահալը",
     "answers": [
@@ -1159,7 +1159,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հնդկաստան։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր երկրում է գտնվում Կոլիզեումը",
     "answers": [
@@ -1172,7 +1172,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Իտալիա։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է ամենափոքր մայրցամաքը",
     "answers": [
@@ -1211,7 +1211,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ճապոնիա։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞ր մայրցամաքում է Սահարա անապատը",
     "answers": [
@@ -1237,7 +1237,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Իտալիա։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է աշխարհի ամենախորը լիճը",
     "answers": [
@@ -1276,7 +1276,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ատակաման գտնվում է Հարավային Ամերիկայում (Չիլի)։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Աշխարհագրություն",
     "prompt": "Ո՞րն է Աֆրիկայի ամենաբարձր լեռը",
     "answers": [
@@ -1302,7 +1302,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Սարգասյան ծովը Ատլանտյան օվկիանոսում է և շրջապատված է հոսանքներով, ոչ թե ցամաքով։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Աշխարհագրություն",
     "prompt": "Որտե՞ղ է գտնվում աշխարհի ամենաբարձր ջրվեժը (Անխել)։",
     "answers": [

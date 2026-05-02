@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "average",
     "category": "Արվեստ",
     "prompt": "Ո՞վ է նկարել «Գիշերային դեմք» կամ «Աստղային գիշեր» հայտնի կտավը",
     "answers": [
@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Աստղային գիշեր»-ը Վինսենթ վան Գոգի ամենահայտնի գործերից է։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Արվեստ",
     "prompt": "Ո՞ր քաղաքում է գտնվում Էրմիտաժ թանգարանը",
     "answers": [

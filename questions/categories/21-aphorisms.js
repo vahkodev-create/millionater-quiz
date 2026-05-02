@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Շեքսպիրի հայտնի արտահայտությունն է՝ «Լինել թե չլինել»։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Մտածում եմ, ուրեմն ...»",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Հայտնի արտահայտությունն է՝ «Կարճությունը տաղանդի քույրն է»։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր խոսքը․ «Եկա, տեսա, ...»",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ռուսոյի հայտնի միտքն է՝ «Մարդը ծնվում է ազատ, բայց ամենուր շղթաների մեջ է»։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր միտքը․ «Այն, ինչ չի սպանում ինձ, ...»",
     "answers": [
@@ -132,7 +132,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Նիցշեի հետ կապվող հայտնի միտքն է՝ «Այն, ինչ չի սպանում ինձ, ինձ ավելի ուժեղ է դարձնում»։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր ասույթը․ «Ճանաչիր ...»",
     "answers": [
@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Հին հունական հայտնի ասույթն է՝ «Ճանաչիր ինքդ քեզ»։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր արտահայտությունը․ «Ոճը հենց ...»",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Հայտնի արտահայտությունն է՝ «Ոճը հենց մարդն է»։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր ասույթը․ «Կյանքը կարճ է, արվեստը՝ ...»",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Հին ասույթն է՝ «Կյանքը կարճ է, արվեստը՝ երկար»։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր ձևակերպումը․ «Գոյությունը նախորդում է ...»",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Էքզիստենցիալիզմի հայտնի ձևակերպումն է՝ «Գոյությունը նախորդում է էությանը»։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Աֆորիզմներ",
     "prompt": "Շարունակիր արտահայտությունը․ «Աստված ...»",
     "answers": [

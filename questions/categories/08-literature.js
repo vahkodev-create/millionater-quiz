@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Անուշ» պոեմը գրել է Հովհաննես Թումանյանը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Վերք Հայաստանի» վեպի հեղինակը։",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Խաչատուր Աբովյան։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "«Անուշ» պոեմի հեղինակը։",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հովհաննես Թումանյան։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "«Սամվել» վեպի հեղինակը։",
     "answers": [
@@ -80,7 +80,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Շիրվանզադե։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "«Ես իմ անուշ Հայաստանի» բանաստեղծության հեղինակը։",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Եղիշե Չարենց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "«Անլռելի զանգակատուն» պոեմի հեղինակը։",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Պարույր Սևակ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "«Գիքոր» պատմվածքի հեղինակը։",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հովհաննես Թումանյան։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Մեծապատիվ մուրացկաններ» ստեղծագործության հեղինակը։",
     "answers": [
@@ -132,7 +132,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հակոբ Պարոնյան։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Պեպո» պիեսի հեղինակը։",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Եղիշե Չարենց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "«Սասնա ծռեր»-ը։",
     "answers": [
@@ -197,7 +197,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Միգել դե Սերվանտես։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "«Պատերազմ և խաղաղություն» վեպի հեղինակը։",
     "answers": [
@@ -210,7 +210,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Լև Տոլստոյ։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Հանցանք և պատիժ» վեպի հեղինակը։",
     "answers": [
@@ -223,7 +223,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ֆյոդոր Դոստոևսկի։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "«Փոքրիկ իշխանը» գրքի հեղինակը։",
     "answers": [
@@ -301,7 +301,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "1982 թ.-ին Նոբելյան մրցանակը շնորհվել է Գաբրիել Գարսիա Մարկեսին։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "Ո՞վ է «Աննա Կարենինա» վեպի հեղինակը",
     "answers": [
@@ -327,7 +327,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Պետություն» տրակտատի հեղինակը Պլատոնն է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրականություն",
     "prompt": "Ո՞վ է Սերվանտեսի «Դոն Կիխոտ» վեպի գլխավոր հերոսի զինակիրը",
     "answers": [
@@ -340,7 +340,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Սանչո Պանսան Դոն Կիխոտի հավատարիմ զինակիրն է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "Ո՞վ է Հարյուր տարվա մենություն վեպի հեղինակը։",
     "answers": [
@@ -366,7 +366,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Դանթեն է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Գրականություն",
     "prompt": "Ո՞վ է Փոքրիկ իշխանը հեքիաթ-վիպակի հեղինակը։",
     "answers": [

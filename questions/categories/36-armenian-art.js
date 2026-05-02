@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "average",
     "category": "Հայ արվեստ",
     "prompt": "Ո՞վ է «Վարդանանք» գորգի էսքիզի և բազմաթիվ հայտնի նկարների հեղինակը",
     "answers": [

@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "CPU-ն կենտրոնական մշակման սարքն է, որը կատարում է հիմնական հաշվարկները։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Ո՞ր արձանագրությունն է սովորաբար օգտագործվում կայքերը անվտանգ դիտելու համար",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Երկուական համակարգը օգտագործում է միայն երկու թվանշան՝ 0 և 1։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Ի՞նչ է կատարում CPU-ն համակարգչում",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հաշվարկներ և հրահանգներ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "RAM-ը օգտագործվում է։",
     "answers": [
@@ -80,7 +80,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Տվյալների պահեստ է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "HTTP-ը օգտագործվում է։",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Վեբ հաղորդակցության համար։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "HTTPS-ը ավելացնում է։",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Կոդավորված կապ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "IP հասցեն օգնում է։",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ցանցում սարքը նույնականացնել։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Ի՞նչ է թարգմանում DNS-ը",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ծրագրավորման լեզու է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "SQL-ը օգտագործվում է։",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Տվյալների բազայի հարցումների համար։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Git-ը գործիք է։",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Տարբերակների վերահսկման համար։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "API-ն նշանակում է։",
     "answers": [
@@ -197,7 +197,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ծրագրերի փոխգործակցության միջերես։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "JSON-ը։",
     "answers": [
@@ -210,7 +210,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Տվյալների փոխանակման ձևաչափ է։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "XML-ը։",
     "answers": [
@@ -223,7 +223,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Նշագրման լեզու է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Cloud computing-ը նշանակում է։",
     "answers": [
@@ -236,7 +236,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Հաշվողական ռեսուրսներ ինտերնետի միջոցով։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Բրաուզերը օգտագործվում է։",
     "answers": [
@@ -249,7 +249,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Վեբ էջեր բացելու համար։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Մոբայլ հավելվածը Android-ում հաճախ գրվում է։",
     "answers": [
@@ -262,7 +262,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Kotlin-ով կամ Java-ով։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Երկգործոն նույնականացումը ավելացնում է։",
     "answers": [
@@ -275,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Լրացուցիչ անվտանգության շերտ։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Բեքափը նշանակում է։",
     "answers": [
@@ -288,7 +288,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Պահուստային պատճեն։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Տեխնոլոգիաներ",
     "prompt": "Firewall-ը օգնում է։",
     "answers": [

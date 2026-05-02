@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Գյուլիստանի պայմանագիրը կնքվել է 1813 թվականին Ռուսաստանի և Պարսկաստանի միջև։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայոց պատմություն",
     "prompt": "Ո՞ր արքան է հիմնադրել Տիգրանակերտ մայրաքաղաքը",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Տիգրանակերտը հիմնադրել է Տիգրան Բ Մեծը։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Հայոց պատմություն",
     "prompt": "Ո՞ր թվականին է տեղի ունեցել Ավարայրի ճակատամարտը",
     "answers": [

@@ -4,45 +4,6 @@ window.MILLIONAIRE_QUESTIONS.push(...[
   {
     "level": "easy",
     "category": "Խոհանոց",
-    "prompt": "Ո՞ր ուտեստն է սովորաբար պատրաստվում խաղողի տերևով",
-    "answers": [
-      "Տոլմա",
-      "Խաշ",
-      "Հարիսա",
-      "Գաթա"
-    ],
-    "correctIndex": 0,
-    "explanation": "Տոլման հաճախ պատրաստվում է խաղողի տերևով և լցոնով։"
-  },
-  {
-    "level": "easy",
-    "category": "Խոհանոց",
-    "prompt": "Լավաշի հիմնական բաղադրիչներից է։",
-    "answers": [
-      "Բրինձ",
-      "Ալյուր",
-      "Կակաո",
-      "Միս"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ճիշտ պատասխանը՝ Ալյուր։"
-  },
-  {
-    "level": "easy",
-    "category": "Խոհանոց",
-    "prompt": "Տոլման հաճախ պատրաստվում է։",
-    "answers": [
-      "Լավաշով",
-      "Խաղողի տերևով",
-      "Ձմերուկով",
-      "Շոկոլադով"
-    ],
-    "correctIndex": 1,
-    "explanation": "Ճիշտ պատասխանը՝ Խաղողի տերևով։"
-  },
-  {
-    "level": "easy",
-    "category": "Խոհանոց",
     "prompt": "Խաշը ավանդաբար ուտում են հաճախ։",
     "answers": [
       "Սուրճով",
@@ -132,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Ճապոնիայի հետ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Խոհանոց",
     "prompt": "Տակոն կապված է։",
     "answers": [
@@ -184,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Իտալական խոհանոցի հետ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Խոհանոց",
     "prompt": "Ինչի՞ց է պատրաստվում հումուսը",
     "answers": [
@@ -197,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճիշտ պատասխանը՝ Սիսեռից։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Խոհանոց",
     "prompt": "Ինչի՞ց է պատրաստվում ֆալաֆելը",
     "answers": [
@@ -221,19 +182,6 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     ],
     "correctIndex": 0,
     "explanation": "Ճիշտ պատասխանը՝ Վարունգ։"
-  },
-  {
-    "level": "easy",
-    "category": "Խոհանոց",
-    "prompt": "Կարտոֆիլ ֆրին պատրաստվում է։",
-    "answers": [
-      "Սիսեռից",
-      "Բրնձից",
-      "Ձվից",
-      "Կարտոֆիլից"
-    ],
-    "correctIndex": 3,
-    "explanation": "Ճիշտ պատասխանը՝ Կարտոֆիլից։"
   },
   {
     "level": "easy",

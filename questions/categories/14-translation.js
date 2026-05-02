@@ -67,7 +67,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"moon\" նշանակում է լուսին։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"family\"",
     "answers": [
@@ -80,7 +80,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"family\" նշանակում է ընտանիք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"friend\"",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"friend\" նշանակում է ընկեր։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"city\"",
     "answers": [
@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"city\" նշանակում է քաղաք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"school\"",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"school\" նշանակում է դպրոց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"teacher\"",
     "answers": [
@@ -132,7 +132,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"teacher\" նշանակում է ուսուցիչ։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"music\"",
     "answers": [
@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"music\" նշանակում է երաժշտություն։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"language\"",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"language\" նշանակում է լեզու։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"morning\"",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"morning\" նշանակում է առավոտ։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"night\"",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"night\" նշանակում է գիշեր։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"happy\"",
     "answers": [
@@ -262,7 +262,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"big\" նշանակում է մեծ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"bread\"",
     "answers": [
@@ -275,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"bread\" նշանակում է հաց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"milk\"",
     "answers": [
@@ -288,7 +288,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"milk\" նշանակում է կաթ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"cheese\"",
     "answers": [
@@ -301,7 +301,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"cheese\" նշանակում է պանիր։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"salt\"",
     "answers": [
@@ -314,7 +314,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"salt\" նշանակում է աղ։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"sugar\"",
     "answers": [
@@ -327,7 +327,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"sugar\" նշանակում է շաքար։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"house\"",
     "answers": [
@@ -340,7 +340,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"house\" նշանակում է տուն։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"door\"",
     "answers": [
@@ -353,7 +353,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"door\" նշանակում է դուռ։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"window\"",
     "answers": [
@@ -366,7 +366,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"window\" նշանակում է պատուհան։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"computer\"",
     "answers": [
@@ -379,7 +379,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"computer\" նշանակում է համակարգիչ։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր անգլերենից հայերեն՝ \"phone\"",
     "answers": [
@@ -457,7 +457,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Извините\" նշանակում է ներողություն։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Друг\"",
     "answers": [
@@ -470,7 +470,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Друг\" նշանակում է ընկեր։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Семья\"",
     "answers": [
@@ -483,7 +483,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Семья\" նշանակում է ընտանիք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Книга\"",
     "answers": [
@@ -496,7 +496,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Книга\" նշանակում է գիրք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Школа\"",
     "answers": [
@@ -509,7 +509,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Школа\" նշանակում է դպրոց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Город\"",
     "answers": [
@@ -522,7 +522,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Город\" նշանակում է քաղաք։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Вода\"",
     "answers": [
@@ -535,7 +535,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Вода\" նշանակում է ջուր։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Солнце\"",
     "answers": [
@@ -548,7 +548,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Солнце\" նշանակում է արև։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Луна\"",
     "answers": [
@@ -561,7 +561,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Луна\" նշանակում է լուսին։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Хлеб\"",
     "answers": [
@@ -574,7 +574,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Хлеб\" նշանակում է հաց։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ռուսերենից հայերեն՝ \"Молоко\"",
     "answers": [
@@ -652,7 +652,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"bonjour\" նշանակում է բարև։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"merci\"",
     "answers": [
@@ -678,7 +678,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"au revoir\" նշանակում է ցտեսություն։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"s'il vous plaît\"",
     "answers": [
@@ -691,7 +691,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"s'il vous plaît\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"pomme\"",
     "answers": [
@@ -704,7 +704,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"pomme\" նշանակում է խնձոր։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"eau\"",
     "answers": [
@@ -769,7 +769,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"ami\" նշանակում է ընկեր։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"famille\"",
     "answers": [
@@ -782,7 +782,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"famille\" նշանակում է ընտանիք։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"école\"",
     "answers": [
@@ -795,7 +795,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"école\" նշանակում է դպրոց։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"ville\"",
     "answers": [
@@ -808,7 +808,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"ville\" նշանակում է քաղաք։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"maison\"",
     "answers": [
@@ -821,7 +821,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"maison\" նշանակում է տուն։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ֆրանսերենից հայերեն՝ \"porte\"",
     "answers": [
@@ -847,7 +847,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Hallo\" նշանակում է բարև։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Danke\"",
     "answers": [
@@ -873,7 +873,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Bitte\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Buch\"",
     "answers": [
@@ -886,7 +886,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Buch\" նշանակում է գիրք։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Wasser\"",
     "answers": [
@@ -912,7 +912,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Sonne\" նշանակում է արև։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Mond\"",
     "answers": [
@@ -925,7 +925,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Mond\" նշանակում է լուսին։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Haus\"",
     "answers": [
@@ -938,7 +938,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Haus\" նշանակում է տուն։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր գերմաներենից հայերեն՝ \"Tür\"",
     "answers": [
@@ -964,7 +964,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"Fenster\" նշանակում է պատուհան։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"hola\"",
     "answers": [
@@ -990,7 +990,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"gracias\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"adiós\"",
     "answers": [
@@ -1003,7 +1003,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"adiós\" նշանակում է ցտեսություն։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"por favor\"",
     "answers": [
@@ -1016,7 +1016,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"por favor\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"agua\"",
     "answers": [
@@ -1029,7 +1029,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"agua\" նշանակում է ջուր։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"libro\"",
     "answers": [
@@ -1042,7 +1042,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"libro\" նշանակում է գիրք։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"sol\"",
     "answers": [
@@ -1055,7 +1055,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"sol\" նշանակում է արև։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"luna\"",
     "answers": [
@@ -1081,7 +1081,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"casa\" նշանակում է տուն։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իսպաներենից հայերեն՝ \"escuela\"",
     "answers": [
@@ -1094,7 +1094,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"escuela\" նշանակում է դպրոց։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"ciao\"",
     "answers": [
@@ -1107,7 +1107,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"ciao\" նշանակում է բարև (ընկերական)։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"grazie\"",
     "answers": [
@@ -1120,7 +1120,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"grazie\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"per favore\"",
     "answers": [
@@ -1133,7 +1133,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"per favore\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": "hard",
+    "level": "easy",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"acqua\"",
     "answers": [
@@ -1146,7 +1146,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"acqua\" նշանակում է ջուր։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր իտալերենից հայերեն՝ \"sole\"",
     "answers": [
@@ -1159,7 +1159,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"sole\" նշանակում է արև։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"merhaba\"",
     "answers": [
@@ -1172,7 +1172,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"merhaba\" նշանակում է բարև։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"teşekkürler\"",
     "answers": [
@@ -1185,7 +1185,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"teşekkürler\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"lütfen\"",
     "answers": [
@@ -1198,7 +1198,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"lütfen\" նշանակում է խնդրում եմ։"
   },
   {
-    "level": "easy",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր թուրքերենից հայերեն՝ \"su\"",
     "answers": [
@@ -1211,7 +1211,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"su\" նշանակում է ջուր։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"سلام\" (salam)",
     "answers": [
@@ -1224,7 +1224,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"سلام\" նշանակում է բարև։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"متشکرم\" (moteshakeram)",
     "answers": [
@@ -1237,7 +1237,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"متشکرم\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"آب\" (âb)",
     "answers": [
@@ -1250,7 +1250,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"آب\" նշանակում է ջուր։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"کتاب\" (ketâb)",
     "answers": [
@@ -1263,7 +1263,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"کتاب\" նշանակում է գիրք։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր պարսկերենից հայերեն՝ \"خانه\" (khâne)",
     "answers": [
@@ -1276,7 +1276,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"خانه\" նշանակում է տուն։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ճապոներենից հայերեն՝ \"ありがとう\" (arigatou)",
     "answers": [
@@ -1289,7 +1289,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "\"ありがとう\" նշանակում է շնորհակալություն։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Թարգմանություն",
     "prompt": "Թարգմանիր ճապոներենից հայերեն՝ \"こんにちは\" (konnichiwa)",
     "answers": [

@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Հարրի Փոթեր» գրքերի շարքը",
     "answers": [
@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ալիսը հրաշքների աշխարհ է ընկնում Լյուիս Քերոլի հայտնի գրքում։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Հոբիթը»",
     "answers": [
@@ -41,7 +41,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Հոբիթը» գրել է Ջ. Ռ. Ռ. Թոլքինը։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքում է հանդիպում Շերլոկ Հոլմսը",
     "answers": [
@@ -119,7 +119,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Պատերազմ և խաղաղություն» վեպը գրել է Լև Տոլստոյը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքում է Գրեգոր Զամզան արթնանում փոխակերպված",
     "answers": [
@@ -132,7 +132,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Գրեգոր Զամզան Ֆրանց Կաֆկայի «Կերպարանափոխություն» ստեղծագործության հերոսն է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞ր վեպի հեղինակն է Գաբրիել Գարսիա Մարկեսը",
     "answers": [
@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Հարյուր տարվա մենություն» վեպը Գաբրիել Գարսիա Մարկեսի ամենահայտնի ստեղծագործություններից է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞վ է գրել «Հպարտություն և նախապաշարմունք» վեպը",
     "answers": [
@@ -158,7 +158,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Հպարտություն և նախապաշարմունք» վեպը գրել է Ջեյն Օսթինը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Գրքեր",
     "prompt": "Ո՞ր գրքի հեղինակը Մերի Շելլին է",
     "answers": [

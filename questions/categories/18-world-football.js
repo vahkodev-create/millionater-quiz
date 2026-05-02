@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ռեալ Մադրիդը աշխարհահռչակ ֆուտբոլային ակումբ է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր երկրի հավաքականն է կրում «Սելեսաո» մականունը",
     "answers": [
@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Սելեսաո» մականունը կապված է Բրազիլիայի ֆուտբոլի հավաքականի հետ։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր քաղաքում է գտնվում «Ուեմբլի» մարզադաշտը",
     "answers": [
@@ -54,7 +54,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Կամպ Նոուն Բարսելոնայի հայտնի տնային մարզադաշտն է։"
   },
   {
-    "level": "easy",
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր երկրի հավաքականն է հաղթել 2014 թվականի աշխարհի առաջնությունում",
     "answers": [
@@ -93,7 +93,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "2022 թվականի աշխարհի առաջնությունում չեմպիոն դարձավ Արգենտինան։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր ֆուտբոլիստն է հայտնի «CR7» մականունով",
     "answers": [
@@ -132,7 +132,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Եվրո-2016-ում չեմպիոն դարձավ Պորտուգալիան։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր հավաքականն է հաղթել Եվրո-2020-ում",
     "answers": [
@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Եվրո-2020-ի եզրափակիչում Իտալիան հաղթեց Անգլիային։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Համաշխարհային ֆուտբոլ",
     "prompt": "Ո՞ր ակումբն է հայտնի «Սան Սիրո» մարզադաշտով",
     "answers": [

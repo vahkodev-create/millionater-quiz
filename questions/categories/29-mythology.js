@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "average",
     "category": "Դիցաբանություն",
     "prompt": "Ո՞վ էր գերագույն աստվածը սկանդինավյան դիցաբանությունում",
     "answers": [
@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Օդինը սկանդինավյան պանթեոնի գերագույն աստվածն է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Դիցաբանություն",
     "prompt": "Հին հունական դիցաբանությունում ո՞վ էր սիրո և գեղեցկության աստվածուհին",
     "answers": [

@@ -2,7 +2,7 @@
 window.MILLIONAIRE_QUESTIONS = window.MILLIONAIRE_QUESTIONS || [];
 window.MILLIONAIRE_QUESTIONS.push(...[
   {
-    "level": "hard",
+    "level": "average",
     "category": "Ճարտարապետություն",
     "prompt": "Ո՞ր ոճին է պատկանում Փարիզի Աստվածամոր տաճարը",
     "answers": [

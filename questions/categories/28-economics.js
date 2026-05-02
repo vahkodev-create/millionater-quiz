@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ջոն Մեյնարդ Քեյնսը մակրոտնտեսագիտության հիմնադիրներից է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Տնտեսագիտություն",
     "prompt": "Ո՞րն է Ճապոնիայի ազգային արժույթը",
     "answers": [
@@ -28,7 +28,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Ճապոնիայի արժույթը Յենն է։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Տնտեսագիտություն",
     "prompt": "Ո՞րն է աշխարհի ամենահին և շարունակաբար գործող բորսան։",
     "answers": [

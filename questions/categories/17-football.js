@@ -106,7 +106,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Պենալտին իրացվում է դարպասից 11 մետր հեռավորության նշագծից։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Լիբերտադորեսի գավաթը ո՞ր մայրցամաքի ակումբային մրցաշարն է",
     "answers": [
@@ -132,7 +132,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "2010 թվականին աշխարհի չեմպիոն դարձավ Իսպանիան։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "1998 թվականի ֆուտբոլի աշխարհի առաջնության հաղթողը",
     "answers": [
@@ -145,7 +145,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "1998 թվականի աշխարհի առաջնությունը հաղթեց Ֆրանսիան։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Եվրո-2004-ում անակնկալ չեմպիոն դարձավ",
     "answers": [
@@ -171,7 +171,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "1986 թվականի աշխարհի առաջնությունում այդ դրվագը կապված էր Դիեգո Մարադոնայի հետ։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլի 2002 թվականի աշխարհի առաջնությունը հյուրընկալել էին",
     "answers": [
@@ -184,7 +184,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "2002 թվականի աշխարհի առաջնությունը անցկացվեց Ճապոնիայում և Հարավային Կորեայում։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Առաջին ֆուտբոլի աշխարհի առաջնությունը անցկացվել է",
     "answers": [
@@ -210,7 +210,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "1930 թվականի աշխարհի առաջնությունը հաղթեց Ուրուգվայը։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր երկիրն է հաղթել 1966 թվականի ֆուտբոլի աշխարհի առաջնությունում",
     "answers": [
@@ -223,7 +223,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "1966 թվականին աշխարհի չեմպիոն դարձավ Անգլիան։"
   },
   {
-    "level": "average",
+    "level": "hard",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր ակումբն է հայտնի «Օլդ Թրաֆորդ» մարզադաշտով",
     "answers": [
@@ -236,7 +236,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "«Օլդ Թրաֆորդը» Մանչեսթեր Յունայթեդի տնային մարզադաշտն է։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Ո՞ր ֆուտբոլիստն է խփել «դարի գոլը» 1986 թվականի աշխարհի առաջնությունում",
     "answers": [
@@ -275,7 +275,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Առաջին «Ոսկե գնդակը» 1956 թվականին ստացել է Սթենլի Մեթյուզը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Լև Յաշինը պատմության մեջ հայտնի է որպես",
     "answers": [
@@ -327,7 +327,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "1956 թվականի Եվրոպական գավաթի առաջին եզրափակչում հաղթեց Ռեալ Մադրիդը։"
   },
   {
-    "level": "hard",
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "ՖԻՖԱ-ի կենտրոնակայանը գտնվում է",
     "answers": [
@@ -340,20 +340,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "ՖԻՖԱ-ի կենտրոնակայանը գտնվում է Շվեյցարիայի Ցյուրիխ քաղաքում։"
   },
   {
-    "level": "hard",
-    "category": "Ֆուտբոլ",
-    "prompt": "Ո՞ր խաղացողն է հայտնի «Պանենկա» պենալտիի անվան հետ",
-    "answers": [
-      "Անտոնին Պանենկա",
-      "Ֆրանց Բեկենբաուեր",
-      "Էուսեբիո",
-      "Գերդ Մյուլեր"
-    ],
-    "correctIndex": 0,
-    "explanation": "«Պանենկա» պենալտին անվանվել է չեխոսլովակ ֆուտբոլիստ Անտոնին Պանենկայի պատվին։"
-  },
-  {
-    "level": "hard",
+    "level": "average",
     "category": "Ֆուտբոլ",
     "prompt": "Ֆուտբոլի կանոններում IFAB հապավումը վերաբերում է",
     "answers": [

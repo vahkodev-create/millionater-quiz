@@ -15,7 +15,7 @@ window.MILLIONAIRE_QUESTIONS.push(...[
     "explanation": "Աֆրիկյան ջայլամն է։"
   },
   {
-    "level": "average",
+    "level": "easy",
     "category": "Կենդանաբանություն",
     "prompt": "Ո՞ր կաթնասունն է կարողանում թռչել։",
     "answers": [
