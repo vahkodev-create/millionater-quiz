@@ -490,7 +490,7 @@ function startClassicGame() {
 function renderGame() {
   const question = currentQuestion();
   if (!question) {
-    showMessage("Հարցեր չկան", "questions.js ֆայլում ավելացրու առնվազն մեկ հարց յուրաքանչյուր մակարդակի համար։");
+    showMessage("Հարցեր չկան", "questions/categories թղթապանակում ավելացրու առնվազն մեկ հարց յուրաքանչյուր մակարդակի համար։");
     return;
   }
 
