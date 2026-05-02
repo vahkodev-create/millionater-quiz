@@ -10,7 +10,6 @@ yarn-error.log*
 
 # Local scratch scripts and temporary audits
 scratch/
-scripts/review-question-levels.mjs
 scripts/set_package.mjs
 
 # Android / Bubblewrap generated project and build outputs

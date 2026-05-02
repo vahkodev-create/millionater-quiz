@@ -3,10 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "gen:icons": "node ./scripts/generate-icons.mjs"
+    "gen:icons": "node ./scripts/generate-icons.mjs",
+    "review:levels": "node ./scripts/review-question-levels.mjs"
   },
   "devDependencies": {
     "sharp": "^0.34.3"
   }
 }
-
